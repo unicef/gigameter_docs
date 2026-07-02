@@ -4,15 +4,18 @@
 **Restricted** — This page is in active development. For internal users only.
 {% endhint %}
 
-Giga Meter pricing is structured on a cost-recovery basis. Fees cover the infrastructure, operations, and support required to run the sustainable measurement programme&#x20;
+## How tiers work
 
-No additional fees as your deployment scales
+Giga Meter is a tool designed to help governments and partners measure and improve school connectivity. Its application code is open source and freely available to use. However, as with any software, there are real costs associated with hosting, development, deployment, operations, and maintenance. We are committed to managing Giga Meter sustainably and securely — this is our obligation to the schools, governments, and partners who depend on the data. We also want to make this tool available to as many countries and partners as possible. To do this, we've designed a business model that is cost effective, predictable, and scalable.
 
-* Any surplus is reinvested in the product
+Our business model is based on cost recovery. The Giga Meter application is open source (a.k.a, the code is free), but if you require services that cost the initiative money (a.k.a, hosting), those costs need to be recovered. Below you can learn more about our service tiers and the services included in each.
 
-***
+Some key concepts in our business model:
 
-## Tiers
+* **We cannot generate profit.** Any surplus is automatically reinvested in improving the product and reducing fees.
+* **We are committed to reducing fees as we scale.** As adoption grows, the cost of shared infrastructure is spread across more implementations, and savings are passed on.
+
+We recommend conducting a [total cost of ownership assessment](https://digitalprinciples.org/resource/howto-calculate-total-cost-enterprise-software/) for each implementation. Organizations should not underestimate the ongoing costs of support and maintenance — particularly for self-hosted deployments, where these responsibilities sit entirely with the implementing organization. Unsupported implementations produce unreliable data, and unreliable data leads to poor decisions for schools.
 
 #### What's included
 
@@ -24,4 +27,4 @@ No additional fees as your deployment scales
 
 Contact the Giga team to discuss which tier fits your deployment context and to request a formal quote.
 
-→ [meter.giga.global](https://meter.giga.global)
+→ [gigatech@unicef.org ](mailto:gigatech@unicef.org)
