@@ -1,7 +1,5 @@
 # Features
 
-## Features
-
 Giga Meter gives each connected school an automated, ongoing record of how its internet performs. Measurements feed into Giga Maps and analytics dashboards each day, with no action required at the school.
 
 ***
@@ -94,6 +92,6 @@ Every Giga Meter result is anchored to a school record, validated against a know
 
 ***
 
-→ Measurement protocols - detailed methodology\
-→ Case studies - how governments use this data\
-→ Pricing
+→ [Measurement protocols - detailed methodology](../technical-reference/measurement-protocols.md)\
+→ [Case studies - how governments use this data](../deployment/case-studies.md)\
+→ [Pricing](../pricing/pricing.md)

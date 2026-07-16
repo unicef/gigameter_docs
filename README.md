@@ -1,9 +1,7 @@
 # Introduction
 
-## Introduction
-
 {% hint style="info" %}
-**2.0.3 — 2026-05-20**
+**2.0.3 - 2026-05-20**
 
 Version 2.0.3 improves speed-measurement accuracy, adds automatic location detection, adds Mongolian language support, and moves software updates to signed distribution.
 
@@ -54,14 +52,14 @@ Measurements
 
 ### What's in this documentation
 
-| Section                   | What you'll find                                |
-| ------------------------- | ----------------------------------------------- |
-| About Giga Meter          | What Giga Meter is and why it matters           |
-| System Requirements       | What you need before installing                 |
-| Installation Guide        | Step-by-step setup instructions                 |
-| Measurement Protocols     | How tests work and when they run                |
-| Data Governance & Privacy | What data is collected and how it's handled     |
-| Troubleshooting           | Common issues and fixes                         |
-| FAQ                       | Frequently asked questions                      |
-| Country Deployment        | For governments rolling out Giga Meter at scale |
-| Case Studies              | How other governments use the data              |
+| Section                                                                    | What you'll find                                |
+| -------------------------------------------------------------------------- | ----------------------------------------------- |
+| [About Giga Meter](docs/getting-started/overview.md)                       | What Giga Meter is and why it matters           |
+| [System Requirements](docs/installation/system-requirements.md)            | What you need before installing                 |
+| [Installation Guide](docs/installation/installation-guide.md)              | Step-by-step setup instructions                 |
+| [Measurement Protocols](docs/technical-reference/measurement-protocols.md) | How tests work and when they run                |
+| [Data Governance & Privacy](docs/technical-reference/data-governance.md)   | What data is collected and how it's handled     |
+| [Troubleshooting](docs/troubleshooting/troubleshooting.md)                 | Common issues and fixes                         |
+| [FAQ](docs/troubleshooting/faq.md)                                         | Frequently asked questions                      |
+| [Country Deployment](docs/deployment/government-onboarding-overview.md)    | For governments rolling out Giga Meter at scale |
+| [Case Studies](docs/deployment/case-studies.md)                            | How other governments use the data              |
