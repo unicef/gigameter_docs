@@ -289,7 +289,7 @@ Track progress against your planned timeline and target from the day installatio
 A school can be "installed" but not "reporting": the device may be powered off, the app may have crashed, or it may have lost internet. Treat any installed school that has not reported in 7+ days as a priority follow-up.
 {% endhint %}
 
-Once schools start reporting, use the **Installation Tracking** tab in the [Superset dashboard](https://superset.giga.global) to monitor rollout health. Key figures: live schools (data in the last 21 days), at-risk schools (22-28 day silence), and drop-offs (29+ days silent).
+Once schools start reporting, use the **Installation Tracking** tab in the [Superset dashboard](https://superset.giga.global) to monitor rollout health. Key figures: live schools (data in the last 21 days), at-risk schools (22-28 day silence), and drop-offs (29+ days silent). For what each screen and column means, see [Using the Dashboard](../../country-deployment/using-the-dashboard.md).
 
 {% hint style="info" %}
 The 7-day reporting figure above is a rollout-tracking metric: is a school actively collecting data right now. It is distinct from the dashboard's "live" status, which uses a 21-day window. A school can count as dashboard-live (reported within 21 days) while still missing the tighter 7-day rollout target.
@@ -351,4 +351,4 @@ Reinstallation protocol: \[who is notified, timeline, how tracked]
 * [Government Onboarding Guide](government-onboarding-overview.md)
 * [Training Support Materials](deployment-checklist.md)
 * [Installation Guide](../installation/installation-guide.md)
-* [Data Analysis Lead Guide - using the dashboard](data-analysis-lead.md)
+* [Using the Dashboard](../../country-deployment/using-the-dashboard.md)
