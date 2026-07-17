@@ -90,7 +90,7 @@ For each school, confirm:
 * [ ] **Admin rights available** - the person installing can approve the installation
 * [ ] **School internet connection** is functional and stable enough to complete an installation
 
-Install on **at least two computers per school**. More devices mean more frequent measurements and redundancy if one device is switched off or reformatted.
+One computer per school is enough to get started. You can register up to 5, and more devices mean more frequent measurements and redundancy if one is switched off or reformatted.
 
 **Common blockers**
 

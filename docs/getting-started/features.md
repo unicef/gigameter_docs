@@ -40,7 +40,7 @@ This enables three things:
 
 **Geolocation validation.** Device coordinates are recorded on every test. If the device is more than 4km from the registered school's location, the measurement is flagged. This guards against data from misregistered or relocated devices.
 
-**Multi-device coordination.** Up to three Giga Meter installations can be registered to the same school. Multiple devices measure independently, which makes the school's data more robust and reduces gaps when a device is offline.
+**Multi-device coordination.** One device is enough for a school to report, but up to 5 Giga Meter installations can be registered to the same school. Multiple devices measure independently, which makes the school's data more robust and reduces gaps when a device is offline.
 
 **Persistent school history.** Because measurements are tied to a school ID rather than a device, the record survives device replacements. A school's connectivity history is preserved when hardware changes.
 

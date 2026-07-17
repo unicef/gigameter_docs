@@ -132,7 +132,7 @@ If you registered with the wrong school ID, you can unregister and re-register. 
 
 #### Can I install Giga Meter on more than one computer?
 
-Yes, and we encourage it. If multiple machines report data from the same school, measurements are more reliable.
+Yes. One computer is enough to get started, and you can register up to 5 per school. If multiple machines report data from the same school, measurements are more reliable and there is a backup if one is switched off.
 
 ***
 

@@ -113,7 +113,7 @@ Follow the registration steps shown in the app. Click **Next** to move through t
 The app will remind you to:
 
 * Install only on computers connected exclusively to the school's internet
-* Register up to two devices per school
+* Register up to 5 devices per school (one is enough to get started)
 {% endcolumn %}
 
 {% column %}

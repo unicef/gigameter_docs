@@ -14,7 +14,7 @@ For the full installation campaign guide, see the [Government Onboarding Guide](
 * [ ] Support channel set up (WhatsApp group, hotline, or help desk)
 * [ ] Schools notified with session details, pre-session instructions, and the download link
 * [ ] Training materials prepared and translated if needed (see materials list below)
-* [ ] Device readiness confirmed - schools have identified Windows computers to install on
+* [ ] Device readiness confirmed - schools have identified a Windows computer to install on
 * [ ] Trainer has walked through the installation themselves at least once
 
 ***
@@ -24,7 +24,7 @@ For the full installation campaign guide, see the [Government Onboarding Guide](
 Send each participating school the following at least 48 hours before the session:
 
 1. **Session details** - date, time, format (in-person / virtual), and link or location
-2. **Pre-session task** - identify two Windows computers that will run Giga Meter. Each should be used daily and connected exclusively to the school's internet
+2. **Pre-session task** - identify at least one Windows computer to run Giga Meter (up to 5 can be registered per school). It should be used daily and connected exclusively to the school's internet
 3. **School ID** - confirm the official school ID they will use during registration
 4. **Download link** - ask schools to download the installer in advance from [meter.giga.global](https://meter.giga.global/) to save time during the session
 5. **Support channel** - share the WhatsApp group link, hotline, or email address schools will use for post-session support
@@ -54,7 +54,7 @@ Adapt timing to your audience and format. For a hybrid or remote session with 10
 | Time | Segment                       | Notes                                                                                                                                                                                |
 | ---- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 0:00 | Welcome and context           | Explain who Giga is and what Giga Meter measures. Briefly explain how the government will use the data; schools maintain the app better when they understand what it contributes to. |
-| 0:10 | What schools need to do       | One computer per school, always on, always on the school's internet. Explain that data is collected automatically in the background; there is nothing to do once installed.          |
+| 0:10 | What schools need to do       | At least one computer per school, always on, always on the school's internet. Explain that data is collected automatically in the background; there is nothing to do once installed. |
 | 0:20 | Live installation walkthrough | Walk through the [Installation Guide](../installation/installation-guide.md) step by step with screens shared. Ask participants to follow along on their own device.                 |
 | 0:50 | Registration walkthrough      | Walk through Steps 9-17 (app registration). Emphasise the school ID step; this is the most common point of failure.                                                                  |
 | 1:10 | Show Giga Maps                | Open [maps.giga.global](https://maps.giga.global/map) and show how to find a school's data. Highlight that it is publicly accessible.                                                |
@@ -78,9 +78,9 @@ Adapt timing to your audience and format. For a hybrid or remote session with 10
 
 > "If the device is connected to a mobile hotspot or a personal router, it will measure that connection, not the school's. The data would not reflect what the school actually receives."
 
-**Why two devices per school**
+**How many devices per school**
 
-> "If one computer is switched off, reformatted, or replaced, measurements stop. Two devices give redundancy. We recommend two, ideally one wired via Ethernet."
+> "One computer is enough to get started. You can register up to 5 per school - more devices give redundancy so measurements continue if one is switched off, reformatted, or replaced. We recommend at least one that stays on during school hours, ideally wired via Ethernet."
 
 **What happens to the data**
 

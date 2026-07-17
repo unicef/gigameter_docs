@@ -23,7 +23,7 @@ To install Giga Meter, the device must meet these minimum requirements:
 
 **How many devices per school?**
 
-Up to two computers per school. One should be the device most frequently used, with consistent access to the school's official internet.
+One computer is enough to get started - a single device that stays on during school hours will keep your school reporting. You can register up to 5 devices per school; more devices give more frequent measurements and a backup if one is switched off.
 {% endcolumn %}
 
 {% column %}
