@@ -1,5 +1,15 @@
 # Start here
 
+<!-- release-start:v2.0.3 -->
+{% hint style="info" %}
+**2.0.3 — 2026-05-20**
+
+Giga Meter now measures internet speed more accurately, pinpoints your school's location automatically, and is available in Mongolian. The app also has improved security for verified installations.
+
+[Full release notes →](https://github.com/unicef/project-connect-daily-check-app/releases/tag/v2.0.3)
+{% endhint %}
+<!-- release-end -->
+
 Giga Meter measures, monitors, and helps improve school internet connectivity. Choose the path that fits your role, or browse the full documentation in the sidebar.
 
 ***
