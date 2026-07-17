@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Start here](README.md)
-
 ## Get Started
 
-* [Introduction](<README (1).md>)
+* [Introduction](README.md)
 * [About Giga Meter](docs/getting-started/overview.md)
 * [Features](docs/getting-started/features.md)
 * [Case Studies](docs/deployment/case-studies.md)
