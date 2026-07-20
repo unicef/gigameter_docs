@@ -30,6 +30,10 @@ All seven screens are reached from the tab bar at the top of the dashboard.
 
 The opening view. Two headline numbers, schools on the map and schools reporting through Giga Meter, followed by headline speed and latency figures.
 
+
+
+<figure><img src="../.gitbook/assets/Superset 1.png" alt=""><figcaption></figcaption></figure>
+
 | What you see                       | Term           | What it means                                                              |
 | ---------------------------------- | -------------- | -------------------------------------------------------------------------- |
 | Schools on Giga Maps (e.g. 1.19k)  | Giga Maps      | Schools that have been located and published on Giga Maps                  |
@@ -49,6 +53,10 @@ The opening view. Two headline numbers, schools on the map and schools reporting
 
 Daily speed and latency trends, plus box-plot distributions showing how consistent the experience is across schools.
 
+
+
+<figure><img src="../.gitbook/assets/Superset 2.png" alt=""><figcaption></figcaption></figure>
+
 | What you see | Term               | What it means                                                              |
 | ------------ | ------------------ | -------------------------------------------------------------------------- |
 | Black line   | Download speed     | Average daily download, in Mbps                                            |
@@ -65,6 +73,10 @@ Daily speed and latency trends, plus box-plot distributions showing how consiste
 
 Average speed broken out by administrative district, then a per-school table with sparklines.
 
+<figure><img src="../.gitbook/assets/Superset 2.1.png" alt=""><figcaption></figcaption></figure>
+
+
+
 | What you see        | Term             | What it means                                                                   |
 | ------------------- | ---------------- | ------------------------------------------------------------------------------- |
 | Grey bars           | Download speed   | Average download per district                                                   |
@@ -80,6 +92,8 @@ Average speed broken out by administrative district, then a per-school table wit
 <summary>Screen 4 - Data Tables · Registered</summary>
 
 One row per school that has registered through Giga Meter. Most useful for operational follow-up.
+
+<figure><img src="../.gitbook/assets/Superset 3 (1).png" alt=""><figcaption></figcaption></figure>
 
 | Column name                 | What it means                                                               |
 | --------------------------- | --------------------------------------------------------------------------- |
@@ -100,6 +114,12 @@ Sort by "days since last measurement" descending to surface schools that need fo
 <summary>Screen 5 - Data Tables · Measurements</summary>
 
 One row per individual Giga Meter test, including Wi-Fi diagnostics captured at measurement time.
+
+
+
+<figure><img src="../.gitbook/assets/Superset 3.1 (1).png" alt=""><figcaption></figcaption></figure>
+
+
 
 | Column name          | What it means                                                              |
 | -------------------- | -------------------------------------------------------------------------- |
@@ -123,6 +143,10 @@ If a school shows low `load_speed` but healthy latency and strong Wi-Fi signal, 
 
 Which version of Giga Meter is deployed across the country and how many schools send data each day.
 
+
+
+<figure><img src="../.gitbook/assets/Superset 4.png" alt=""><figcaption></figcaption></figure>
+
 | What you see | What it means                                                               |
 | ------------ | --------------------------------------------------------------------------- |
 | Donut chart  | Each wedge = a different Giga Meter build. A single wedge = uniform version |
@@ -140,6 +164,10 @@ After a version update, watch this screen for schools still on older builds. A f
 <summary>Screen 7 - Installation Tracking</summary>
 
 Health-check view. Shows who is live, who has gone quiet, and drop-off rate by district.
+
+
+
+<figure><img src="../.gitbook/assets/Superset 5.png" alt=""><figcaption></figcaption></figure>
 
 | What you see       | What it means                                                            |
 | ------------------ | ------------------------------------------------------------------------ |
