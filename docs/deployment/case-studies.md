@@ -26,13 +26,13 @@ How governments use Giga Meter data to inform decisions. Each deployment below s
 
 <summary><strong>🇧🇷 Brazil - Speed benchmark compliance and outcome-based ISP funding</strong></summary>
 
-**Context:** Brazil's _Estratégia Nacional de Escolas Conectadas_ (ENEC) sets a target of 1 Mbps per enrolled student in the longest school shift. With hundreds of thousands of schools, manual compliance verification is not feasible.
+**Context:** Brazil's _Estratégia Nacional de Escolas Conectadas_ (ENEC) sets a target of 1 Mbps per enrolled student in the busiest school shift. With hundreds of thousands of schools, manual compliance verification is not feasible.
 
-**Use case:** Real-time SIMET data (analogous to Giga Meter) allows the Ministry of Communications (MCom) to monitor which schools meet the benchmark continuously, not only at contract signing. The same data validates ISP performance under the FUST Fiscal Benefit, which lets ISPs fulfil their Universal Service Fund obligations by delivering measured high-speed connectivity to schools rather than paying into a central fund.
+**Use case:** Real-time SIMET data (analogous to Giga Meter) allows the federal government to monitor which schools meet the benchmark continuously, not only at contract signing. The same data validates ISP performance under the FUST Fiscal Benefit, which lets ISPs fulfil their Universal Service Fund obligations by delivering measured high-speed connectivity to schools rather than paying into a central fund.
 
-**Decision triggered:** Schools below the per-student threshold are flagged for ISP follow-up. ISP fiscal benefit claims are accepted only when validated against live measurement data.
+**Decision triggered:** Schools below the per-student threshold are flagged for ISP follow-up.&#x20;
 
-**What makes this model work:** The benchmark is school-specific: it scales with enrolment rather than being a fixed Mbps number. That makes it harder for ISPs to meet the letter of the contract while underserving larger schools.
+**What makes this model work:** The benchmark is school-specific: it scales with enrolment (or number of personel for pre-primary schools) rather than being a fixed Mbps number. That makes it harder for ISPs to meet the letter of the contract while underserving larger schools.
 
 <figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-5d82be0cd99f2487592001f1d8078580fe79bd16%2Fcase-brazil-1.png?alt=media" alt="Giga Maps showing a school in Brazil with 210.41 Mbps download speed, above the per-student benchmark"><figcaption><p>A school in São Paulo state reporting 210 Mbps, well above the per-student benchmark. Data surfaced directly on Giga Maps.</p></figcaption></figure>
 

@@ -1,15 +1,5 @@
 # Introduction
 
-<!-- release-start:v2.0.3 -->
-{% hint style="info" %}
-**2.0.3 — 2026-05-20**
-
-Giga Meter can now measure internet speed more accurately and automatically detects your location for better reporting. The app also now supports Mongolian language for users who prefer it.
-
-[Full release notes →](https://github.com/unicef/project-connect-daily-check-app/releases/tag/v2.0.3)
-{% endhint %}
-<!-- release-end -->
-
 {% hint style="info" %}
 **2.0.3 - 2026-05-20**
 
@@ -64,7 +54,7 @@ Measurements
 
 Giga Meter serves schools, governments, and technical teams. Pick the path that fits your role, or use the sidebar to browse everything.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>School staff</strong></td><td>Install Giga Meter at your school, keep it running, and check your connectivity data.<br><br><strong>Jump to Installation →</strong></td><td><a href="docs/installation/system-requirements.md">system-requirements.md</a></td></tr><tr><td><strong>Government and ministries</strong></td><td>Plan a national or regional rollout, assign roles, and turn the data into decisions.<br><br><strong>Jump to Country Deployment →</strong></td><td><a href="docs/deployment/government-onboarding-overview.md">government-onboarding-overview.md</a></td></tr><tr><td><strong>IT and technical teams</strong></td><td>Configure the network, understand the measurement methodology, and use the API.<br><br><strong>Jump to Technical Reference →</strong></td><td><a href="technical-reference/network-destinations.md">network-destinations.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>School staff</strong></td><td>Install Giga Meter at your school, keep it running, and check your connectivity data.<br><br><strong>Jump to Installation →</strong></td><td><a href="docs/installation/system-requirements.md">system-requirements.md</a></td><td data-object-fit="contain"><a href=".gitbook/assets/giga-pictogram-general-schools-fill_2x.png">giga-pictogram-general-schools-fill_2x.png</a></td></tr><tr><td><strong>Government and ministries</strong></td><td>Plan a national or regional rollout, assign roles, and turn the data into decisions.<br><br><strong>Jump to Country Deployment →</strong></td><td><a href="docs/deployment/government-onboarding-overview.md">government-onboarding-overview.md</a></td><td data-object-fit="contain"><a href=".gitbook/assets/giga-pictogram-general-team-fill_2x.png">giga-pictogram-general-team-fill_2x.png</a></td></tr><tr><td><strong>IT and technical teams</strong></td><td>Configure the network, understand the measurement methodology, and use the API.<br><br><strong>Jump to Technical Reference →</strong></td><td><a href="technical-reference/network-destinations.md">network-destinations.md</a></td><td data-object-fit="contain"><a href=".gitbook/assets/giga-pictogram-general-code-fill_2x.png">giga-pictogram-general-code-fill_2x.png</a></td></tr></tbody></table>
 
 ***
 
