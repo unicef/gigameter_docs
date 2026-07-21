@@ -2,9 +2,9 @@
 
 <!-- release-start:v2.0.3 -->
 {% hint style="info" %}
-**2.0.3 — 2026-05-20**
+**Giga Meter 2.0.3 — 2026-05-20**
 
-Version 2.0.3 improves speed-measurement accuracy, adds automatic location detection, adds Mongolian language support, and moves software updates to signed distribution.
+Giga Meter can now measure internet speed more accurately and identify your location automatically, and the app is now available in Mongolian. The software also includes improvements to how it tracks usage and handles secure updates.
 
 [Full release notes →](https://github.com/unicef/project-connect-daily-check-app/releases/tag/v2.0.3)
 {% endhint %}

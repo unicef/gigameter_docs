@@ -7,17 +7,19 @@ Renders at 2x resolution (1440px wide) for crisp display on retina screens.
 When updating the release hint block (between <!-- release-start --> and <!-- release-end -->),
 write the body in this style:
 
-  "Version X.Y.Z [verb] [change], [verb] [change], and [verb] [change]."
+  "Giga Meter can now [primary change] and [primary change], and [secondary change].
+   The [app/software] also [supporting changes]."
 
 Example:
-  "Version 2.0.3 improves speed-measurement accuracy, adds automatic location detection,
-   adds Mongolian language support, and moves software updates to signed distribution."
+  "Giga Meter can now measure internet speed more accurately and identify your location
+   automatically, and the app is now available in Mongolian. The software also includes
+   improvements to how it tracks usage and handles secure updates."
 
 Rules:
-- Lead with "Version X.Y.Z" — no "Giga Meter can now" or marketing phrasing
-- One sentence, verb-first for each change, comma-separated
+- Lead with "Giga Meter can now" — user-benefit framing, not a changelog list
+- Two sentences max: lead with the headline changes, close with supporting improvements
+- Bold the header as: **Giga Meter X.Y.Z — YYYY-MM-DD**
 - End with a link: [Full release notes →](GitHub release URL)
-- Bold the version + date in the header: **X.Y.Z — YYYY-MM-DD**
 """
 
 import io
