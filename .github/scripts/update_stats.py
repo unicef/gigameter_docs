@@ -31,9 +31,7 @@ import sys
 import requests
 from PIL import Image, ImageDraw, ImageFont
 
-API_BASE = "https://uni-ooi-giga-meter-backend.azurewebsites.net"
-API_KEY = os.environ.get("GIGA_API_KEY", "")
-HEADERS = {"Authorization": f"Bearer {API_KEY}"}
+API_BASE = "https://meter.giga.global"
 
 README_PATH = "README.md"
 GRID_PATH = ".gitbook/assets/country-grid.png"
@@ -80,100 +78,22 @@ def load_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
 
 # ── API helpers ─────────────────────────────────────────────────────────────
 
-def fetch_countries() -> list[dict]:
-    """Paginate countries endpoint (max size=100 per page). Deduplicate by ISO2."""
-    all_countries: list[dict] = []
-    seen_iso2: set[str] = set()
-    page = 0
-    while True:
-        resp = requests.get(
-            f"{API_BASE}/api/v1/dailycheckapp_countries",
-            params={"size": 100, "page": page},
-            headers=HEADERS,
-            timeout=30,
-        )
-        resp.raise_for_status()
-        batch = resp.json().get("data", [])
-        if not batch:
-            break
-        for c in batch:
-            iso2 = c.get("code", "").upper()
-            if iso2 and iso2 not in seen_iso2:
-                seen_iso2.add(iso2)
-                all_countries.append(c)
-        page += 1
-    print(f"  Countries fetched (deduplicated): {len(all_countries)}")
-    return all_countries
-
-
-def fetch_school_count(active_countries: list[dict]) -> int:
-    """Count unique giga_id_school values in countries that have measurements."""
-    active_iso2 = {c.get("code", "").upper() for c in active_countries}
-    seen: set[str] = set()
-    page = 0
-    while True:
-        resp = requests.get(
-            f"{API_BASE}/api/v1/dailycheckapp_schools",
-            params={"size": 100, "page": page},
-            headers=HEADERS,
-            timeout=30,
-        )
-        resp.raise_for_status()
-        batch = resp.json().get("data", [])
-        if not batch:
-            break
-        for school in batch:
-            if school.get("country_code", "").upper() not in active_iso2:
-                continue
-            giga_id = school.get("giga_id_school")
-            if giga_id:
-                seen.add(str(giga_id))
-        page += 1
-        if page % 10 == 0:
-            print(f"  Schools paginated: page {page}, {len(seen)} unique so far")
-    print(f"  Schools total (unique giga_id_school, active countries): {len(seen)}")
-    return len(seen)
-
-
-def fetch_measurement_count() -> int:
-    resp = requests.get(
-        f"{API_BASE}/api/v1/measurements",
-        params={"size": 1, "orderBy": "-timestamp"},
-        headers=HEADERS,
-        timeout=30,
-    )
+def fetch_metrics() -> dict:
+    """Fetch aggregated stats from the public metrics endpoint."""
+    resp = requests.get(f"{API_BASE}/api/v1/metrics", timeout=30)
     resp.raise_for_status()
-    data = resp.json().get("data", [])
-    if not data:
-        return 0
-    count = int(data[0].get("id", 0))
-    print(f"  Measurement count (approx via latest ID): {count:,}")
-    return count
+    data = resp.json().get("data", {})
+    print(f"  Metrics: {data.get('countries')} countries, {data.get('schools'):,} schools, {data.get('measurements'):,} measurements")
+    return data
 
 
-def filter_countries_with_measurements(countries: list[dict]) -> list[dict]:
-    """Keep only countries that have at least one measurement record."""
-    active = []
-    for c in countries:
-        iso3 = c.get("code_iso3", "")
-        if not iso3:
-            continue
-        try:
-            resp = requests.get(
-                f"{API_BASE}/api/v1/measurements",
-                params={"size": 1, "country_iso3_code": iso3},
-                headers=HEADERS,
-                timeout=15,
-            )
-            resp.raise_for_status()
-            if resp.json().get("data"):
-                active.append(c)
-            else:
-                print(f"  Skipping {c.get('name', iso3)} — no measurements")
-        except Exception as e:
-            print(f"  Warning: could not check {iso3}: {e}")
-    print(f"  Active countries (with measurements): {len(active)}")
-    return active
+def fetch_countries() -> list[dict]:
+    """Fetch all registered countries from the public /all endpoint."""
+    resp = requests.get(f"{API_BASE}/api/v1/dailycheckapp_countries/all", timeout=30)
+    resp.raise_for_status()
+    countries = resp.json().get("data", [])
+    print(f"  Countries fetched: {len(countries)}")
+    return countries
 
 
 # ── Flag fetching ────────────────────────────────────────────────────────────
@@ -201,7 +121,7 @@ def round_corners(img: Image.Image, radius: int) -> Image.Image:
 
 # ── Country grid ─────────────────────────────────────────────────────────────
 
-def generate_grid(countries: list[dict], schools: int = 0, measurements: int = 0) -> Image.Image:
+def generate_grid(countries: list[dict], countries_count: int = 0) -> Image.Image:
     countries_sorted = sorted(countries, key=lambda c: c.get("name", ""))
     n = len(countries_sorted)
 
@@ -227,8 +147,9 @@ def generate_grid(countries: list[dict], schools: int = 0, measurements: int = 0
     img = Image.new("RGB", (CANVAS_W, total_h), GIGA_BLUE)
     draw = ImageDraw.Draw(img)
 
-    # Left column: "Deployed in\nX countries"
-    line1, line2 = "Deployed in", f"{n} countries"
+    # Left column: "Deployed in\nX countries" — use metrics count as authoritative label
+    label = countries_count if countries_count else n
+    line1, line2 = "Deployed in", f"{label} countries"
     font_size = 56
     font = load_font(font_size, bold=True)
     while font_size > 18:
@@ -278,15 +199,15 @@ def update_readme(countries_count: int, schools_count: int, measurements_count: 
         "<!-- stats-start -->\n"
         "{% columns %}\n"
         "{% column %}\n"
-        f"## {countries_count:,}\n\n"
+        f"#### {countries_count:,}\n\n"
         "Countries\n"
         "{% endcolumn %}\n\n"
         "{% column %}\n"
-        f"## {schools_count:,}\n\n"
+        f"#### {schools_count:,}\n\n"
         "Schools\n"
         "{% endcolumn %}\n\n"
         "{% column %}\n"
-        f"## {measurements_count:,}\n\n"
+        f"#### {measurements_count:,}\n\n"
         "Measurements\n"
         "{% endcolumn %}\n"
         "{% endcolumns %}\n"
@@ -316,30 +237,23 @@ def update_readme(countries_count: int, schools_count: int, measurements_count: 
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    if not API_KEY:
-        print("ERROR: GIGA_API_KEY not set", file=sys.stderr)
-        sys.exit(1)
+    print("Fetching metrics...")
+    metrics = fetch_metrics()
+    countries_count = metrics.get("countries", 0)
+    schools_count = metrics.get("schools", 0)
+    measurements_count = metrics.get("measurements", 0)
 
-    print("Fetching countries...")
+    print("Fetching country list for flag grid...")
     countries = fetch_countries()
 
-    print("Filtering to countries with measurements...")
-    countries = filter_countries_with_measurements(countries)
-
-    print("Fetching school count...")
-    schools = fetch_school_count(countries)
-
-    print("Fetching measurement count...")
-    measurements = fetch_measurement_count()
-
     print("Generating country grid image...")
-    grid_img = generate_grid(countries, schools, measurements)
+    grid_img = generate_grid(countries, countries_count)
     os.makedirs(".gitbook/assets", exist_ok=True)
     grid_img.save(GRID_PATH, "PNG", optimize=True)
     print(f"  Saved: {GRID_PATH} ({grid_img.size[0]}×{grid_img.size[1]}px)")
 
     print("Updating README.md...")
-    update_readme(len(countries), schools, measurements)
+    update_readme(countries_count, schools_count, measurements_count)
 
     print("Done.")
 
