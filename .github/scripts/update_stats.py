@@ -32,6 +32,9 @@ import requests
 from PIL import Image, ImageDraw, ImageFont
 
 API_BASE = "https://meter.giga.global"
+LEGACY_API_BASE = "https://uni-ooi-giga-meter-backend.azurewebsites.net"
+API_KEY = os.environ.get("GIGA_API_KEY", "")
+HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
 README_PATH = "README.md"
 GRID_PATH = ".gitbook/assets/country-grid.png"
@@ -88,12 +91,29 @@ def fetch_metrics() -> dict:
 
 
 def fetch_countries() -> list[dict]:
-    """Fetch all registered countries from the public /all endpoint."""
-    resp = requests.get(f"{API_BASE}/api/v1/dailycheckapp_countries/all", timeout=30)
-    resp.raise_for_status()
-    countries = resp.json().get("data", [])
-    print(f"  Countries fetched: {len(countries)}")
-    return countries
+    """Fetch all countries with measurements via authenticated paginated endpoint."""
+    all_countries: list[dict] = []
+    seen_iso2: set[str] = set()
+    page = 0
+    while True:
+        resp = requests.get(
+            f"{LEGACY_API_BASE}/api/v1/dailycheckapp_countries",
+            params={"size": 100, "page": page},
+            headers=HEADERS,
+            timeout=30,
+        )
+        resp.raise_for_status()
+        batch = resp.json().get("data", [])
+        if not batch:
+            break
+        for c in batch:
+            iso2 = c.get("code", "").upper()
+            if iso2 and iso2 not in seen_iso2:
+                seen_iso2.add(iso2)
+                all_countries.append(c)
+        page += 1
+    print(f"  Countries fetched for flag grid: {len(all_countries)}")
+    return all_countries
 
 
 # ── Flag fetching ────────────────────────────────────────────────────────────
