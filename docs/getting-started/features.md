@@ -22,13 +22,32 @@ No staff action is required once the app is installed.
 
 Every speed test records:
 
-* **Download speed** - measured with M-Lab's NDT7 protocol against the nearest available M-Lab server
-* **Upload speed** - same protocol and server
-* **Latency** - minimum round-trip time (MinRTT) per test
-* **Uptime** - derived from ping checks: the proportion of school hours (8am-8pm) during which the connection was confirmed reachable
-* **ISP and network details** - ISP name, ASN, IP address, WiFi SSID, signal strength, channel, and adapter model
+* **Download speed** — measured with M-Lab's NDT7 protocol against the nearest available M-Lab server
+* **Upload speed** — same protocol and server
+* **Latency** — minimum round-trip time (MinRTT) per test
+* **Uptime** — derived from ping checks: the proportion of school hours (8am–8pm) during which the connection was confirmed reachable
+* **ISP and network details** — ISP name, ASN, IP address, WiFi SSID, signal strength, channel, and adapter model
 
 These measure the public internet connection, not the school's local network speed to the router.
+
+**Example measurement:**
+
+| Metric | Value |
+| --- | --- |
+| Download speed | 8.4 Mbps |
+| Upload speed | 2.1 Mbps |
+| Latency (MinRTT) | 38 ms |
+| Uptime (school hours) | 94% |
+| ISP | MTN Uganda |
+| ASN | AS20294 |
+| Wi-Fi signal | −62 dBm |
+| Measurement server | ndt-mlab3-nbi01 (Nairobi) |
+
+### Measurement server
+
+Speed and latency tests connect to the nearest available [M-Lab](https://www.measurementlab.net/) NDT7 server. Server proximity matters for latency interpretation: a school in a country with no nearby M-Lab node will record higher latency than the local network alone would produce. This is worth factoring in when comparing latency benchmarks across countries.
+
+Check real-time M-Lab server availability at [status.measurementlab.net](https://status.measurementlab.net/).
 
 ***
 
@@ -50,25 +69,11 @@ This enables three things:
 
 Every measurement syncs to Giga Maps and analytics dashboards automatically.
 
-{% columns %}
-{% column %}
-**Giga Maps**
+**[Giga Maps](https://maps.giga.global/)** — Results appear on the public Giga Maps platform within hours. Each school appears as a colour-coded dot showing its current connectivity level.
 
-Results appear on the public Giga Maps platform within hours. Each school appears as a colour-coded dot showing its current connectivity level.
-{% endcolumn %}
+**[Analytics dashboards](https://superset.giga.global/)** — Hosted dashboards show school-level and country-level trends: speeds over time, uptime by district, ISP performance, and comparison against national benchmarks.
 
-{% column %}
-**Analytics dashboards**
-
-Hosted dashboards (up to 10) show school-level and country-level trends: speeds over time, uptime by district, ISP performance, and comparison against national benchmarks.
-{% endcolumn %}
-
-{% column %}
-**REST API**
-
-Programmatic access to the full dataset - measurements, daily ping aggregations, school records, and country data - for integration with government systems or custom analysis.
-{% endcolumn %}
-{% endcolumns %}
+**[API](../technical-reference/api-reference.md)** — Programmatic access to the full dataset — measurements, daily ping aggregations, school records, and country data — for integration with government systems or custom analysis.
 
 ***
 
@@ -81,7 +86,7 @@ Consumer speed-test tools such as Ookla are user-initiated, anonymous, and built
 | Who initiates the test             |            Automated, fixed schedule            |            User           |
 | Frequency                          |     4 speed tests + up to 48 ping checks/day    |         On demand         |
 | Tied to a school record            |                       Yes                       |             No            |
-| Geolocation validation             |         Yes, flagged if >4km from school        |             No            |
+| Geolocation validation             | Facility geolocation validation (flagged if >4km from registered school) |             No            |
 | School metadata                    | Country, admin levels, education level, Giga ID |             No            |
 | Measures public internet (off-net) |                       Yes                       |            Yes            |
 | Background operation               |            Yes, no user action needed           |             No            |

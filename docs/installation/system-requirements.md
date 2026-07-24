@@ -57,9 +57,9 @@ If the computer has multiple user accounts, register Giga Meter under each one s
 If new user accounts are added later, install and register Giga Meter in those accounts too.
 {% endhint %}
 
-**Software updates**
-
-Update notifications appear as pop-up messages. When prompted, restart the app and follow the on-screen instructions.
+{% hint style="warning" %}
+**Keep Giga Meter up to date.** Update notifications appear as pop-up messages. When prompted, restart the app and follow the on-screen instructions. Running an outdated version may affect measurement accuracy and data uploads.
+{% endhint %}
 
 ***
 

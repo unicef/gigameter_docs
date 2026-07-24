@@ -13,7 +13,7 @@ An interface that allows different computer systems to securely exchange informa
 The release number of the Giga Meter app installed at a school (for example 2.0.2). Newer versions usually fix bugs and add measurement features.
 
 **ASN (Autonomous System Number)**
-A unique number that identifies an internet provider's network on the global internet, such as AS8926. Used to confirm which carrier is actually serving the school.
+A unique number that identifies an internet provider's network on the global internet, such as AS8926. Used to confirm which carrier is serving the school's traffic.
 
 **At-risk school**
 A school whose last measurement was sent between 21 and 28 days ago. It has not gone silent yet, but may drop off without follow-up.
@@ -32,10 +32,10 @@ The maximum amount of data that can pass through an internet connection per seco
 ## C
 
 **Connected / Not connected / Unknown**
-The three connectivity labels Giga assigns to every mapped school. "Connected" means the school has confirmed internet service; "Not connected" means it does not; "Unknown" means there is not yet enough information to tell.
+The three connectivity labels Giga assigns to every mapped school. "Connected" means the school has confirmed internet service — either from administrative records or from real-time Giga Meter measurements (RTM). "Not connected" means it does not. "Unknown" means there is not yet enough information, or — in the RTM layer — that the school has not sent a measurement that week.
 
 **Connectivity status**
-The summary judgement of whether a school has working internet. Drawn from multiple sources, including school surveys, partner reports, and real-time Giga Meter measurements.
+Whether a school has an internet connection. Drawn from multiple sources — school surveys, partner reports, and real-time Giga Meter measurements — and summarised as Connected, Not connected, or Unknown.
 
 ---
 
@@ -48,7 +48,7 @@ A single screen that brings together charts, tables, and key numbers so a user c
 A single recorded value, such as one school's download speed at one moment in time. A chart is built from many data points.
 
 **Days since last measurement**
-How long it has been, in days, since the school's Giga Meter app last sent a reading. A growing number is an early warning that the school is going offline or that the device has been switched off.
+How long it has been, in days, since the school's Giga Meter app last sent a reading. A growing number is an early warning that the device has stopped reporting — most often because it has been switched off or disconnected.
 
 **Distribution (statistical)**
 A chart that shows how a set of values is spread across a range, rather than just their average. Useful for seeing whether most schools cluster around a typical speed or whether a few outliers pull the average up.
@@ -57,10 +57,10 @@ A chart that shows how a set of values is spread across a range, rather than jus
 The rate at which a school receives data from the internet — for example when loading a webpage or streaming a video. Measured in megabits per second (Mbps).
 
 **Drop-off**
-A school that has not sent any measurement in more than 28 days. After this point Giga considers the device unlikely to come back without additional support, such as a site visit.
+A school that has not sent any measurement in more than 28 days. After this point Giga considers the device unlikely to come back without active follow-up — such as a remote check-in with the school, a help desk contact, or a targeted communication to the focal point.
 
 **Drop-off rate**
-The share of installed schools that have dropped off, expressed as a percentage. A rising drop-off rate means support effort needs to increase.
+The share of installed schools that have dropped off, expressed as a percentage. A rising drop-off rate signals that support efforts for installation health need to increase.
 
 ---
 
@@ -108,6 +108,9 @@ The standard unit for internet speed. One megabit is one million bits. As a roug
 
 **Measurement**
 A single connectivity test run by the Giga Meter app at a school. Each measurement records the download speed, upload speed, latency, and details about the Wi-Fi network at that moment.
+
+**Measurement server**
+The remote server that Giga Meter connects to when running a speed test. Giga Meter uses M-Lab's NDT7 servers, distributed globally, selecting the nearest available node automatically. In regions where the nearest M-Lab server is hundreds of kilometres away, latency readings will be higher than local network conditions alone would produce — this is worth noting when comparing results across countries. Server availability can be checked at [status.measurementlab.net](https://status.measurementlab.net/).
 
 **Milliseconds (ms)**
 Thousandths of a second — the unit used for latency. Anything under 50 ms feels instant for most uses; over 200 ms makes video calls feel awkward.
