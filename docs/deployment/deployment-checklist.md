@@ -39,7 +39,7 @@ Ask schools to join the training session from one of the identified computers so
 
 | Material                   | Languages              | Format           |
 | -------------------------- | ---------------------- | ---------------- |
-| Giga Meter Onboarding deck | EN, ES                 | PowerPoint / PDF |
+| Giga Meter Onboarding Deck | EN, ES                 | PowerPoint / PDF |
 | Installation Guide         | EN, ES, FR, PT, MN     | PDF              |
 | Installation videos        | EN, PT, MN (subtitles) | MP4 / YouTube    |
 
