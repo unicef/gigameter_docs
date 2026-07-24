@@ -110,7 +110,7 @@ The standard unit for internet speed. One megabit is one million bits. As a roug
 A single connectivity test run by the Giga Meter app at a school. Each measurement records the download speed, upload speed, latency, and details about the Wi-Fi network at that moment.
 
 **Measurement server**
-The remote server that Giga Meter connects to when running a speed test. Giga Meter uses M-Lab's NDT7 servers, distributed globally, selecting the nearest available node automatically. In regions where the nearest M-Lab server is hundreds of kilometres away, latency readings will be higher than local network conditions alone would produce — this is worth noting when comparing results across countries. Server availability can be checked at [status.measurementlab.net](https://status.measurementlab.net/).
+The remote server that Giga Meter connects to when running a speed test. Giga Meter uses M-Lab's NDT7 servers, distributed globally, selecting the nearest available node automatically. In regions where the nearest M-Lab server is hundreds of kilometres away, latency readings will be higher than local network conditions alone would produce — this is worth noting when comparing results across countries. Server availability and locations can be checked at [measurementlab.net/status](https://www.measurementlab.net/status/).
 
 **Milliseconds (ms)**
 Thousandths of a second — the unit used for latency. Anything under 50 ms feels instant for most uses; over 200 ms makes video calls feel awkward.
