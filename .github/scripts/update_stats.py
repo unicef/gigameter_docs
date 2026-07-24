@@ -197,20 +197,9 @@ def update_readme(countries_count: int, schools_count: int, measurements_count: 
 
     stats_block = (
         "<!-- stats-start -->\n"
-        "{% columns %}\n"
-        "{% column %}\n"
-        f"#### {countries_count:,}\n\n"
-        "Countries\n"
-        "{% endcolumn %}\n\n"
-        "{% column %}\n"
-        f"#### {schools_count:,}\n\n"
-        "Schools\n"
-        "{% endcolumn %}\n\n"
-        "{% column %}\n"
-        f"#### {measurements_count:,}\n\n"
-        "Measurements\n"
-        "{% endcolumn %}\n"
-        "{% endcolumns %}\n"
+        f"| **{countries_count:,}** | **{schools_count:,}** | **{measurements_count:,}** |\n"
+        "| :---: | :---: | :---: |\n"
+        "| Countries | Schools | Measurements |\n"
         "<!-- stats-end -->"
     )
     content = re.sub(
