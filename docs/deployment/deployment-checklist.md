@@ -37,13 +37,61 @@ Ask schools to join the training session from one of the identified computers so
 
 ### Materials available from Giga
 
-| Material                   | Languages              | Format           |
-| -------------------------- | ---------------------- | ---------------- |
-| Giga Meter Onboarding Deck | EN, ES                 | PowerPoint / PDF |
-| Installation Guide         | EN, ES, FR, PT, MN     | PDF              |
-| Installation videos        | EN, PT, MN (subtitles) | MP4 / YouTube    |
+**Giga Meter Onboarding Deck**
 
-Request materials from your Giga focal point or download from [meter.giga.global](https://meter.giga.global/).
+{% columns %}
+{% column %}
+<a href="#" class="button primary">English (PPTX)</a>
+{% endcolumn %}
+{% column %}
+<a href="#" class="button primary">Español (PPTX)</a>
+{% endcolumn %}
+{% column %}
+<a href="#" class="button primary">English (PDF)</a>
+{% endcolumn %}
+{% column %}
+<a href="#" class="button primary">Español (PDF)</a>
+{% endcolumn %}
+{% endcolumns %}
+
+**Installation Guide**
+
+{% columns %}
+{% column %}
+<a href="#" class="button primary">English</a>
+{% endcolumn %}
+{% column %}
+<a href="#" class="button primary">Español</a>
+{% endcolumn %}
+{% column %}
+<a href="#" class="button primary">Français</a>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+<a href="#" class="button primary">Português</a>
+{% endcolumn %}
+{% column %}
+<a href="#" class="button primary">Mongolian</a>
+{% endcolumn %}
+{% column %}
+{% endcolumn %}
+{% endcolumns %}
+
+**Installation Videos**
+
+{% columns %}
+{% column %}
+<a href="#" class="button primary">English</a>
+{% endcolumn %}
+{% column %}
+<a href="#" class="button primary">Português</a>
+{% endcolumn %}
+{% column %}
+<a href="#" class="button primary">Mongolian</a>
+{% endcolumn %}
+{% endcolumns %}
 
 ***
 
