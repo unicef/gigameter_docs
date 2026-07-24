@@ -63,7 +63,12 @@ These measure the public internet connection, not the school's local network spe
 
 ### Measurement server
 
-Speed and latency tests connect to the nearest available [M-Lab](https://www.measurementlab.net/) NDT7 server. Server proximity matters for latency interpretation: a school in a country with no nearby M-Lab node will record higher latency than the local network alone would produce. This is worth factoring in when comparing latency benchmarks across countries.
+Speed and latency tests connect to the nearest available [M-Lab](https://www.measurementlab.net/) NDT7 server. The server location shapes two things:
+
+* **What path gets measured.** If the nearest M-Lab node is inside the country, the test measures the domestic network path. If it is outside, the test measures the international path — a different link with different characteristics. Results from these two cases are not directly comparable.
+* **Latency baselines.** Cross-border distance adds round-trip time, so schools in countries without a local M-Lab node will record higher latency than the local network alone would produce.
+
+Before deploying, check whether your country already has an M-Lab server — it determines what your data actually reflects. The map below shows current server locations.
 
 {% embed url="https://www.measurementlab.net/status/" %}
 M-Lab server locations
