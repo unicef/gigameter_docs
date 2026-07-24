@@ -22,7 +22,7 @@ If you have visited the page before, hard refresh first to make sure you get the
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-2368e25df75371596e81b244374d293a095e4b4a%2Fapp-school-id-entry.png?alt=media" alt="Giga Meter download page with download button highlighted"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-2368e25df75371596e81b244374d293a095e4b4a%2Fapp-school-id-entry.png?alt=media" alt="Giga Meter download page with download button highlighted" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -38,7 +38,7 @@ If a warning about an older version appears, go back to Step 1 and reinstall the
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-17b300139c0cd35ff32201e35f920cb1dfd5faae%2Fsetup-smartscreen.png?alt=media" alt="Windows SmartScreen warning: click More info then Run anyway"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-17b300139c0cd35ff32201e35f920cb1dfd5faae%2Fsetup-smartscreen.png?alt=media" alt="Windows SmartScreen warning: click More info then Run anyway" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -55,11 +55,11 @@ Work through the Setup Wizard in order:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-cb8ac7281c5fbe40719ecd19a7aa7d5e675e7147%2Fsetup-uac-prompt.png?alt=media" alt="Windows UAC dialog asking to allow Giga Meter to make changes - click Yes"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-cb8ac7281c5fbe40719ecd19a7aa7d5e675e7147%2Fsetup-uac-prompt.png?alt=media" alt="Windows UAC dialog asking to allow Giga Meter to make changes - click Yes" width="300"><figcaption></figcaption></figure>
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-a8157ead9c975b7d9774c86e64e310db2ae50e7e%2Fsetup-installation-scope.jpg?alt=media" alt="Setup wizard: Choose Installation Options - select Anyone who uses this computer"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-a8157ead9c975b7d9774c86e64e310db2ae50e7e%2Fsetup-installation-scope.jpg?alt=media" alt="Setup wizard: Choose Installation Options - select Anyone who uses this computer" width="300"><figcaption></figcaption></figure>
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-1e4aae0986e6dd636a73b5f5bbca3bd6475e0fa1%2Fsetup-finish.png?alt=media" alt="Setup wizard: Completing Giga Meter Setup - click Finish"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-1e4aae0986e6dd636a73b5f5bbca3bd6475e0fa1%2Fsetup-finish.png?alt=media" alt="Setup wizard: Completing Giga Meter Setup - click Finish" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -71,7 +71,7 @@ If the app did not open automatically, find the **Giga Meter** shortcut on your 
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-80379d507c508549872be53b4f2d5e2a36173cd7%2Fsetup-desktop-shortcut.png?alt=media" alt="Windows desktop showing the Giga Meter shortcut icon"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-80379d507c508549872be53b4f2d5e2a36173cd7%2Fsetup-desktop-shortcut.png?alt=media" alt="Windows desktop showing the Giga Meter shortcut icon" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -94,9 +94,9 @@ To change the display language, click **English** in the top right corner and se
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-f0b15a149b0d7568a75c7a5ef5412a403b19c022%2Fapp-welcome.png?alt=media" alt="Welcome to Giga Meter screen"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-f0b15a149b0d7568a75c7a5ef5412a403b19c022%2Fapp-welcome.png?alt=media" alt="Welcome to Giga Meter screen" width="300"><figcaption></figcaption></figure>
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-73c5add60705194376e4cb59633da74f0036ef84%2Fapp-language-select.png?alt=media" alt="Language selection screen"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-73c5add60705194376e4cb59633da74f0036ef84%2Fapp-language-select.png?alt=media" alt="Language selection screen" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -110,7 +110,7 @@ Click **Start Registration** to continue.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-b25fc96ba95cc4e03cb3cf9996871d6cf4cce662%2Fapp-accept-policies.png?alt=media" alt="Accept policies screen with Start Registration button"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-b25fc96ba95cc4e03cb3cf9996871d6cf4cce662%2Fapp-accept-policies.png?alt=media" alt="Accept policies screen with Start Registration button" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -131,9 +131,9 @@ If you see an error:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-aa70317fda4ccd6fa0b6e83799e331c31e9bdcc5%2Fapp-country-detected.png?alt=media" alt="Country automatically detected screen"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-aa70317fda4ccd6fa0b6e83799e331c31e9bdcc5%2Fapp-country-detected.png?alt=media" alt="Country automatically detected screen" width="300"><figcaption></figcaption></figure>
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-9c624b411df131d3e565d871485595a61d2639c5%2Fapp-country-warning.png?alt=media" alt="Country verification warning screen"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-9c624b411df131d3e565d871485595a61d2639c5%2Fapp-country-warning.png?alt=media" alt="Country verification warning screen" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -155,11 +155,11 @@ Once you click **YES**, changing your school ID will require uninstalling and re
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-2368e25df75371596e81b244374d293a095e4b4a%2Fapp-school-id-entry.png?alt=media" alt="Enter school ID screen"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-2368e25df75371596e81b244374d293a095e4b4a%2Fapp-school-id-entry.png?alt=media" alt="Enter school ID screen" width="300"><figcaption></figcaption></figure>
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-2d2f2654c9ae10bb4225961e509606d7c0d6489f%2Fapp-school-id-results.png?alt=media" alt="School search results with Select button"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-2d2f2654c9ae10bb4225961e509606d7c0d6489f%2Fapp-school-id-results.png?alt=media" alt="School search results with Select button" width="300"><figcaption></figcaption></figure>
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-0822d3cc7add4824dea6b646d74c3ea30e9340a7%2Fapp-school-confirm.png?alt=media" alt="Confirm school information screen"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-0822d3cc7add4824dea6b646d74c3ea30e9340a7%2Fapp-school-confirm.png?alt=media" alt="Confirm school information screen" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -177,9 +177,9 @@ Your school's connectivity will be measured daily and data will be sent to Giga 
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2FUx2ul3OD4Zhr2Okr6G8f%2FGroup%208809.png?alt=media&token=3cb5f785-ff92-4cf0-8b8c-1a1338c109c5" alt="Registration complete, running first connectivity test"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2FUx2ul3OD4Zhr2Okr6G8f%2FGroup%208809.png?alt=media&token=3cb5f785-ff92-4cf0-8b8c-1a1338c109c5" alt="Registration complete, running first connectivity test" width="300"><figcaption></figcaption></figure>
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-fa7a0751397c9c7626215ee34079697d8bd373d2%2Fapp-complete.png?alt=media" alt="Congratulations - registration and first test complete"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-fa7a0751397c9c7626215ee34079697d8bd373d2%2Fapp-complete.png?alt=media" alt="Congratulations - registration and first test complete" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
