@@ -30,18 +30,36 @@ Every speed test records:
 
 These measure the public internet connection, not the school's local network speed to the router.
 
-**Example measurement:**
-
-| Metric | Value |
-| --- | --- |
-| Download speed | 8.4 Mbps |
-| Upload speed | 2.1 Mbps |
-| Latency (MinRTT) | 38 ms |
-| Uptime (school hours) | 94% |
-| ISP | MTN Uganda |
-| ASN | AS20294 |
-| Wi-Fi signal | −62 dBm |
-| Measurement server | ndt-mlab3-nbi01 (Nairobi) |
+{% expand title="Example API response — GET /api/v1/measurements" %}
+```json
+{
+  "id": "5842311",
+  "Timestamp": "2026-07-24T09:47:12.000Z",
+  "DeviceType": "windows",
+  "Notes": "daily",
+  "ClientInfo": {
+    "ASN": "AS20294",
+    "ISP": "AS20294 MTN Uganda",
+    "City": "Kampala",
+    "Region": "Central Region",
+    "Country": "UG",
+    "Latitude": 0.3136,
+    "Longitude": 32.5811,
+    "Timezone": "Africa/Kampala"
+  },
+  "ServerInfo": {
+    "City": "Nairobi",
+    "FQDN": "ndt-iupui-mlab3-nbi01.mlab-oti.measurement-lab.org",
+    "Country": "KE",
+    "Metro": "nbi"
+  },
+  "Download": 8421.5,
+  "Upload": 2134.2,
+  "Latency": 38
+}
+```
+`Download` and `Upload` are in **Kbps**. Divide by 1,000 to get Mbps (8.4 Mbps / 2.1 Mbps here). `ServerInfo` shows the M-Lab node used — in this case Nairobi, the nearest server for Uganda.
+{% endexpand %}
 
 ### Measurement server
 
