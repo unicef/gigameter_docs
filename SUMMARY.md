@@ -29,10 +29,6 @@
 
 * [Privacy & Security](docs/security/privacy-and-security.md)
 
-## Pricing
-
-* [Pricing](docs/pricing/pricing.md)
-
 ## Technical Reference
 
 * [Network Destinations & Firewall Configuration](technical-reference/network-destinations.md)

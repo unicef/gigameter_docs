@@ -123,5 +123,4 @@ Every Giga Meter result is anchored to a school record, validated against a know
 ***
 
 → [Measurement protocols - detailed methodology](../technical-reference/measurement-protocols.md)\
-→ [Case studies - how governments use this data](../deployment/case-studies.md)\
-→ [Pricing](../pricing/pricing.md)
+→ [Case studies - how governments use this data](../deployment/case-studies.md)
