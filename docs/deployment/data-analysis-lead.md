@@ -113,7 +113,7 @@ _What users cannot do:_ edit the dashboard or charts (read-only); access data fr
 
 The Giga Maps API provides programmatic access to school connectivity data, for teams that want to pull data into their own tools, build automated reports, or integrate Giga data into government systems.
 
-_Getting access:_ Contact the Giga team through your UNICEF country focal point to request an API key and documentation.
+_Getting access:_ Contact the Giga team through your UNICEF Country Focal Point to request an API key and documentation.
 
 _What the API provides:_ school-level measurements (download speed, upload speed, latency, uptime); school metadata (location, education level, government ID); time-series data queryable by school, district, and date range; data licensed under CC BY 4.0.
 

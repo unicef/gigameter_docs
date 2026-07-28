@@ -11,7 +11,7 @@ Two prerequisites must be in place before any installation can begin:
 * [ ] **School data validated on** [**Giga Maps**](https://maps.giga.global/map) - the country's schools are mapped with official government IDs, and the data has been reviewed and approved by the government.
 * [ ] **Country whitelisted on Giga's backend** - Giga enables the country in the system before Giga Meter can register schools. Email [gigatech@unicef.org](mailto:gigatech@unicef.org) to request whitelisting.
 
-Contact your Giga focal point or UNICEF country office to confirm both are ready. Once confirmed, complete the [Deployment Blueprint](deployment-blueprint.md), a planning worksheet to align your team on strategy, scope, and timeline before the rollout begins.
+Contact your Giga focal point or UNICEF Country Office to confirm both are ready. Once confirmed, complete the [Deployment Blueprint](deployment-blueprint.md), a planning worksheet to align your team on strategy, scope, and timeline before the rollout begins.
 
 ***
 

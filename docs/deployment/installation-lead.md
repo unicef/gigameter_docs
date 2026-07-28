@@ -242,7 +242,7 @@ Beyond the school-facing channel, establish a clear escalation path for issues t
 School support channel: \[channel type, contact details, response time]\
 Government support owner: \[Name, phone / email]\
 When to escalate to government support: \[e.g. issue not resolved by installer within 24h]\
-Giga escalation contact: \[Name / email at UNICEF country office]\
+Giga escalation contact: \[Name / email at UNICEF Country Office]\
 When to escalate to Giga: \[e.g. issue unresolved at government level after 48h]\
 Information to include when escalating: school name and ID, Giga Meter version, error message or screenshot, steps already attempted
 {% endhint %}
