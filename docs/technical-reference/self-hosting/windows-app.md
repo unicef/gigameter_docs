@@ -1,12 +1,18 @@
 # Windows App Setup
 
-The Giga Meter Windows app can be configured to use your self-hosted backend and customised with your own branding before distribution to schools.
+This is an optional step for configuring and distributing your own version of the Giga Meter Windows app with your self-hosted backend and custom branding.
 
 {% hint style="info" %}
-This step is only needed if you are building and distributing your own version of the Windows app. If you are using the standard Giga-distributed installer from [meter.giga.global](https://meter.giga.global/), skip this page.
+If you are using the standard Giga-distributed installer from [meter.giga.global](https://meter.giga.global/), skip this page.
 {% endhint %}
 
 The source repository is [unicef/project-connect-daily-check-app](https://github.com/unicef/project-connect-daily-check-app).
+
+***
+
+### Getting started
+
+Full setup and deployment instructions are in the [repository README](https://github.com/unicef/project-connect-daily-check-app/tree/prod?tab=readme-ov-file#deploying-the-daily-check-app). The steps below cover branding configuration only.
 
 ***
 

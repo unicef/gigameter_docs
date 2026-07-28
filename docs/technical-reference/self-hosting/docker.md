@@ -17,27 +17,31 @@ The Docker configuration for Giga Meter is community-contributed and is **not of
 
 ### Build the image
 
+A [Dockerfile](https://github.com/unicef/giga-meter-backend/blob/58861714ffa21c4eff1ca8ec5e629aba16594dec/Dockerfile) is included in the repository. Build it with:
+
 ```bash
-docker build -f Dockerfile -t gigameter-backend:latest .
+docker build -f Dockerfile -t repo:tag .
 ```
 
-Replace `gigameter-backend:latest` with your preferred image name and tag.
+Replace `repo:tag` with your preferred image name and tag.
 
 ***
 
 ### Run the container
 
+The application runs on port 3000. Pass environment variables with `-e` flags:
+
 ```bash
-docker run -p 3000:3000 \
-  -e DATABASE_URL="postgresql://user:password@host:5432/gigameter" \
-  -e DAILY_CHECK_APP_API_CODE="your_api_code" \
-  -e PCDC_APP_DOWNLOAD_URL="https://your-download-url" \
-  -e PROJECT_CONNECT_SERVICE_URL="https://your-giga-maps-api" \
-  -e USE_AUTH=true \
-  gigameter-backend:latest
+docker run -d -p 3000:3000 \
+  -e DATABASE_URL="postgresql://username:password@localhost:5432/pcdc?schema=public" \
+  -e DAILY_CHECK_APP_API_CODE="DAILY_CHECK_APP" \
+  -e USE_AUTH="true" \
+  -e PROJECT_CONNECT_SERVICE_URL="https://your-giga-maps-service-url" \
+  -e PCDC_APP_DOWNLOAD_URL="https://your-windows-app-download-url" \
+  repo:tag
 ```
 
-The backend will be available at `http://localhost:3000/`. For all environment variable descriptions, see [Backend Installation](installation.md).
+The `-d` flag runs the container in the background. The backend will be available at `http://localhost:3000/`. For all environment variable descriptions, see [Backend Installation](installation.md).
 
 ***
 
