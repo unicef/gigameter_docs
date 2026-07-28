@@ -30,6 +30,7 @@
 * [Data Governance & Privacy](docs/technical-reference/data-governance.md)
 * [Privacy & Security](docs/security/privacy-and-security.md)
 * [Network Destinations & Firewall Configuration](technical-reference/network-destinations.md)
+* [Self-Hosting Giga Meter](docs/technical-reference/self-hosting.md)
 * [API Reference](docs/technical-reference/api-reference.md)
 * [Measurement Protocols](docs/technical-reference/measurement-protocols.md)
 * [Internet Measurement 101](docs/technical-reference/internet-measurement-101.md)

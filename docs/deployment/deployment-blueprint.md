@@ -101,7 +101,22 @@ What does success look like?\
 
 ***
 
+### 6. Infrastructure and connectivity prerequisites
+
+{% hint style="info" %}
+**M-Lab server availability** — Is there an M-Lab NDT7 server inside the country? Check the [M-Lab server map](https://www.measurementlab.net/status/). If there is no local server, speed and latency tests will measure the international path rather than the domestic network. Has this been discussed with the government?\
+\
+**Data residency** — Does national law or government policy require school connectivity data to be stored on domestic servers or processed within the country?\
+\
+**Self-hosting** — If data residency requirements apply, is the government considering self-hosting the Giga Meter backend? Self-hosting requires a dedicated technical team (TypeScript, PostgreSQL, Linux DevOps) and two servers. See [Self-Hosting Giga Meter](../technical-reference/self-hosting.md) for full requirements.\
+\
+**Network reachability** — Have the required network destinations been confirmed open in school and ministry firewalls? See [Network Destinations & Firewall Configuration](../technical-reference/network-destinations.md).
+{% endhint %}
+
+***
+
 ### Related pages
 
 * [Installation Lead Guide](installation-lead.md)
 * [Data Analysis Lead Guide](data-analysis-lead.md)
+* [Self-Hosting Giga Meter](../technical-reference/self-hosting.md)
