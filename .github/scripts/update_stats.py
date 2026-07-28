@@ -92,8 +92,19 @@ def fetch_countries() -> list[dict]:
     resp = requests.get(f"{API_BASE}/api/v1/dailycheckapp_countries/all", timeout=30)
     resp.raise_for_status()
     countries = resp.json().get("data", [])
-    print(f"  Countries fetched for flag grid: {len(countries)}")
-    return countries
+    # Deduplicate by ISO2 code — the API occasionally returns the same country twice
+    seen: set[str] = set()
+    unique = []
+    for c in countries:
+        code = c.get("code", "").upper()
+        if code and code not in seen:
+            seen.add(code)
+            unique.append(c)
+    if len(unique) != len(countries):
+        dupes = len(countries) - len(unique)
+        print(f"  Deduplicated {dupes} duplicate entr{'y' if dupes == 1 else 'ies'} from country list")
+    print(f"  Countries fetched for flag grid: {len(unique)}")
+    return unique
 
 
 # ── Flag fetching ────────────────────────────────────────────────────────────
