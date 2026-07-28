@@ -1,6 +1,5 @@
 # Introduction
 
-<!-- release-start:v2.0.3 -->
 {% hint style="info" %}
 **Giga Meter 2.0.3 — 2026-05-20**
 
@@ -8,7 +7,6 @@ Giga Meter can now measure internet speed more accurately and pinpoint your loca
 
 [Full release notes →](https://github.com/unicef/project-connect-daily-check-app/releases/tag/v2.0.3)
 {% endhint %}
-<!-- release-end -->
 
 Giga Meter is an open-source desktop application that measures the quality of a school's internet connection. It runs automated tests during the school day and reports the results to [Giga Maps](https://maps.giga.global/), the public, global map of school connectivity. Giga Meter is developed by [Giga](https://giga.global/), a UNICEF-ITU initiative to connect every school to the internet.
 
@@ -16,7 +14,6 @@ Giga Meter is active in:
 
 ![](.gitbook/assets/country-grid.png)
 
-<!-- stats-start -->
 {% columns %}
 {% column %}
 #### 40
@@ -36,7 +33,6 @@ Schools
 Measurements
 {% endcolumn %}
 {% endcolumns %}
-<!-- stats-end -->
 
 {% columns %}
 {% column %}
@@ -54,7 +50,7 @@ Measurements
 
 ***
 
-### Choose your path
+### Who is it for?
 
 Giga Meter serves schools, governments, and technical teams. Pick the path that fits your role, or use the sidebar to browse everything.
 
@@ -64,4 +60,4 @@ Giga Meter serves schools, governments, and technical teams. Pick the path that 
 
 #### What's in this documentation
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>About Giga Meter</strong></td><td>What Giga Meter is and why it matters</td><td><a href="docs/getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>System Requirements</strong></td><td>What you need before installing</td><td><a href="docs/installation/system-requirements.md">system-requirements.md</a></td></tr><tr><td><strong>Installation Guide</strong></td><td>Step-by-step setup instructions</td><td><a href="docs/installation/installation-guide.md">installation-guide.md</a></td></tr><tr><td><strong>Measurement Protocols</strong></td><td>How tests work and when they run</td><td><a href="docs/technical-reference/measurement-protocols.md">measurement-protocols.md</a></td></tr><tr><td><strong>Data Governance & Privacy</strong></td><td>What data is collected and how it's handled</td><td><a href="docs/technical-reference/data-governance.md">data-governance.md</a></td></tr><tr><td><strong>Troubleshooting</strong></td><td>Common issues and fixes</td><td><a href="docs/troubleshooting/troubleshooting.md">troubleshooting.md</a></td></tr><tr><td><strong>FAQ</strong></td><td>Frequently asked questions</td><td><a href="docs/troubleshooting/faq.md">faq.md</a></td></tr><tr><td><strong>Country Deployment</strong></td><td>For governments rolling out Giga Meter at scale</td><td><a href="docs/deployment/government-onboarding-overview.md">government-onboarding-overview.md</a></td></tr><tr><td><strong>Case Studies</strong></td><td>How other governments use the data</td><td><a href="docs/deployment/case-studies.md">case-studies.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>About Giga Meter</strong></td><td>What Giga Meter is and why it matters</td><td><a href="docs/getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>System Requirements</strong></td><td>What you need before installing</td><td><a href="docs/installation/system-requirements.md">system-requirements.md</a></td></tr><tr><td><strong>Installation Guide</strong></td><td>Step-by-step setup instructions</td><td><a href="docs/installation/installation-guide.md">installation-guide.md</a></td></tr><tr><td><strong>Measurement Protocols</strong></td><td>How tests work and when they run</td><td><a href="docs/technical-reference/measurement-protocols.md">measurement-protocols.md</a></td></tr><tr><td><strong>Data Governance &#x26; Privacy</strong></td><td>What data is collected and how it's handled</td><td><a href="docs/technical-reference/data-governance.md">data-governance.md</a></td></tr><tr><td><strong>Troubleshooting</strong></td><td>Common issues and fixes</td><td><a href="docs/troubleshooting/troubleshooting.md">troubleshooting.md</a></td></tr><tr><td><strong>FAQ</strong></td><td>Frequently asked questions</td><td><a href="docs/troubleshooting/faq.md">faq.md</a></td></tr><tr><td><strong>Country Deployment</strong></td><td>For governments rolling out Giga Meter at scale</td><td><a href="docs/deployment/government-onboarding-overview.md">government-onboarding-overview.md</a></td></tr><tr><td><strong>Case Studies</strong></td><td>How other governments use the data</td><td><a href="docs/deployment/case-studies.md">case-studies.md</a></td></tr></tbody></table>
