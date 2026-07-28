@@ -22,6 +22,7 @@ Rules:
 - End with a link: [Full release notes →](GitHub release URL)
 """
 
+import concurrent.futures
 import io
 import math
 import os
@@ -35,6 +36,7 @@ API_BASE = "https://meter.giga.global"
 
 README_PATH = "README.md"
 GRID_PATH = ".gitbook/assets/country-grid.png"
+CODES_PATH = ".gitbook/assets/country-codes.txt"  # cached country list for change detection
 
 # Brand colours
 GIGA_BLUE     = (39, 122, 255)   # #277AFF
@@ -107,7 +109,43 @@ def fetch_countries() -> list[dict]:
     return unique
 
 
-# ── Flag fetching ────────────────────────────────────────────────────────────
+# ── Change detection ─────────────────────────────────────────────────────────
+
+def read_current_stats() -> tuple[int, int, int] | None:
+    """Parse the stats block in README. Returns (countries, schools, measurements) or None."""
+    try:
+        with open(README_PATH, "r", encoding="utf-8") as f:
+            content = f.read()
+        m_c = re.search(r"#### ([\d,]+)\n\nCountries", content)
+        m_s = re.search(r"#### ([\d,]+)\n\nSchools", content)
+        m_m = re.search(r"#### ([\d,]+)\n\nMeasurements", content)
+        if m_c and m_s and m_m:
+            return (
+                int(m_c.group(1).replace(",", "")),
+                int(m_s.group(1).replace(",", "")),
+                int(m_m.group(1).replace(",", "")),
+            )
+    except Exception:
+        pass
+    return None
+
+
+def read_cached_codes() -> set[str]:
+    """Load the previously saved country codes. Empty set if file doesn't exist."""
+    try:
+        with open(CODES_PATH, "r", encoding="utf-8") as f:
+            return {line.strip() for line in f if line.strip()}
+    except FileNotFoundError:
+        return set()
+
+
+def save_cached_codes(countries: list[dict]) -> None:
+    codes = sorted(c.get("code", "").upper() for c in countries if c.get("code"))
+    with open(CODES_PATH, "w", encoding="utf-8") as f:
+        f.write("\n".join(codes) + "\n")
+
+
+# ── Flag fetching ─────────────────────────────────────────────────────────────
 
 def fetch_flag(iso2: str) -> Image.Image | None:
     url = f"https://flagcdn.com/w160/{iso2.lower()}.png"
@@ -181,6 +219,12 @@ def generate_grid(countries: list[dict], countries_count: int = 0) -> Image.Imag
     draw.text((OUTER_H, text_y), line1, font=font, fill=WHITE)
     draw.text((OUTER_H, text_y + h1 + line_gap), line2, font=font, fill=WHITE)
 
+    # Fetch all flags in parallel
+    codes = [c.get("code", "") for c in countries_sorted]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
+        fetched = list(pool.map(fetch_flag, codes))
+    flag_map = dict(zip(codes, fetched))
+
     # Flags grid
     for i, country in enumerate(countries_sorted):
         col = i % grid_cols
@@ -188,7 +232,7 @@ def generate_grid(countries: list[dict], countries_count: int = 0) -> Image.Imag
         x = flags_x0 + col * (flag_w + CELL_GAP_H)
         y = OUTER_V + row * cell_h
 
-        flag = fetch_flag(country.get("code", ""))
+        flag = flag_map.get(country.get("code", ""))
         if flag:
             flag = round_corners(flag.resize((flag_w, flag_h), Image.LANCZOS), CORNER_R)
             img.paste(flag, (x, y), flag)
@@ -257,10 +301,30 @@ def main() -> None:
     print("Fetching country list for flag grid...")
     countries = fetch_countries()
 
+    # Skip expensive work if nothing has changed
+    current_stats = read_current_stats()
+    current_codes = read_cached_codes()
+    new_codes = {c.get("code", "").upper() for c in countries if c.get("code")}
+    stats_unchanged = current_stats == (countries_count, schools_count, measurements_count)
+    codes_unchanged = current_codes == new_codes
+
+    if stats_unchanged and codes_unchanged:
+        print("No changes detected — skipping grid regeneration and README update.")
+        return
+
+    if not codes_unchanged:
+        added = new_codes - current_codes
+        removed = current_codes - new_codes
+        if added:
+            print(f"  Countries added: {sorted(added)}")
+        if removed:
+            print(f"  Countries removed: {sorted(removed)}")
+
     print("Generating country grid image...")
     grid_img = generate_grid(countries, countries_count)
     os.makedirs(".gitbook/assets", exist_ok=True)
     grid_img.save(GRID_PATH, "PNG", optimize=True)
+    save_cached_codes(countries)
     print(f"  Saved: {GRID_PATH} ({grid_img.size[0]}×{grid_img.size[1]}px)")
 
     print("Updating README.md...")
