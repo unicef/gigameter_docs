@@ -6,11 +6,11 @@ The Giga Meter API provides programmatic access to school registration records, 
 
 **Interactive explorer:** [maps.giga.global/docs/explore-api](https://maps.giga.global/docs/explore-api)
 
-**Request access:** Contact the Giga team through your UNICEF country focal point. All endpoints require an API key.
+**Request access:** Contact the Giga team through your UNICEF Country Focal Point. All endpoints require an API key.
 
 ***
 
-## Authentication
+### Authentication
 
 All requests must include a Bearer token in the `Authorization` header:
 
@@ -22,9 +22,9 @@ Requests without a valid token return `401 Unauthorized`.
 
 ***
 
-## Endpoints
+### Endpoints
 
-### Schools
+#### Schools
 
 `GET /api/v1/dailycheckapp_schools`
 
@@ -82,7 +82,7 @@ Authorization: Bearer <your-api-key>
 
 ***
 
-### Countries
+#### Countries
 
 `GET /api/v1/dailycheckapp_countries`
 
@@ -132,7 +132,7 @@ Authorization: Bearer <your-api-key>
 
 ***
 
-### Measurements
+#### Measurements
 
 `GET /api/v1/measurements`
 
@@ -223,7 +223,7 @@ Authorization: Bearer <your-api-key>
 
 ***
 
-## Pagination
+### Pagination
 
 All endpoints use offset-based pagination via `page` and `size`.
 
@@ -237,7 +237,7 @@ The `data` array in each response contains exactly `size` records (or fewer if y
 
 ***
 
-## Date filtering
+### Date filtering
 
 Use `filterBy`, `filterCondition`, and `filterValue` together on the Measurements endpoint to query by time range:
 
@@ -257,7 +257,7 @@ Date values can be passed as `YYYY-MM-DD` or full ISO 8601 timestamps (`YYYY-MM-
 
 ***
 
-## Response envelope
+### Response envelope
 
 Every response follows the same envelope:
 
@@ -274,7 +274,7 @@ On error, `success` is `false` and `message` contains a description of the probl
 
 ***
 
-## Related pages
+### Related pages
 
 * [Privacy & Security](../security/privacy-and-security.md)
 * [Network Destinations & Firewall Configuration](../../technical-reference/network-destinations.md)
