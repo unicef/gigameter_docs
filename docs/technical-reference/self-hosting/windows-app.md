@@ -1,59 +1,115 @@
 # Windows App Setup
 
-This is an optional step for configuring and distributing your own version of the Giga Meter Windows app with your self-hosted backend and custom branding.
+This is an optional step for building and distributing your own version of the Giga Meter Windows app, pointed at your self-hosted backend and branded for your deployment.
 
 {% hint style="info" %}
 If you are using the standard Giga-distributed installer from [meter.giga.global](https://meter.giga.global/), skip this page.
 {% endhint %}
 
-The source repository is [unicef/project-connect-daily-check-app](https://github.com/unicef/project-connect-daily-check-app).
-
-***
-
-### Getting started
-
-Full setup and deployment instructions are in the [repository README](https://github.com/unicef/project-connect-daily-check-app/tree/prod?tab=readme-ov-file#deploying-the-daily-check-app). The steps below cover branding configuration only.
+The source repository is [unicef/project-connect-daily-check-app](https://github.com/unicef/project-connect-daily-check-app). It is built with Angular, Ionic, Capacitor, and Electron.
 
 ***
 
 ### Requirements
 
-* Windows 7 or higher (the target device for installation — not the build machine)
-* The device should be permanently and exclusively connected to the school's internet connection
+* A device running Windows 7 or higher — ideally one permanently and exclusively connected to the school's internet connection
+* Node.js installed on the build machine
 
 ***
 
-### Configuration
+### Step 1 — Install dependencies
 
-All branding settings are in `src/environments/environment.ts`.
+After cloning the repository:
+
+```bash
+npm install
+```
+
+***
+
+### Step 2 — Configure branding
+
+All branding settings live in `src/environments/environment.ts`. Set these before building.
 
 **App name**
-
-Set the `appName` property. This is the name that appears in the title bar and installer.
 
 ```typescript
 appName: 'Giga Meter'
 ```
 
-**App name suffix**
-
-Set the `appNameSuffix` property. This is optional — it appears in blue in the header and on the home screen, typically used to distinguish a country-specific deployment.
+**App name suffix** (optional — appears in blue in the header)
 
 ```typescript
 appNameSuffix: 'Daily Check'
 ```
 
-**Description text**
+**Home screen description**
 
-Update the `title2` property in the `home` object within each language file (`en.json`, `es.json`, `fr.json`, etc.) to change the description shown on the home screen.
+Update the `title2` property in the `home` object inside each language file (`en.json`, `fr.json`, `es.json`, etc.).
 
 **About menu**
 
-Control the About menu item with the `showAboutMenu` property:
-
 ```typescript
 showAboutMenu: false  // hide the menu item
-showAboutMenu: true   // show it; customise the content in app.component.html (menuId="fourth")
+showAboutMenu: true   // show it; customise content in app.component.html (menuId="fourth")
+```
+
+***
+
+### Step 3 — Create the build
+
+For development:
+
+```bash
+ionic build
+```
+
+For production:
+
+```bash
+ionic build --prod
+```
+
+***
+
+### Step 4 — Transfer the build to Electron
+
+```bash
+npx cap sync @capacitor-community/electron
+```
+
+***
+
+### Step 5 — Navigate to the Electron folder
+
+```bash
+cd .\electron\
+```
+
+***
+
+### Step 6 — Create the Windows installer
+
+```bash
+npm run electron:make
+```
+
+The output (`.exe` or `.msi`) is generated in `/electron/dist/`.
+
+***
+
+### Testing without building
+
+To run the app in a browser during development:
+
+```bash
+ionic serve
+```
+
+To run the desktop app without generating an installer:
+
+```bash
+npm run electron:start-live
 ```
 
 ***
