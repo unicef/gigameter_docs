@@ -25,13 +25,13 @@ Countries
 {% endcolumn %}
 
 {% column %}
-#### 24,865
+#### 24,885
 
 Schools
 {% endcolumn %}
 
 {% column %}
-#### 8,200,041
+#### 8,213,636
 
 Measurements
 {% endcolumn %}

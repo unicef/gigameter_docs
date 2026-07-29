@@ -196,28 +196,31 @@ def generate_grid(countries: list[dict], countries_count: int = 0) -> Image.Imag
     img = Image.new("RGB", (CANVAS_W, total_h), GIGA_BLUE)
     draw = ImageDraw.Draw(img)
 
-    # Left column: "Deployed in\nX countries" — use metrics count as authoritative label
+    # Left column: three-line label "Deployed in / X countries / and territories"
     label = countries_count if countries_count else n
-    line1, line2 = "Deployed in", f"{label} countries"
+    line1, line2, line3 = "Deployed in", f"{label} countries", "and territories"
     font_size = 56
     font = load_font(font_size, bold=True)
     while font_size > 18:
         font = load_font(font_size, bold=True)
         w1 = draw.textbbox((0, 0), line1, font=font)[2]
         w2 = draw.textbbox((0, 0), line2, font=font)[2]
-        if max(w1, w2) <= LEFT_COL_W:
+        w3 = draw.textbbox((0, 0), line3, font=font)[2]
+        if max(w1, w2, w3) <= LEFT_COL_W:
             break
         font_size -= 2
 
     b1 = draw.textbbox((0, 0), line1, font=font)
     b2 = draw.textbbox((0, 0), line2, font=font)
-    h1, h2 = b1[3] - b1[1], b2[3] - b2[1]
+    b3 = draw.textbbox((0, 0), line3, font=font)
+    h1, h2, h3 = b1[3] - b1[1], b2[3] - b2[1], b3[3] - b3[1]
     line_gap = 6
-    text_total_h = h1 + line_gap + h2
+    text_total_h = h1 + line_gap + h2 + line_gap + h3
     text_y = (total_h - text_total_h) // 2
 
     draw.text((OUTER_H, text_y), line1, font=font, fill=WHITE)
     draw.text((OUTER_H, text_y + h1 + line_gap), line2, font=font, fill=WHITE)
+    draw.text((OUTER_H, text_y + h1 + line_gap + h2 + line_gap), line3, font=font, fill=WHITE)
 
     # Fetch all flags in parallel
     codes = [c.get("code", "") for c in countries_sorted]
