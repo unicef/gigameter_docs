@@ -29,7 +29,7 @@ Schools
 {% endcolumn %}
 
 {% column %}
-#### 8,245,299
+#### 8,248,246
 
 Measurements
 {% endcolumn %}
