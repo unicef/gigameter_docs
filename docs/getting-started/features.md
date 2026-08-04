@@ -37,7 +37,9 @@ Speed and latency tests connect to the nearest available [M-Lab](https://www.mea
 * **What path gets measured.** If the nearest M-Lab node is inside the country, the test measures the domestic network path. If it is outside, the test measures the international path — a different link with different characteristics. Results from these two cases are not directly comparable.
 * **Latency baselines.** Cross-border distance adds round-trip time, so schools in countries without a local M-Lab node will record higher latency than the local network alone would produce.
 
+{% hint style="info" %}
 Before deploying, check whether your country already has an M-Lab server — it determines what your data actually reflects. The map below shows current server locations.
+{% endhint %}
 
 {% embed url="https://www.measurementlab.net/status/" %}
 M-Lab server locations
