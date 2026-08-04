@@ -8,15 +8,15 @@ How governments use Giga Meter data to inform decisions. Each deployment below s
 
 ### Countries at a glance
 
-| Country                              | Main goal                                                                 | Benchmark                                        | Deployment model                  |
-| ------------------------------------ | ------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------- |
-| <h4>🇧🇷 Brazil</h4>                 | Enforce school-specific speed targets and validate ISP fiscal obligations | 1 Mbps per enrolled student in the busiest shift | Hybrid                            |
-| <h4>🇧🇼 Botswana</h4>               | Track compliance against national connectivity mandate                    | 100 Mbps                                         | Remote (centralised support team) |
-| <h4>🇲🇳 Mongolia</h4>               | Improve LAN performance; enable decentralised ISP contracting             | No formal minimum                                | Remote (centralised support team) |
-| <h4>🇫🇯 Fiji</h4>                   | Identify schools reliable enough for live broadcast STEM lessons          | No formal minimum                                | Hybrid                            |
-| <h4>🇧🇦 Bosnia and Herzegovina</h4> | Identify schools meeting criteria for digital education programming       | Meaningful connectivity                          | Hybrid                            |
-| <h4>🇱🇰 Sri Lanka</h4>              | Establish national connectivity baseline, starting in Eastern Province    | No formal minimum                                | Hybrid (province-level trainings) |
-| <h4>🇳🇦 Namibia</h4>                | Generate evidence for procurement decisions                               | 100% of schools at 1 Gbps by 2030                | Hybrid                            |
+| Country                                                                                   | Main goal                                                                 | Benchmark                                        | Deployment model                  |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------- |
+| <h4><a href="case-studies.md#brazil">🇧🇷 Brazil</a></h4>                                 | Enforce school-specific speed targets and validate ISP fiscal obligations | 1 Mbps per enrolled student in the busiest shift | Hybrid                            |
+| <h4><a href="case-studies.md#botswana">🇧🇼 Botswana</a></h4>                             | Track compliance against national connectivity mandate                    | 100 Mbps                                         | Remote (centralised support team) |
+| <h4><a href="case-studies.md#mongolia">🇲🇳 Mongolia</a></h4>                             | Improve LAN performance; enable decentralised ISP contracting             | No formal minimum                                | Remote (centralised support team) |
+| <h4><a href="case-studies.md#fiji">🇫🇯 Fiji</a></h4>                                     | Identify schools reliable enough for live broadcast STEM lessons          | No formal minimum                                | Hybrid                            |
+| <h4><a href="case-studies.md#bosnia-and-herzegovina">🇧🇦 Bosnia and Herzegovina</a></h4> | Identify schools meeting criteria for digital education programming       | Meaningful connectivity                          | Hybrid                            |
+| <h4><a href="case-studies.md#sri-lanka">🇱🇰 Sri Lanka</a></h4>                           | Establish national connectivity baseline, starting in Eastern Province    | No formal minimum                                | Hybrid (province-level trainings) |
+| <h4><a href="case-studies.md#namibia">🇳🇦 Namibia</a></h4>                               | Generate evidence for procurement decisions                               | 100% of schools at 1 Gbps by 2030                | Hybrid                            |
 
 ***
 
@@ -30,7 +30,7 @@ How governments use Giga Meter data to inform decisions. Each deployment below s
 
 **Use case:** Real-time SIMET data (analogous to Giga Meter) allows the federal government to monitor which schools meet the benchmark continuously, not only at contract signing. The same data validates ISP performance under the FUST Fiscal Benefit, which lets ISPs fulfil their Universal Service Fund obligations by delivering measured high-speed connectivity to schools rather than paying into a central fund.
 
-**Decision triggered:** Schools below the per-student threshold are flagged for ISP follow-up.&#x20;
+**Decision triggered:** Schools below the per-student threshold are flagged for ISP follow-up.
 
 **What makes this model work:** The benchmark is school-specific: it scales with enrolment (or number of personel for pre-primary schools) rather than being a fixed Mbps number. That makes it harder for ISPs to meet the letter of the contract while underserving larger schools.
 
