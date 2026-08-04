@@ -10,11 +10,24 @@ Giga Meter can now measure internet speed more accurately and pinpoint your loca
 
 Giga Meter is an open-source desktop application that measures the quality of a school's internet connection. It runs automated tests during the school day and reports the results to [Giga Maps](https://maps.giga.global/), the public, global map of school connectivity. Giga Meter is developed by [Giga](https://giga.global/), a UNICEF-ITU initiative to connect every school to the internet.
 
+{% columns %}
+{% column %}
+<a href="https://meter.giga.global" class="button primary" data-icon="rotate">Download the app</a>
+{% endcolumn %}
+
+{% column %}
+<a href="https://superset.giga.global" class="button primary" data-icon="sidebar">Access dashboards</a>
+{% endcolumn %}
+
+{% column %}
+<a href="https://maps.giga.global" class="button primary" data-icon="earth-asia">View Giga Maps</a>
+{% endcolumn %}
+{% endcolumns %}
+
 Giga Meter is active in:
 
 ![](.gitbook/assets/country-grid.png)
 
-<!-- stats-start -->
 {% columns %}
 {% column %}
 #### 40
@@ -32,21 +45,6 @@ Schools
 #### 8,275,230
 
 Measurements
-{% endcolumn %}
-{% endcolumns %}
-<!-- stats-end -->
-
-{% columns %}
-{% column %}
-<a href="https://meter.giga.global" class="button primary" data-icon="rotate">Download the app</a>
-{% endcolumn %}
-
-{% column %}
-<a href="https://superset.giga.global" class="button primary" data-icon="sidebar">Access dashboards</a>
-{% endcolumn %}
-
-{% column %}
-<a href="https://maps.giga.global" class="button primary" data-icon="earth-asia">View Giga Maps</a>
 {% endcolumn %}
 {% endcolumns %}
 
