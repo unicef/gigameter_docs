@@ -30,37 +30,6 @@ Every speed test records:
 
 These measure the public internet connection, not the school's local network speed to the router.
 
-{% expand title="Example API response — GET /api/v1/measurements" %}
-```json
-{
-  "id": "5842311",
-  "Timestamp": "2026-07-24T09:47:12.000Z",
-  "DeviceType": "windows",
-  "Notes": "daily",
-  "ClientInfo": {
-    "ASN": "AS20294",
-    "ISP": "AS20294 MTN Uganda",
-    "City": "Kampala",
-    "Region": "Central Region",
-    "Country": "UG",
-    "Latitude": 0.3136,
-    "Longitude": 32.5811,
-    "Timezone": "Africa/Kampala"
-  },
-  "ServerInfo": {
-    "City": "Nairobi",
-    "FQDN": "ndt-iupui-mlab3-nbi01.mlab-oti.measurement-lab.org",
-    "Country": "KE",
-    "Metro": "nbi"
-  },
-  "Download": 8421.5,
-  "Upload": 2134.2,
-  "Latency": 38
-}
-```
-`Download` and `Upload` are in **Kbps**. Divide by 1,000 to get Mbps (8.4 Mbps / 2.1 Mbps here). `ServerInfo` shows the M-Lab node used — in this case Nairobi, the nearest server for Uganda.
-{% endexpand %}
-
 ### Measurement server
 
 Speed and latency tests connect to the nearest available [M-Lab](https://www.measurementlab.net/) NDT7 server. The server location shapes two things:
@@ -76,7 +45,7 @@ M-Lab server locations
 
 ***
 
-### Tied to a school, not a device
+### Multiple devices measurement per school
 
 Before the first measurement runs, the device is registered to a school using its national school ID. That registration links every later measurement to a school record in Giga's database, including the school's country, administrative divisions, education level, and environment type.
 
@@ -94,11 +63,11 @@ This enables three things:
 
 Every measurement syncs to Giga Maps and analytics dashboards automatically.
 
-**[Giga Maps](https://maps.giga.global/)** — Results appear on the public Giga Maps platform within hours. Each school appears as a colour-coded dot showing its current connectivity level.
+[**Giga Maps**](https://maps.giga.global/) — Results appear on the public Giga Maps platform within hours. Each school appears as a colour-coded dot showing its current connectivity level.
 
-**[Analytics dashboards](https://superset.giga.global/)** — Hosted dashboards show school-level and country-level trends: speeds over time, uptime by district, ISP performance, and comparison against national benchmarks.
+[**Analytics dashboards**](https://superset.giga.global/) — Hosted dashboards show school-level and country-level trends: speeds over time, uptime by district, ISP performance, and comparison against national benchmarks.
 
-**[API](../technical-reference/api-reference.md)** — Programmatic access to the full dataset — measurements, daily ping aggregations, school records, and country data — for integration with government systems or custom analysis.
+[**API**](../technical-reference/api-reference.md) — Programmatic access to the full dataset — measurements, daily ping aggregations, school records, and country data — for integration with government systems or custom analysis.
 
 ***
 
@@ -106,17 +75,17 @@ Every measurement syncs to Giga Maps and analytics dashboards automatically.
 
 Consumer speed-test tools such as Ookla are user-initiated, anonymous, and built for individual awareness. Giga Meter is automated, registered to a school, and built for government reporting and accountability.
 
-|                                    |                  **Giga Meter**                 | **Ookla / consumer apps** |
-| ---------------------------------- | :---------------------------------------------: | :-----------------------: |
-| Who initiates the test             |            Automated, fixed schedule            |            User           |
-| Frequency                          |     4 speed tests + up to 48 ping checks/day    |         On demand         |
-| Tied to a school record            |                       Yes                       |             No            |
+|                                    |                              **Giga Meter**                              | **Ookla / consumer apps** |
+| ---------------------------------- | :----------------------------------------------------------------------: | :-----------------------: |
+| Who initiates the test             |                         Automated, fixed schedule                        |            User           |
+| Frequency                          |                 4 speed tests + up to 48 ping checks/day                 |         On demand         |
+| Tied to a school record            |                                    Yes                                   |             No            |
 | Geolocation validation             | Facility geolocation validation (flagged if >4km from registered school) |             No            |
-| School metadata                    | Country, admin levels, education level, Giga ID |             No            |
-| Measures public internet (off-net) |                       Yes                       |            Yes            |
-| Background operation               |            Yes, no user action needed           |             No            |
-| Data goes to                       |         Giga Maps + government dashboard        |    Commercial platform    |
-| Open source                        |                       Yes                       |             No            |
+| School metadata                    |              Country, admin levels, education level, Giga ID             |             No            |
+| Measures public internet (off-net) |                                    Yes                                   |            Yes            |
+| Background operation               |                        Yes, no user action needed                        |             No            |
+| Data goes to                       |                     Giga Maps + government dashboard                     |    Commercial platform    |
+| Open source                        |                                    Yes                                   |             No            |
 
 Every Giga Meter result is anchored to a school record, validated against a known location, and added to a shared evidence base that governments can use to hold ISPs accountable, plan investment, and track progress against connectivity targets.
 
