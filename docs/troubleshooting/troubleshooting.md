@@ -93,6 +93,22 @@ After re-registering, check any other Windows user accounts on the device and op
 
 <details>
 
+<summary>No data appearing on Giga Maps</summary>
+
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-d5a0c3cf07fb73a152f5fea53857349a1a741e10%2Fapp-data.png?alt=media" alt="Giga Meter data tab showing test history"><figcaption></figcaption></figure>
+
+Data takes up to 24-48 hours to appear after the first successful test.
+
+If nothing appears after 48 hours:
+
+1. Open Giga Meter and check the **Data** tab; confirm at least one test shows as successful.
+2. If no tests have run, work through the checklist above.
+3. If tests show as successful but Maps still shows nothing, contact your focal point.
+
+</details>
+
+<details>
+
 <summary>Tests are not running or keep failing</summary>
 
 <figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-abbc65fca6b68a78f7cfeb3b6e4f5b4f6f5791f8%2Fapp-home.png?alt=media" alt="Giga Meter home screen showing test status"><figcaption></figcaption></figure>
@@ -105,22 +121,6 @@ Work through this checklist:
 * [ ] Does the school have a working internet connection? Test by opening a website.
 
 If all of the above are confirmed and tests continue to fail, take a screenshot of the error and send it to the administrator who guided your installation.
-
-</details>
-
-<details>
-
-<summary>No data appearing on Giga Maps</summary>
-
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-d5a0c3cf07fb73a152f5fea53857349a1a741e10%2Fapp-data.png?alt=media" alt="Giga Meter data tab showing test history"><figcaption></figcaption></figure>
-
-Data takes up to 24-48 hours to appear after the first successful test.
-
-If nothing appears after 48 hours:
-
-1. Open Giga Meter and check the **Data** tab; confirm at least one test shows as successful.
-2. If no tests have run, work through the checklist above.
-3. If tests show as successful but Maps still shows nothing, contact your focal point.
 
 </details>
 
