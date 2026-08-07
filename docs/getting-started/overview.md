@@ -50,7 +50,7 @@ Identifies schools that are not meeting connectivity benchmarks or standards.
 
 **Data for planning**
 
-Performance data over time supports connectivity planning and procurement.
+Performance data over time informs connectivity planning.
 {% endcolumn %}
 {% endcolumns %}
 
