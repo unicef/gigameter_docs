@@ -13,7 +13,7 @@ Four speed tests run each day: one within 15 minutes of the device starting up, 
 No staff action is required for measurements to run, though it is important to keep the app up to date with latest version (meaning more and improved features!)
 
 {% hint style="info" %}
-**Manual tests are also available.** Any user can start an on-demand test from the app at any time. This is useful during site visits or when investigating a reported issue.
+**Manual tests:** Any user can start an on-demand test from the app at any time. This is useful during site visits or when investigating a reported issue.
 {% endhint %}
 
 ***
