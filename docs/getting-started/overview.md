@@ -66,7 +66,7 @@ Giga Meter produces consistent, comparable connectivity data across schools, giv
 
 Measurements from rural and underserved schools help direct infrastructure investment to the places that need it, not only the easiest to reach.
 
-Continuous monitoring shows whether interventions are working, so plans can be adjusted over time.
+Continuous monitoring shows whether interventions are working and where plans need adjustment.&#x20;
 {% endtab %}
 
 {% tab title="School principals & teachers" %}
