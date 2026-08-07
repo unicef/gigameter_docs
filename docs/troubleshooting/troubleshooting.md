@@ -67,7 +67,7 @@ If a warning still appears after selecting the correct country, it may be caused
 
 If the message says **"Giga Meter is not available in \[country]"** and your country selection is correct, contact your Giga focal point at UNICEF; the country may not yet be whitelisted.
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-9c624b411df131d3e565d871485595a61d2639c5%2Fapp-country-warning.png?alt=media" alt="Country detection warning screen"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-9c624b411df131d3e565d871485595a61d2639c5%2Fapp-country-warning.png?alt=media" alt="Country detection warning screen" width="375"><figcaption></figcaption></figure>
 
 </details>
 
@@ -78,6 +78,12 @@ If the message says **"Giga Meter is not available in \[country]"** and your cou
 1. Open Giga Meter and go to **Settings**
 2. Click **Logout**, enter your school ID, and click **Logout** again to confirm
 3. You will return to the registration screen; follow Step 11 of the [Installation Guide](../installation/installation-guide.md) to re-register with the correct ID
+
+
+
+<img src="../../.gitbook/assets/unknown (1).png" alt="" width="375">
+
+<img src="../../.gitbook/assets/unknown (2).png" alt="" width="375">
 
 {% hint style="warning" %}
 Logging out removes the registration for all users on this device. No measurements will be recorded until re-registration is complete.
