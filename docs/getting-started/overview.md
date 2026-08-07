@@ -62,7 +62,7 @@ Performance data over time informs connectivity planning.
 {% tab title="Decision-makers & Giga partners" %}
 <img src="https://gigabrand.vercel.app/illustrations/general/fill/hierarchy.svg" alt="" height="100">
 
-Giga Meter produces consistent, comparable connectivity data across schools, giving planners and ministries a common evidence base.
+Giga Meter produces consistent, comparable connectivity data across schools, giving connectivity project managers a common evidence base.
 
 Measurements from rural and underserved schools help direct infrastructure investment to the places that need it, not only the easiest to reach.
 
