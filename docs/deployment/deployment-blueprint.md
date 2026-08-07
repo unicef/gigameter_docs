@@ -2,8 +2,6 @@
 
 Complete this worksheet before the rollout begins. It aligns the government team and Giga on strategy, scope, and success criteria, and becomes your shared reference document throughout the deployment.
 
-← [Government Onboarding Guide](government-onboarding-overview.md)
-
 ***
 
 ### 1. Country and deployment context

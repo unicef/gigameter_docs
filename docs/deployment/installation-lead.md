@@ -2,8 +2,6 @@
 
 This guide is for the government official responsible for getting Giga Meter installed across schools and keeping it running. Work through these steps in order, before and during the rollout.
 
-← [Government Onboarding Guide](government-onboarding-overview.md)
-
 ***
 
 ### Step 1 - Designate the installation lead
