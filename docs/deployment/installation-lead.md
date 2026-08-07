@@ -303,11 +303,11 @@ Next steps:
 
 ### Step 9 - Build for sustainability
 
-Installation is not the end. Giga Meter only generates useful data if schools keep it running, and most deployments see drop-off within months without deliberate mechanisms to maintain it. This step is about embedding Giga Meter into how schools and the ministry operate, so monitoring continues without constant intervention from the Giga team.
+Installation is not the end. Giga Meter only generates useful data if schools keep it running, and most deployments see drop-off within months without deliberate mechanisms to keep Meter up to date. This step is about embedding Giga Meter into how schools and the ministry operate.&#x20;
 
 **Find a champion**
 
-Every successful long-term deployment has at least one named individual, inside the ministry or in a partner organisation, who cares personally about the data and advocates for it. This person is not necessarily technical. They check Giga Maps, raise issues when schools drop off, and push for the data to inform real decisions. Without a champion, the deployment becomes infrastructure nobody maintains.
+Every successful long-term deployment has at least one named individual, inside the ministry or in a partner organisation, who cares personally about the data and advocates for it. They check Giga Maps, raise issues when schools drop off, and push for the data to inform real decisions.
 
 Identify this person early and involve them from the pilot phase. Their ownership of the data is what makes the monitoring network self-sustaining.
 
