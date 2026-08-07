@@ -65,7 +65,7 @@ Every measurement syncs to Giga Maps, APIs and analytics dashboards automaticall
 
 [**Giga Maps**](https://maps.giga.global/) — Results appear on the public Giga Maps platform within hours. Each school appears as a colour-coded dot showing its current connectivity level.
 
-[**Analytics dashboards**](https://superset.giga.global/) — Hosted dashboards show school-level and country-level trends: speeds over time, uptime by district, ISP performance, and comparison against national benchmarks.
+[**Analytics dashboards**](https://superset.giga.global/) — Dashboards show school-level and country-level trends: speeds over time, uptime by district, ISP performance, and comparison against national benchmarks.
 
 [**API**](../technical-reference/api-reference.md) — Programmatic access to the full dataset — measurements, daily ping aggregations, school records, and country data — for integration with government systems or custom analysis.
 
