@@ -36,7 +36,13 @@ Agree on which schools will receive Giga Meter and in what order before the roll
 
 Start with a small pilot cohort, typically 10-30 schools, before expanding nationally. The pilot validates the installation process, surfaces issues in the support channel, and gives the data analysis team real data to work with before the full rollout.
 
-Select pilot schools to represent the range of your national target: mix urban and rural, include different regions, and include at least some schools with lower IT capacity. Avoid selecting only the easiest schools; pilots that go too smoothly do not surface the friction that will slow the national rollout.
+Select pilot schools to represent the range of your national target:
+
+* Mix urban and rural schools.
+* Include different regions.
+* Include schools with lower IT capacity.
+
+Avoid selecting only the easiest schools; pilots that go too smoothly do not surface the friction that will slow the national rollout.
 
 **Phasing the scale-up**
 
