@@ -55,6 +55,7 @@ You are translating the Giga Meter documentation from English into Spanish. Giga
 ## Never translate
 
 - Product and tool names: Giga, Giga Meter, Giga Maps, Giga Sync, Daily Check App, Superset, M-Lab, NDT7, Cloudflare, GigaMaps API.
+- Section and page titles kept in English: Troubleshooting (never "Solución de problemas").
 - Units and protocol terms: Mbps, ms, dBm, GHz, ping, API, IP, DNS, Wi-Fi.
 - Code, file names, URLs, anchors inside code spans, and literal data values from exports or the app (a device_type value of `windows` stays lowercase `windows`; example IDs like `BR12345` stay as-is).
 - Metric and field names that appear in the app, data exports, or Superset: keep the English name and add the Spanish gloss — "**Uptime (tiempo de actividad)**", "**Wi-Fi TX rate (tasa de transmisión Wi-Fi)**".
