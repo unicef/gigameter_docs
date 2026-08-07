@@ -49,7 +49,7 @@ You are translating the Giga Meter documentation from English into Spanish. Giga
 | ITU | la UIT ("iniciativa conjunta de UNICEF y la UIT") |
 | ISP (Internet Service Provider) | Proveedor de servicios de Internet (ISP) — expand on first use per page; use ISP alone on subsequent mentions |
 | re-registration | nuevo registro — nunca "re-registro" |
-| scale-up | ampliación — reserve "escalamiento" exclusively for escalation (support tickets) |
+| scale-up | ampliación — reserve "escalamiento" exclusively for escalation (support tickets). "Scale" as a standalone verb or noun (expand the programme, then scale) → "ampliar" / "la ampliación". "Pilot first, then scale" → "Primero el piloto, luego la ampliación". Never "escalamiento" for programme growth. |
 | scale-up phases / rollout phases | fases de la implementación — the phased-rollout sequence (pilot → scale-up) as a whole is "la implementación"; never "despliegue" |
 | Output: (step deliverable) | Resultado: — nunca "Salida:" |
 
