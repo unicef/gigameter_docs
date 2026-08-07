@@ -94,30 +94,28 @@ One computer per school is enough to get started. You can register up to 5 devic
 
 **Common blockers**
 
-| Blocker                                   | What to do                                                                                   |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------- |
-| School only has tablets or Chromebooks    | Flag to Giga; Android support is in development                                              |
-| No Windows device available               | Check if the school has any Windows computer in an office that stays on during school hours  |
-| Computers not regularly powered on        | Discuss with the school principal; measurements only run when the device is on and connected |
-| No admin rights                           | Coordinate with MoE IT department to grant temporary admin access for installation           |
-| Internet connection down at time of visit | Reschedule or use a different device; note in the rollout tracker                            |
+| Blocker                                    | What to do                                                                                   |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| School only has tablets or Chromebooks     | Flag to Giga; the Android application is in development                                      |
+| Computers not regularly powered on         | Discuss with the school principal; measurements only run when the device is on and connected |
+| Installers do not have device admin rights | Coordinate with MoE IT department to grant temporary admin access for installation           |
+| Internet connection down at time of visit  | Reschedule installation, use a different device or carry installation at a later time        |
 
 **Output:** Collect device status at the school level before the rollout and share with the Giga team.
 
-| School name | School ID | Windows devices available | Powered on daily | Admin rights | Notes |
-| ----------- | --------- | ------------------------- | ---------------- | ------------ | ----- |
-|             |           |                           | Yes / No         | Yes / No     |       |
+<table><thead><tr><th width="128">School name</th><th>School ID</th><th>Windows devices available</th><th>Powered on daily</th><th>Admin rights</th><th>Notes</th></tr></thead><tbody><tr><td></td><td></td><td></td><td>Yes / No</td><td>Yes / No</td><td></td></tr></tbody></table>
 
 ***
 
 ### Step 4 - Ensure school IDs are known by installers
 
-Each school in Giga Meter is registered using an official school ID. Before the rollout, make sure the training covers what the school ID looks like in the country's system and where installers can look it up. Include a named support contact for cases where the school cannot be found or the ID appears incorrect.
+Each school in Giga Meter is registered using the official government school ID. Before the rollout, make sure the training covers what the school ID looks like in the country's system and where installers can look it up. Include a support contact for cases where the school cannot be found or the ID appears incorrect.
 
 **Output:** Include the following in installer training materials:
 
 {% hint style="info" %}
-**School ID reference**\
+**School ID reference**
+
 What the school ID looks like: \[e.g. format, example - "BR12345"]\
 Where to find it: \[e.g. national school registry, MoE database, letter from the ministry]\
 Support contact for ID issues: \[Name, phone / email]
@@ -127,10 +125,10 @@ Support contact for ID issues: \[Name, phone / email]
 
 ### Step 5 - Choose an installation strategy
 
-Choose how installations will happen based on country capacity, geography, school digital readiness, and scale. Four strategies have been used across Giga deployments; they can be combined.
+Choose how installations will happen based on capacity, geography, school digital readiness, and scale of implementation.
 
 {% tabs %}
-{% tab title="Expert in-person" %}
+{% tab title="In-person" %}
 <figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-f2ca960b08b3f3093d9ae83cd6e503e796fb7449%2Fstrategy-expert-inperson.png?alt=media" alt="Expert in-person installation" width="180"><figcaption></figcaption></figure>
 
 **When to use:** Small scale, or schools with low IT capacity.
@@ -140,14 +138,14 @@ Government-trained staff visit each school, install Giga Meter themselves, and p
 **Steps:**
 
 1. Identify staff who will visit schools for installation.
-2. Develop a deployment plan with scope, timeline, and assigned schools per installer.
+2. Develop a deployment plan that includes scope, timeline, and assigned schools per installer.
 3. Train installation staff, in-person or virtually.
 4. During installation, collect focal point contact details for maintenance and troubleshooting.
 5. Set up a support channel for schools (e.g. hotline, WhatsApp group).
 6. Monitor rollout and follow up with schools that fail to install.
 {% endtab %}
 
-{% tab title="Hybrid - regional workshops" %}
+{% tab title="Hybrid - in-person regional workshops" %}
 <figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-b0cebf5557dbc376a562c66a109fbf649ed6c04e%2Fstrategy-hybrid.png?alt=media" alt="Hybrid regional workshop installation" width="180"><figcaption></figcaption></figure>
 
 **When to use:** Medium scale, with a regional structure. **Example: Sri Lanka.**
@@ -209,27 +207,27 @@ Coverage breakdown: \[e.g. by region or school type if using a mix]
 
 ***
 
-### Step 6 - Establish a support channel and escalation path
+### Step 6 - Establish a support channel
 
-Set up a government support layer between schools, installers, and the Giga team before the rollout begins.
+Set up a government support system between schools, installers, and the Giga team before the rollout begins.
 
 **Support channels for schools**
 
 Schools need a named channel to ask for help during and after installation. The right format depends on scale and infrastructure. Most deployments use a combination.
 
-| Channel                  | Works best for                   | Notes                                                                                           |
-| ------------------------ | -------------------------------- | ----------------------------------------------------------------------------------------------- |
-| WhatsApp group           | All strategies                   | Easy to set up, instant reach, works on mobile. Create one group per region for large rollouts. |
-| Hotline / phone number   | Expert in-person, Hybrid         | Ideal when schools have low digital confidence. Assign a named person, not a generic number.    |
-| Email help desk          | Guided remote, Self-installation | Allows written documentation of issues. Set a response time SLA (e.g. 48h).                     |
-| Virtual drop-in sessions | Guided remote                    | Scheduled video sessions where schools can join with live questions.                            |
-| Peer focal point network | Hybrid, Self-installation        | Schools that installed successfully support nearby schools. Reduces load on the central team.   |
+| Channel                  | Works best for            | Notes                                                                                           |
+| ------------------------ | ------------------------- | ----------------------------------------------------------------------------------------------- |
+| WhatsApp group           | All strategies            | Easy to set up, instant reach, works on mobile. Create one group per region for large rollouts. |
+| Hotline / phone number   | In-person, Hybrid         | Ideal when schools have low digital confidence. Assign a named person, not a generic number.    |
+| Email help desk          | Guided, Self-installation | Allows written documentation of issues. Set a response time SLA (e.g. 48h).                     |
+| Virtual drop-in sessions | Guided                    | Scheduled video sessions where schools can join with live questions.                            |
+| Peer focal point network | Hybrid, Self-installation | Schools that installed successfully support nearby schools. Reduces load on the central team.   |
 
 {% hint style="success" %}
-Whichever channel you use, publicise it during the training workshop and include it in the installation guide you send to schools. Schools that cannot find support simply give up.
+Whichever channel you use, publicise it during the training workshop and include it in the installation guide you send to schools.
 {% endhint %}
 
-**Escalation path**
+**Support path**
 
 Beyond the school-facing channel, establish a clear escalation path for issues that cannot be resolved at school level:
 
@@ -253,13 +251,7 @@ Information to include when escalating: school name and ID, Giga Meter version, 
 
 ### Step 7 - Train installers
 
-Run one or more training sessions before the rollout and keep a support channel open throughout. See the [Training Support Materials](deployment-checklist.md) for a session agenda, talking points, and common Q\&A.
-
-**Materials available from Giga:**
-
-* Giga Meter Onboarding deck (EN / ES)
-* Installation Guide (EN / ES / FR / PT / MN)
-* Installation videos (subtitles in EN / PT / MN)
+Run one or more training sessions before the rollout and keep a support channel open throughout. See the [Training Support Materials](deployment-checklist.md) available from Giga.
 
 **Output:** Confirm the following before the first installation session:
 
@@ -268,16 +260,14 @@ Run one or more training sessions before the rollout and keep a support channel 
 Training format: \[e.g. Zoom webinar / in-person workshop / regional sessions]\
 Date(s):\
 Materials language(s):\
-Installer support channel: \[e.g. WhatsApp group name / help desk email]
+Installer support channel: \[e.g. WhatsApp group name / help desk email]→ [Training Support Materials](deployment-checklist.md)
 {% endhint %}
-
-→ [Training Support Materials](deployment-checklist.md)
 
 ***
 
 ### Step 8 - Monitor the rollout
 
-Track progress against your planned timeline and target from the day installation begins. Share monthly updates with the Giga team for the first three months, then quarterly.
+Track progress against your planned timeline and target from the day installation begins. Share monthly updates with the Giga team for the first three months, then on a quarterly basis.
 
 **Three metrics to track from the start:**
 
