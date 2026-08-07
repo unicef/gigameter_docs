@@ -101,6 +101,7 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 - Never combine "hacia" with a verb that already encodes directionality: "decidir hacia dónde dirigir" → "decidir dónde dirigir" or "decidir cómo orientar". Check any "hacia dónde + directional verb" pattern and drop "hacia".
 - Parallel passive lists ("funded, improved, and tracked") must be rendered in a single grammatical form throughout — all reflexive infinitives ("financiarse, mejorarse, monitorearse") or all passive constructions, never a mix of noun phrases, plain infinitives, and reflexives in the same list.
 - "can be funded" → "financiarse" or "puede financiarse". Never the verbose noun-phrase paraphrase "recibir financiamiento".
+- "installed schools" (schools with the app installed) → "escuelas con Giga Meter". Never "escuelas implementadas" — that conflates app installation with program deployment (implementación), which are different concepts in this context.
 - "tracked" (monitoring sense) → "monitorearse" / "monitoreado" (consistent with glossary: monitoreo/monitorear). Never "seguirse".
 - "X provides the measurement" (Giga Meter as the enabling tool) → "X hace posible esa medición". "Proporciona la medición" is a stilted calque.
 - "runs" (user-facing, software behaviour) → "funciona". Never "se ejecuta" — that is programmer vocabulary and wrong register for school-staff and government audiences. Also avoid "por sí solo" after a reflexive verb ("se ejecuta por sí solo" is redundant); use "de forma automática" or "de forma autónoma" instead.
