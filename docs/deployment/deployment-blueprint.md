@@ -1,6 +1,6 @@
 # Deployment Blueprint
 
-Complete this worksheet before the rollout begins. The worksheet is intended to align the government team and Giga on strategy, scope, and success criteria, and becomes your shared reference document throughout the deployment.
+Complete this worksheet before the rollout begins. The worksheet is intended to align the implementing team and Giga on strategy, scope, and success criteria, and becomes your shared reference document throughout the deployment.
 
 ***
 
