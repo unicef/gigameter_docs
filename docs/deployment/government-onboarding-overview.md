@@ -19,10 +19,10 @@ Contact your Giga focal point or UNICEF Country Office to confirm both are ready
 
 A Giga Meter deployment involves two workstreams. They can sit with the same department or person, but the activities are distinct and should run concurrently.
 
-| Role                   | Responsible for                                                               | Typically held by                                           |
-| ---------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| **Installation Lead**  | Getting Giga Meter running across schools and keeping it there                | MoE IT department, regional coordinators, school principals |
-| **Data Analysis Lead** | Ensuring the data is used: defining use cases, onboarding users, setting KPIs | MoE planning or statistics unit                             |
+| Role                   | Responsible for                                                               | Typically held by                          |
+| ---------------------- | ----------------------------------------------------------------------------- | ------------------------------------------ |
+| **Installation Lead**  | Getting Giga Meter running across schools and keeping it there                | MoE IT department or regional coordinators |
+| **Data Analysis Lead** | Ensuring the data is used: defining use cases, onboarding users, setting KPIs | MoE planning or statistics unit            |
 
 Both workstreams start on day one. By the time the first schools report data, the data analysis side should already be ready to read it.
 
