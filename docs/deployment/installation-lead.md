@@ -77,10 +77,8 @@ Timeline: \[start - end date]
 
 ### Step 3 - Confirm device readiness
 
-Before the rollout, verify that target schools meet the minimum device and connectivity conditions required for consistent data collection.
-
 {% hint style="warning" %}
-Giga Meter currently runs on Windows only. Tablets and Android devices cannot run the app. If a school has no Windows device, flag it to Giga before the rollout; Android support is in development.
+Giga Meter currently runs on Windows only. Tablets and Android devices cannot run the app. If a school has no Windows device, flag it to the focal point before the rollout; Android support is in development.
 {% endhint %}
 
 For each school, confirm:
@@ -89,10 +87,10 @@ For each school, confirm:
 * [ ] **Free disk space** - at least 500 MB available
 * [ ] **Regular use** - device is used daily or near-daily
 * [ ] **Dedicated school connection** - device connects exclusively to the school's internet, not a mobile hotspot or personal router
-* [ ] **Admin rights available** - the person installing can approve the installation
+* [ ] **Admin rights to install software** - the person installing can approve the installation
 * [ ] **School internet connection** is functional and stable enough to complete an installation
 
-One computer per school is enough to get started. You can register up to 5, and more devices mean more frequent measurements and redundancy if one is switched off or reformatted.
+One computer per school is enough to get started. You can register up to 5 devices. More devices mean more frequent measurements and redundancy if one is switched off or decomissioned.
 
 **Common blockers**
 
