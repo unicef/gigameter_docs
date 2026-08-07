@@ -24,7 +24,7 @@ You can view results in two ways:
 1. **In the app** - the last 10 successful measurements are shown on the app's Data page.
 2. **On Giga Maps** - visit [maps.giga.global/map](https://maps.giga.global/map), type your school name or ID in the left-hand panel, and select it to view results over time.
 
-The dot next to each school is colour-coded by connectivity level:
+The **glowing** dot next to each school is colour-coded by connectivity level:
 
 **Green** - Good connectivity. The school meets or exceeds the selected benchmark.
 
