@@ -143,7 +143,7 @@ If you see an error:
 {% column %}
 Enter the school ID, a unique identifier provided by the government, and click **Search ID**. Select your school from the results by clicking **Select**.
 
-{% hint style="success" %}
+{% hint style="info" %}
 If you are unsure of your school ID, check with your school administrator or IT department.
 {% endhint %}
 
@@ -177,7 +177,7 @@ Your school's connectivity will be measured daily and data will be sent to Giga 
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2FUx2ul3OD4Zhr2Okr6G8f%2FGroup%208809.png?alt=media&token=3cb5f785-ff92-4cf0-8b8c-1a1338c109c5" alt="Registration complete, running first connectivity test" width="300"><figcaption></figcaption></figure>
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2FUx2ul3OD4Zhr2Okr6G8f%2FGroup%208809.png?alt=media&#x26;token=3cb5f785-ff92-4cf0-8b8c-1a1338c109c5" alt="Registration complete, running first connectivity test" width="300"><figcaption></figcaption></figure>
 
 <figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-fa7a0751397c9c7626215ee34079697d8bd373d2%2Fapp-complete.png?alt=media" alt="Congratulations - registration and first test complete" width="300"><figcaption></figcaption></figure>
 {% endcolumn %}
