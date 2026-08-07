@@ -64,7 +64,7 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **School ID (government)** The school's official identifier in the national education ministry's records. Different from the Giga ID; both are kept so Giga data can be reconciled with government data.
 
-**Service Level Agreement (SLA)** A contract term defining the service quality the supplier promises. Typical figures include 99% uptime in cities, minimum speeds, and maximum repair times. The dashboard's availability charts are how an SLA is checked in practice.
+**Service Level Agreement (SLA)** A contract term defining the service quality the supplier promises. Typical figures include 99% uptime in cities, minimum speeds, and maximum repair times.&#x20;
 
 **Speed distribution** A chart that shows how speeds vary across all schools, not just on average. The wider the box, the more uneven the experience between schools.
 
