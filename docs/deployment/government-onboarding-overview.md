@@ -50,13 +50,13 @@ The Installation Lead coordinates the team of installers, manages device readine
 
 The Data Analysis Lead ensures Giga Meter data feeds into government decisions, from defining the use case through to building analytical capacity over time. Steps cover:
 
-1. Define the use case
-2. Identify data users and assign access roles
-3. Onboard data users to the [Superset Dashboard](https://superset.giga.global) or [API](https://maps.giga.global/docs/api/1)
-4. Establish metric literacy
-5. Define KPIs
-6. Set a KPI review and decision-triggering process
-7. Build capacity for ongoing analysis
+1. [Define the use case](data-analysis-lead.md#step-1---define-the-use-case)
+2. [Identify data users and assign access roles](data-analysis-lead.md#step-2---identify-data-users-and-assign-access-roles)
+3. [Onboard data users to their access channels](data-analysis-lead.md#step-3---onboard-data-users-to-their-access-channels)
+4. [Establish metric literacy](data-analysis-lead.md#step-4---establish-metric-literacy)
+5. [Define KPIs](data-analysis-lead.md#step-5---define-kpis)
+6. [Set a KPI review and decision-triggering process](data-analysis-lead.md#step-6---set-a-kpi-review-and-decision-triggering-process)
+7. [Build capacity for ongoing analysis](data-analysis-lead.md#step-7---build-capacity-for-ongoing-analysis)
 
 **→** [**Data Analysis Lead - Step-by-step guide**](data-analysis-lead.md)
 
