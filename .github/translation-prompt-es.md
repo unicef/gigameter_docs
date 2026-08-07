@@ -102,6 +102,7 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 - "tracked" (monitoring sense) → "monitorearse" / "monitoreado" (consistent with glossary: monitoreo/monitorear). Never "seguirse".
 - "X provides the measurement" (Giga Meter as the enabling tool) → "X hace posible esa medición". "Proporciona la medición" is a stilted calque.
 - "runs" (user-facing, software behaviour) → "funciona". Never "se ejecuta" — that is programmer vocabulary and wrong register for school-staff and government audiences. Also avoid "por sí solo" after a reflexive verb ("se ejecuta por sí solo" is redundant); use "de forma automática" or "de forma autónoma" instead.
+- Proper noun modifying a technical noun ("M-Lab NDT7 server") → noun + de + proper noun: "servidor NDT7 de M-Lab". Never English adjective order ("M-Lab servidor NDT7").
 - No space before punctuation after a bold or link span ("**Datos**; confirme", not "**Datos** ; confirme"); no missing space after one ("**la escuela** y", not "**la escuela**y").
 - In glossaries and definition lists, capitalize the entry term exactly like neighboring entries.
 
