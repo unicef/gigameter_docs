@@ -58,7 +58,7 @@ If new user accounts are added later, install and register Giga Meter in those a
 {% endhint %}
 
 {% hint style="warning" %}
-**Keep Giga Meter up to date.** Update notifications appear as pop-up messages. When prompted, restart the app and follow the on-screen instructions. Running an outdated version may affect measurement accuracy and data uploads.
+**Keep Giga Meter up to date.** Update notifications appear as pop-up messages. When prompted, restart the app and follow the on-screen instructions. Running an outdated version may affect measurement accuracy and completeness.
 {% endhint %}
 
 ***
