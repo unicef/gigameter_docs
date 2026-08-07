@@ -58,7 +58,7 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **Number of devices registered** How many distinct computers have been linked to a school's Giga Meter account. More devices generally mean more frequent measurements and less risk that one broken device takes the school offline.
 
-**Real-time (RT) data** Measurements that are available soon after they are taken, rather than aggregated once a month. In the Giga context, real-time data is published daily.
+**Real-time (RT) data** Measurements that are available soon after they are taken, rather than aggregated once a month. In the Giga context, real-time data is updated every 4 hours.
 
 **Rolling average (e.g., 7-day)** An average recomputed every day from only the most recent N days. Smooths out daily ups and downs so an underlying trend is easier to see.
 
