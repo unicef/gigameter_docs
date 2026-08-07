@@ -109,6 +109,7 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 - Never combine a possessive pronoun with a "de + noun" phrase that already establishes the same ownership: "su ID de la escuela" is redundant. Choose one form: either "el ID de la escuela" (article + de-phrase) or "su ID escolar" (possessive + adjective). Which to use depends on sentence flow — "su" is appropriate where the referent is already the subject; "el" where the noun phrase stands alone.
 - Back-references use possessive pronouns, not bare definite articles. When a noun in a later clause refers back to an entity ("el país", "la escuela") already established earlier in the sentence, use "sus" instead of "los/las": "the country's schools are mapped … and the data has been reviewed" → "las escuelas del país están mapeadas … y sus datos han sido revisados". Never "los datos" when the referent is the country or school already named.
 - No space before punctuation after a bold or link span ("**Datos**; confirme", not "**Datos** ; confirme"); no missing space after one ("**la escuela** y", not "**la escuela**y").
+- Page and section titles that are plural nouns take plural articles even when used as a proper-name reference: "**las** Preguntas frecuentes" (never "**la** Preguntas frecuentes"), "consulte **las** Preguntas frecuentes". Treat the title as a noun phrase, not an invariable proper noun.
 - In glossaries and definition lists, capitalize the entry term exactly like neighboring entries.
 
 ## Self-check before finishing a page
