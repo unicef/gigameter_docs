@@ -38,7 +38,11 @@ The **glowing** dot next to each school is colour-coded by connectivity level:
 
 <figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-76e01b1f258697ad2ddb97e08fd0e34b78cdefaf%2Fmaps-red-slow.png?alt=media" alt="Embekweni Junior Primary School - 0.8 Mbps, red dot"><figcaption></figcaption></figure>
 
-A **blue** dot means no recent data has been received; the device may be off or the app may need reinstalling.
+**Blue** - No recent data has been received. The device may be off or the app may need reinstalling.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
 
 After selecting your school, copy the URL from your browser's address bar. You can bookmark it for direct access any time.
 
