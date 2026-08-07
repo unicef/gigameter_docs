@@ -17,12 +17,6 @@ Before you start, confirm your device meets the [System Requirements](system-req
 Visit [meter.giga.global](https://meter.giga.global/) and click **Download** in the upper right corner.
 
 A download pop-up will open. Add the file  location you prefer and click on "Save".
-
-
-
-{% hint style="warning" %}
-If you have visited the page before, hard refresh first to make sure you get the latest version: **Ctrl + Shift + R** (Chrome / Edge) or **Ctrl + F5** (Firefox).
-{% endhint %}
 {% endcolumn %}
 
 {% column %}
@@ -58,10 +52,15 @@ If a warning about an older version appears, go back to Step 1 and reinstall the
 {% column %}
 Work through the Setup Wizard in order:
 
-1. If a **User Account Control** dialog appears, click **Yes**. The publisher is UNICEF.
-2. Select **"Anyone who uses this computer (all users)"** and click **Next**. This makes the app available to all accounts on the device.
-3. Leave the default destination folder (`C:\Program Files\unicef-pdca\Giga Meter`) and click **Install**.
-4. Click **Finish**. Leave **"Run Giga Meter"** checked to open the app immediately.
+* If a **User Account Control** dialog appears, click **Yes**. The publisher is UNICEF.
+* Select **"Anyone who uses this computer (all users)"** and click **Next**. This makes the app available to all accounts on the device.
+
+{% hint style="warning" %}
+It is very important that you install the application for all of users, if the device it is installed on is used by multiple users throughout the school week.
+{% endhint %}
+
+1. Leave the default destination folder (`C:\Program Files\unicef-pdca\Giga Meter`) and click **Install**.
+2. Click **Finish**. Leave **"Run Giga Meter"** checked to open the app immediately.
 {% endcolumn %}
 
 {% column %}
@@ -89,13 +88,13 @@ If the app did not open automatically, find the **Giga Meter** shortcut on your 
 
 ### Part 2: Register your school
 
-#### Step 5 — Welcome and language
+#### Step 5 — Welcome and language selection
 
 {% columns %}
 {% column %}
-Follow the registration steps shown in the app. Click **Next** to move through the onboarding screens.
+Follow the registration steps shown in the app. Click on **Next** to move through the onboarding screens.
 
-The app will remind you to:
+The app will remind you to that you must:
 
 * Install only on computers connected exclusively to the school's internet
 * Register up to 5 devices per school (one is enough to get started)
@@ -136,8 +135,8 @@ If the detected country is incorrect, select the correct one from the dropdown a
 
 If you see an error:
 
-* **"It looks like the country you selected may not be accurate"** — This may be caused by a VPN or an IP address signalling a different country. You can still continue by clicking **Confirm**.
-* **"Sorry, Giga Meter is not available in \[...]"** — Verify your country selection. If the issue persists, contact your UNICEF focal point or the school administrator who guided the installation.
+* **"It looks like the country you selected may not be accurate"** this may be caused by a VPN or an IP address signalling a different country. You can still continue by clicking **Confirm**.
+* **"Sorry, Giga Meter is not available in \[...]",** verify your country selection. If the issue persists, contact your UNICEF focal point or the administrator who guided the installation.
 {% endcolumn %}
 
 {% column %}
@@ -147,14 +146,14 @@ If you see an error:
 {% endcolumn %}
 {% endcolumns %}
 
-#### Step 8 — Enter and confirm your school ID
+#### Step 8 — Enter and confirm the school ID
 
 {% columns %}
 {% column %}
 Enter the school ID, a unique identifier provided by the government, and click **Search ID**. Select your school from the results by clicking **Select**.
 
 {% hint style="info" %}
-If you are unsure of your school ID, check with your school administrator or IT department.
+If you are unsure of your school's ID, check with your school administrator or IT department.
 {% endhint %}
 
 Double-check the school name shown. If it is correct, click **YES** to confirm.
@@ -173,7 +172,7 @@ Once you click **YES**, changing your school ID will require uninstalling and re
 {% endcolumn %}
 {% endcolumns %}
 
-#### Step 9 — You're done
+#### Step 9 — You're done!
 
 {% columns %}
 {% column %}
