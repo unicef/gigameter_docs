@@ -195,6 +195,8 @@ Schools install Giga Meter independently using the installation guide, with opti
 {% endtab %}
 {% endtabs %}
 
+**See practical case studies with different installation strategies** [**here**](case-studies.md)**.**
+
 **Output:** Document the following and share with the Giga team:
 
 {% hint style="info" %}
