@@ -32,15 +32,15 @@ Both workstreams start on day one. By the time the first schools report data, th
 
 The Installation Lead coordinates the team of installers, manages device readiness, runs training workshops, and monitors the rollout. Steps cover:
 
-1. Designate the installation lead and subnational leads
-2. Define target schools and phasing (pilot then scale-up)
-3. Confirm device readiness across target schools
-4. Ensure school IDs are known by installers
-5. Choose an installation strategy (expert in-person / hybrid / guided remote / self-installation)
-6. Establish a support channel and escalation path
-7. Train installers
-8. Monitor the rollout
-9. Follow up with school-level focal points
+1. [Designate the installation lead and subnational leads](installation-lead.md#step-1---designate-the-installation-lead)
+2. [Define target schools and phasing (pilot then scale-up)](installation-lead.md#step-2---define-target-schools-and-phasing)
+3. [Confirm device readiness across target schools](installation-lead.md#step-3---confirm-device-readiness)
+4. [Ensure school IDs are known by installers](installation-lead.md#step-4---ensure-school-ids-are-known-by-installers)
+5. [Choose an installation strategy (expert in-person / hybrid / guided remote / self-installation)](installation-lead.md#step-5---choose-an-installation-strategy)
+6. [Establish a support channel and escalation path](installation-lead.md#step-6---establish-a-support-channel-and-escalation-path)
+7. [Train installers](installation-lead.md#step-7---train-installers)
+8. [Monitor the rollout](installation-lead.md#step-8---monitor-the-rollout)
+9. [Follow up with school-level focal points](installation-lead.md#step-9---build-for-sustainability)
 
 **→** [**Installation Lead - Step-by-step guide**](installation-lead.md)
 
