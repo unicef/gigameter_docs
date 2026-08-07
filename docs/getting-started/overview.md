@@ -59,7 +59,7 @@ Performance data over time supports connectivity planning and procurement.
 ### What it means for you
 
 {% tabs %}
-{% tab title="Decision-makers & partners" %}
+{% tab title="Decision-makers & Giga partners" %}
 <img src="https://gigabrand.vercel.app/illustrations/general/fill/hierarchy.svg" alt="" height="100">
 
 Giga Meter produces consistent, comparable connectivity data across schools, giving planners and ministries a common evidence base.
