@@ -34,8 +34,6 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **Drop-off rate** The share of installed schools that have dropped off, expressed as a percentage. A rising drop-off rate means support effort needs to increase.
 
-**Fair-Use Policy (FUP)** Rules that slow down or temporarily suspend a connection after a school exceeds its monthly data allowance. The exact rules vary by supplier and should be written into the contract.
-
 **Giga Maps** Giga's public, interactive map showing every school that has been located, along with its known connectivity status. Open to governments, partners, and the public. [maps.giga.global](https://maps.giga.global/)
 
 **Giga Meter** A free Giga app that runs connectivity tests from a school's computer. The results (speed, latency, Wi-Fi quality) flow into the Giga dashboards daily. [meter.giga.global](https://meter.giga.global/)
