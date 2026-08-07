@@ -46,7 +46,7 @@ Aim for one paragraph. It should answer: what is being monitored, what counts as
 
 **Connecting use case to KPIs**
 
-Once the use case is clear, define the KPIs that operationalise it. See Step 5.
+Once the use case is clear, define the KPIs that operationalise it. [See Step 5.](data-analysis-lead.md#step-5---define-kpis)
 
 | Use case type               | Typical KPIs                                                                                   |
 | --------------------------- | ---------------------------------------------------------------------------------------------- |
