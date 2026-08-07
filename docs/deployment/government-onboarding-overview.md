@@ -9,7 +9,7 @@ Use this guide to plan and run a Giga Meter deployment, from initial setup throu
 Two prerequisites must be in place before any installation can begin:
 
 * [ ] **School mapped on** [**Giga Maps**](https://maps.giga.global/map) - the country's schools are mapped with official government IDs, and the data has been reviewed and approved by the government.
-* [ ] **Country whitelisted on Giga's backend** - Giga enables the country in the system before Giga Meter can register schools. Email [gigatech@unicef.org](mailto:gigatech@unicef.org) to request whitelisting.
+* [ ] **Country whitelisted on Giga's backend** - Giga enables the country in the system before Giga Meter can register schools. Send an email [gigatech@unicef.org](mailto:gigatech@unicef.org) to request whitelisting.
 
 Contact your Giga focal point or UNICEF Country Office to confirm both are ready. Once confirmed, complete the [Deployment Blueprint](deployment-blueprint.md), a planning worksheet to align your team on strategy, scope, and timeline before the rollout begins.
 
@@ -19,12 +19,12 @@ Contact your Giga focal point or UNICEF Country Office to confirm both are ready
 
 A Giga Meter deployment involves two workstreams. They can sit with the same department or person, but the activities are distinct and should run concurrently.
 
-| Role                   | Responsible for                                                               | Typically held by                          |
-| ---------------------- | ----------------------------------------------------------------------------- | ------------------------------------------ |
-| **Installation Lead**  | Getting Giga Meter running across schools and keeping it there                | MoE IT department or regional coordinators |
-| **Data Analysis Lead** | Ensuring the data is used: defining use cases, onboarding users, setting KPIs | MoE planning or statistics unit            |
+| Role                   | Responsible for                                                                                                | Typically held by                          |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| **Installation Lead**  | Getting Giga Meter running across schools and keeping the last version installed                               | MoE IT department or regional coordinators |
+| **Data Analysis Lead** | Ensuring the data is used: defining use cases, onboarding users, setting KPIs and sharing with decision-makers | MoE planning or statistics unit            |
 
-Both workstreams start on day one. By the time the first schools report data, the data analysis side should already be ready to read it.
+Both workstreams start on day one. By the time the first schools report data, the data analysis side should already be ready to read, interpret and use the data.
 
 ***
 

@@ -131,7 +131,7 @@ Users pending: \[N - names and reason for delay]
 
 ***
 
-### Step 4 - Establish metric literacy
+### Step 4 - Help the team understand the core metrics
 
 Giga Meter reports several technical metrics. Before users draw conclusions from the data, circulate a simple reference explaining what each metric means and what a good or problematic value looks like in the country's context.
 
