@@ -30,7 +30,7 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **Download speed** The rate at which a school receives data from the internet, for example when loading a webpage or streaming a video. Measured in megabits per second (Mbps).
 
-**Drop-off** A school that has not sent any measurement in 29 or more days. After this point Giga considers the device unlikely to return without additional support, such as a site visit.
+**Drop-off** A school that has not sent any measurement in 29 or more days. After this point Giga considers the device unlikely to return without additional investigation and support.
 
 **Drop-off rate** The share of installed schools that have dropped off, expressed as a percentage. A rising drop-off rate means support efforts for installation health.
 
