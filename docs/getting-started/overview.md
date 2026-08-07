@@ -34,7 +34,7 @@ Connectivity that is measured can be funded, improved, and tracked over time. Gi
 
 **Automated measurement**
 
-The Windows app runs in the background with minimal user input and low data usage.
+The Windows app runs in the background with minimal user input and with low data usage.
 {% endcolumn %}
 
 {% column %}
