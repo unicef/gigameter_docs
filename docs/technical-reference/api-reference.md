@@ -279,4 +279,4 @@ On error, `success` is `false` and `message` contains a description of the probl
 * [Privacy & Security](../security/privacy-and-security.md)
 * [Network Destinations & Firewall Configuration](../../technical-reference/network-destinations.md)
 * [Data Governance & Privacy](data-governance.md)
-* [Metric Glossary](../../installation/metric-glossary.md)
+* [Metric Glossary](../../get-started/metric-glossary.md)

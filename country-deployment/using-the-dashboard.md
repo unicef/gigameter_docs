@@ -172,5 +172,5 @@ A drop-off rate above 10% is a signal to increase follow-up with school IT focal
 ### Related pages
 
 * [Data Analysis Lead Guide](../docs/deployment/data-analysis-lead.md)
-* [Metric Glossary](../installation/metric-glossary.md)
+* [Metric Glossary](../get-started/metric-glossary.md)
 * [Installation Lead Guide](../docs/deployment/installation-lead.md)

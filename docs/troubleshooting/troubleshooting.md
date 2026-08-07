@@ -1,6 +1,6 @@
 # Troubleshooting
 
-For general questions about how the app works, see the [FAQ](faq.md).
+For general questions about how the app works, see the [FAQ](../../get-started/faq.md).
 
 ***
 
@@ -136,5 +136,5 @@ The school ID used during registration may not match the record in Giga's databa
 
 For anything not listed here: take a screenshot or copy the exact error message and send it to your focal point at the Ministry or UNICEF Country Office.
 
-* [FAQ](faq.md)
+* [FAQ](../../get-started/faq.md)
 * [Installation Guide](../installation/installation-guide.md)

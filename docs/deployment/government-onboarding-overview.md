@@ -77,5 +77,5 @@ Complete the [Deployment Blueprint](deployment-blueprint.md) before starting the
 | [Data Analysis Lead Guide](data-analysis-lead.md)        | Step-by-step guide for the Data Analysis Lead                       |
 | [Training Support Materials](deployment-checklist.md)    | Session agenda, talking points, and Q\&A for installation workshops |
 | [Case Studies](case-studies.md)                          | How other governments have used Giga Meter data                     |
-| [Metric Glossary](../../installation/metric-glossary.md) | Definitions for every metric                                        |
+| [Metric Glossary](../../get-started/metric-glossary.md)  | Definitions for every metric                                        |
 | [API Reference](../technical-reference/api-reference.md) | Endpoint documentation for technical integrations                   |

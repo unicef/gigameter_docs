@@ -162,5 +162,5 @@ Because M-Lab's server pool is dynamic, with servers regularly added, removed, a
 ### Related pages
 
 * [Privacy & Security](../docs/security/privacy-and-security.md)
-* [FAQ - What data does Giga Meter transmit?](../docs/troubleshooting/faq.md)
+* [FAQ - What data does Giga Meter transmit?](../get-started/faq.md)
 * [Measurement Protocols](../docs/technical-reference/measurement-protocols.md)

@@ -15,7 +15,7 @@ Giga Meter measures the quality of a school's internet connection. The data it c
 * Device type and Giga Meter app version
 * Test timestamp and test server location
 
-It collects no names, no student records, no staff information, and no location data beyond what is needed to identify the ISP. See [What data does Giga Meter transmit?](../troubleshooting/faq.md) for the complete field-level list.
+It collects no names, no student records, no staff information, and no location data beyond what is needed to identify the ISP. See [What data does Giga Meter transmit?](../../get-started/faq.md) for the complete field-level list.
 
 ***
 
@@ -104,5 +104,5 @@ For network whitelisting, a single DNS wildcard rule (`*.measurementlab.net`) co
 
 * [Network Destinations & Firewall Configuration](../../technical-reference/network-destinations.md)
 * [Data Governance & Privacy](../technical-reference/data-governance.md)
-* [FAQ - What data does Giga Meter transmit?](../troubleshooting/faq.md)
+* [FAQ - What data does Giga Meter transmit?](../../get-started/faq.md)
 * [Measurement Protocols](../technical-reference/measurement-protocols.md)

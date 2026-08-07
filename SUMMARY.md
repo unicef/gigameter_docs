@@ -6,14 +6,14 @@
 * [About Giga Meter](docs/getting-started/overview.md)
 * [Features](docs/getting-started/features.md)
 * [Case Studies](docs/deployment/case-studies.md)
+* [Metric Glossary](get-started/metric-glossary.md)
+* [FAQ](get-started/faq.md)
 
 ## Installation
 
 * [System Requirements](docs/installation/system-requirements.md)
 * [Installation Guide](docs/installation/installation-guide.md)
 * [Troubleshooting](docs/troubleshooting/troubleshooting.md)
-* [Metric Glossary](installation/metric-glossary.md)
-* [FAQ](docs/troubleshooting/faq.md)
 
 ## Country Deployment
 

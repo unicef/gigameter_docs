@@ -40,7 +40,7 @@ The **glowing** dot next to each school is colour-coded by connectivity level:
 
 **Blue** - No recent data has been received. The device may be off or the app may need reinstalling.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -106,7 +106,7 @@ Yes. Clicking the close button closes the window, but the app continues running 
 
 When a new version is available, a notification pop-up appears; click **Restart** to update. You can also visit [meter.giga.global](https://meter.giga.global/) at any time to download and install the latest version.
 
-<img src="../../.gitbook/assets/unknown.png" alt="Update notification pop-up screen." height="187.46410782268288" width="358.7611250688131">
+<img src="../.gitbook/assets/unknown.png" alt="Update notification pop-up screen." height="187.46410782268288" width="358.7611250688131">
 
 ***
 
@@ -125,7 +125,7 @@ You can also trigger a manual test at any time.
 
 #### Can I change my school ID?
 
-If you registered with the wrong school ID, you can unregister and re-register. See [Troubleshooting - Registered with the wrong school ID](troubleshooting.md).
+If you registered with the wrong school ID, you can unregister and re-register. See [Troubleshooting - Registered with the wrong school ID](../docs/troubleshooting/troubleshooting.md).
 
 ***
 
