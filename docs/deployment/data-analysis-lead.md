@@ -95,7 +95,7 @@ Giga Meter data is accessible through two channels. Which channel a user needs d
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | [**Superset Dashboard**](https://superset.giga.global) | Policy teams, ministry staff, country coordinators who need charts and tables without writing code                     | Login credentials provisioned by Giga |
 | [**API**](https://maps.giga.global/docs/api/1)         | Technical teams, data analysts, partners who want to integrate Giga data into their own systems or run custom analyses | API key provisioned by Giga           |
-| **Giga Maps**                                          | Schools, regional focal points, and the public viewing a school's connectivity dot                                     | Public, no credentials needed         |
+| [**Giga Maps**](https://maps.giga.global)              | Schools, regional focal points, and the public viewing a school's connectivity dot                                     | Public, no credentials needed         |
 
 Both channels access the same underlying data. The difference is presentation and flexibility.
 
