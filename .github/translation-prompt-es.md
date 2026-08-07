@@ -97,6 +97,10 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 - "resulting data" at the start of a sentence → "Estos datos" or "Los datos generados". Never "datos resultantes" — it is a stiff calque and the referent is always clear from context.
 - "falls short" (quality/standard sense) → "es deficiente" or "presenta deficiencias". Never "no alcanza" — that reads as geographic non-reach, not as failing to meet a standard.
 - Never combine "hacia" with a verb that already encodes directionality: "decidir hacia dónde dirigir" → "decidir dónde dirigir" or "decidir cómo orientar". Check any "hacia dónde + directional verb" pattern and drop "hacia".
+- Parallel passive lists ("funded, improved, and tracked") must be rendered in a single grammatical form throughout — all reflexive infinitives ("financiarse, mejorarse, monitorearse") or all passive constructions, never a mix of noun phrases, plain infinitives, and reflexives in the same list.
+- "can be funded" → "financiarse" or "puede financiarse". Never the verbose noun-phrase paraphrase "recibir financiamiento".
+- "tracked" (monitoring sense) → "monitorearse" / "monitoreado" (consistent with glossary: monitoreo/monitorear). Never "seguirse".
+- "X provides the measurement" (Giga Meter as the enabling tool) → "X hace posible esa medición". "Proporciona la medición" is a stilted calque.
 - No space before punctuation after a bold or link span ("**Datos**; confirme", not "**Datos** ; confirme"); no missing space after one ("**la escuela** y", not "**la escuela**y").
 - In glossaries and definition lists, capitalize the entry term exactly like neighboring entries.
 
