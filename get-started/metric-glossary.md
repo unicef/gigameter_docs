@@ -24,7 +24,7 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **Data point** A single recorded value, such as one school's download speed at one moment in time. A chart is built from many data points.
 
-**Days since last measurement** How long it has been, in days, since the school's Giga Meter app last sent a reading. A growing number is an early warning that the school is going offline or that the device has been switched off.
+**Days since last measurement** How long it has been, in days, since the school's Giga Meter app last sent a reading. A growing number is an early warning that the school is dropping off or that the device has been switched off.
 
 **Distribution (statistical)** A chart that shows how a set of values is spread across a range, rather than just their average. Useful for seeing whether most schools cluster around a typical speed or whether a few outliers pull the average up.
 
