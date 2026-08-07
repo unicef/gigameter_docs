@@ -47,7 +47,7 @@ M-Lab server locations
 
 ### Tied to a school, not a device
 
-Before the first measurement runs, the device is registered to a school using its national school ID. That registration links every later measurement to a school record in Giga's database, including the school's country, administrative divisions, education level, and environment type.
+Before the first measurement runs, the device is registered to a school using the school's national ID. That registration links every later measurement to a school record in Giga's database, including the school's country, administrative divisions, education level, and environment type.
 
 This enables three things:
 
