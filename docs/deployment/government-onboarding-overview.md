@@ -53,9 +53,9 @@ The Data Analysis Lead ensures Giga Meter data feeds into government decisions, 
 1. [Define the use case](data-analysis-lead.md#step-1---define-the-use-case)
 2. [Identify data users and assign access roles](data-analysis-lead.md#step-2---identify-data-users-and-assign-access-roles)
 3. [Onboard data users to their access channels](data-analysis-lead.md#step-3---onboard-data-users-to-their-access-channels)
-4. [Establish metric literacy](data-analysis-lead.md#step-4---establish-metric-literacy)
+4. [Help the team understand the core metrics](data-analysis-lead.md#step-4---establish-metric-literacy)
 5. [Define KPIs](data-analysis-lead.md#step-5---define-kpis)
-6. [Set a KPI review and decision-triggering process](data-analysis-lead.md#step-6---set-a-kpi-review-and-decision-triggering-process)
+6. [Set a KPI review and a decision-triggering process](data-analysis-lead.md#step-6---set-a-kpi-review-and-decision-triggering-process)
 7. [Build capacity for ongoing analysis](data-analysis-lead.md#step-7---build-capacity-for-ongoing-analysis)
 
 **→** [**Data Analysis Lead - Step-by-step guide**](data-analysis-lead.md)
@@ -64,7 +64,7 @@ The Data Analysis Lead ensures Giga Meter data feeds into government decisions, 
 
 ### Planning worksheet
 
-Complete the [Deployment Blueprint](deployment-blueprint.md) before starting the rollout. It covers deployment rationale, installation planning, maintenance responsibilities, data use goals, and success metrics, and becomes your shared reference document with the Giga team.
+Complete the [Deployment Blueprint](deployment-blueprint.md) before starting the rollout. It covers deployment objectives, installation planning, maintenance responsibilities, data use goals, and success metrics. The Blueprint should become your shared reference document with the Giga team.
 
 ***
 
@@ -72,7 +72,7 @@ Complete the [Deployment Blueprint](deployment-blueprint.md) before starting the
 
 | Resource                                                 | What it's for                                                       |
 | -------------------------------------------------------- | ------------------------------------------------------------------- |
-| [Deployment Blueprint](deployment-blueprint.md)          | Planning worksheet - complete before the rollout starts             |
+| [Deployment Blueprint](deployment-blueprint.md)          | Planning worksheet - complete it before the rollout starts          |
 | [Installation Lead Guide](installation-lead.md)          | Step-by-step guide for the Installation Lead                        |
 | [Data Analysis Lead Guide](data-analysis-lead.md)        | Step-by-step guide for the Data Analysis Lead                       |
 | [Training Support Materials](deployment-checklist.md)    | Session agenda, talking points, and Q\&A for installation workshops |
