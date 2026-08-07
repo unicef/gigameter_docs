@@ -1,6 +1,5 @@
 # Introduction
 
-<!-- release-start:v2.0.3 -->
 {% hint style="info" %}
 **Giga Meter 2.0.3 — 2026-05-20**
 
@@ -8,7 +7,6 @@ Giga Meter can now measure internet speed more accurately and pinpoint your loca
 
 [Full release notes →](https://github.com/unicef/project-connect-daily-check-app/releases/tag/v2.0.3)
 {% endhint %}
-<!-- release-end -->
 
 Giga Meter is an open-source desktop application that measures the quality of a school's internet connection. It runs automated tests during the school day and reports the results to [Giga Maps](https://maps.giga.global/), the public, global map of school connectivity. Giga Meter is developed by [Giga](https://giga.global/), a UNICEF-ITU initiative to connect every school to the internet.
 
@@ -30,12 +28,11 @@ Giga Meter is active in:
 
 ![](.gitbook/assets/country-grid.png)
 
-<!-- stats-start -->
 {% columns %}
 {% column %}
 #### 40
 
-Countries
+Countries and territories
 {% endcolumn %}
 
 {% column %}
@@ -50,7 +47,6 @@ Schools
 Measurements
 {% endcolumn %}
 {% endcolumns %}
-<!-- stats-end -->
 
 ***
 
