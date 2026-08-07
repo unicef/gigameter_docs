@@ -61,13 +61,13 @@ The new version overwrites the old one automatically. Your school registration i
 
 <summary>Wrong country detected</summary>
 
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-9c624b411df131d3e565d871485595a61d2639c5%2Fapp-country-warning.png?alt=media" alt="Country detection warning screen"><figcaption></figcaption></figure>
-
 Select the correct country from the dropdown, click **OK**, then **Confirm**.
 
 If a warning still appears after selecting the correct country, it may be caused by a VPN or your IP address signalling a different location. You can proceed by clicking **Confirm**.
 
 If the message says **"Giga Meter is not available in \[country]"** and your country selection is correct, contact your Giga focal point at UNICEF; the country may not yet be whitelisted.
+
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-9c624b411df131d3e565d871485595a61d2639c5%2Fapp-country-warning.png?alt=media" alt="Country detection warning screen"><figcaption></figcaption></figure>
 
 </details>
 
