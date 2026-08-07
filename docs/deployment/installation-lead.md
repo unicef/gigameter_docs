@@ -42,9 +42,9 @@ Select pilot schools that represent the range of your target:
 
 Avoid selecting only the easiest schools; pilots that go too smoothly do not surface the friction that will slow the national rollout.
 
-**Phasing the scale-up**
+**Phasing the expansion**
 
-After the pilot, expand in phases rather than attempting a single national rollout. Common phasing approaches:
+After the pilot, expand the deployment in phases rather than attempting a single national rollout. Common phasing approaches:
 
 | Approach             | How it works                                                     | Works best when                                      |
 | -------------------- | ---------------------------------------------------------------- | ---------------------------------------------------- |
@@ -52,8 +52,6 @@ After the pilot, expand in phases rather than attempting a single national rollo
 | By school type       | Start with secondary schools, then primary                       | Device readiness varies significantly by school type |
 | By connectivity tier | Start with better-connected schools to build early data coverage | You want to demonstrate value quickly                |
 | By partner           | Delegate phases to regional education offices or NGO partners    | You have a distributed implementation network        |
-
-Phases can overlap; the next phase can begin before the previous one is complete, as long as the support channel can absorb the additional load.
 
 **Output:** Share the following with the Giga team before the rollout begins:
 
