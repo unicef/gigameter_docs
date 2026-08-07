@@ -2,8 +2,6 @@
 
 This guide is for the government official responsible for ensuring Giga Meter data is used, from defining what to measure through to embedding analysis in ongoing decision-making. Work through these steps in parallel with the installation workstream.
 
-← [Government Onboarding Guide](government-onboarding-overview.md)
-
 ***
 
 ### Step 1 - Define the use case
