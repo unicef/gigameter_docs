@@ -30,11 +30,11 @@ Email / phone:
 
 Agree on which schools will receive Giga Meter and in what order before the rollout begins. The total number and selection criteria determine the installation strategy.&#x20;
 
-**Pilot first, then scale**
+**Pilot first, then expand**
 
-Start with a small pilot cohort, typically 10-30 schools, before expanding nationally. The pilot validates the installation process, surfaces issues in the support channel, and gives the data analysis team real data to work with before the full rollout.
+Start with a small pilot cohort, typically 10-30 schools, before expanding nationally. The pilot validates the installation process, surfaces different types of issues to add to troubleshooting guides, and gives the data analysis team real data to work with before the full rollout.
 
-Select pilot schools to represent the range of your national target:
+Select pilot schools that represent the range of your target:
 
 * Mix urban and rural schools.
 * Include different regions.
