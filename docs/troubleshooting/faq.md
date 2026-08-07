@@ -117,13 +117,6 @@ You can also trigger a manual test at any time.
 
 ***
 
-#### Where can I see past measurement results?
-
-* **In the app:** the last 10 successful tests are shown on the Data page.
-* **On Giga Maps:** daily averages are published to [maps.giga.global](https://maps.giga.global/). Find your school to see how its connectivity compares over time.
-
-***
-
 #### Can I change my school ID?
 
 If you registered with the wrong school ID, you can unregister and re-register. See [Troubleshooting - Registered with the wrong school ID](troubleshooting.md).
