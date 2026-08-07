@@ -54,8 +54,6 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **Milliseconds (ms)** Thousandths of a second, the unit used for latency. Anything under 50 ms feels instant for most uses; over 200 ms makes video calls feel awkward.
 
-**Network Operations Centre (NOC)** A facility where technicians watch the network around the clock, spot incidents, and coordinate repairs. Required by Giga's connectivity recommendations for any serious school programme.
-
 **Number of devices registered** How many distinct computers have been linked to a school's Giga Meter account. More devices generally mean more frequent measurements and less risk that one broken device takes the school offline.
 
 **Real-time (RT) data** Measurements that are available soon after they are taken, rather than aggregated once a month. In the Giga context, real-time data is updated every 4 hours.
