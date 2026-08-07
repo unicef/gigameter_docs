@@ -71,7 +71,7 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 
 ## Structure, links, and anchors
 
-- In glossaries or alphabetical lists, single-letter section headings are letters, not words: "A" stays "A" (never "Un"). Re-order alphabetical entries by the Spanish term, or lead each entry with the English term if entries must keep their order.
+- The Metric Glossary has no letter-section headings — do not add any. Entries run flat in a single alphabetical list. Re-sort all entries alphabetically by the Spanish bold term after translating; do not keep English alphabetical order.
 - Regenerate in-page anchors from the Spanish headings; never keep English-derived anchors (#how-can-i-view-my-schools-data) pointing at Spanish headings.
 - Link labels must match the actual Spanish title of the target page (a link to the page titled "Plan de implementación" must not read "Plan de despliegue").
 - Translate image alt text.
