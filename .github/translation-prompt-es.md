@@ -47,6 +47,7 @@ You are translating the Giga Meter documentation from English into Spanish. Giga
 | Training Support Materials | Materiales de apoyo para la capacitación |
 | safe to install | su instalación es segura — nunca "es segura de instalar" |
 | ITU | la UIT ("iniciativa conjunta de UNICEF y la UIT") |
+| ISP (Internet Service Provider) | Proveedor de servicios de Internet (ISP) — expand on first use per page; use ISP alone on subsequent mentions |
 | re-registration | nuevo registro — nunca "re-registro" |
 | scale-up | ampliación — reserve "escalamiento" exclusively for escalation (support tickets) |
 | scale-up phases / rollout phases | fases de la implementación — the phased-rollout sequence (pilot → scale-up) as a whole is "la implementación"; never "despliegue" |
