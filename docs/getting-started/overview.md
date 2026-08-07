@@ -2,7 +2,7 @@
 
 ### About Giga
 
-Giga is a UNICEF-ITU initiative to connect every school to the internet. It develops and maintains open-source technologies that help governments plan, deploy, and sustain school connectivity.
+Giga is a UNICEF-ITU initiative to connect every school to the internet. Giga develops and maintains open-source technologies that help governments plan, deploy, and sustain school connectivity.
 
 Learn more at [giga.global](https://giga.global/).
 
