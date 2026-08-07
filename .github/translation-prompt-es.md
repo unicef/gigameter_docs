@@ -91,7 +91,7 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 ## When inserting a fixed term, adapt the sentence around it
 
 - Match gender and articles to the inserted term: "**el** Plan de implementación", "**el** Panel de Superset", "**el** Responsable de instalación" (generic roles take the masculine article). Never leave the article that agreed with the old wording ("la Plan", "La Responsable").
-- Keep Spanish noun order around protected English labels: "la pestaña **Installation Tracking**", never "la **Installation Tracking** pestaña".
+- **CRITICAL — noun before label, always:** "la pestaña **Data**", "la pestaña **Installation Tracking**", "el botón **Run**". Never "la **Data** pestaña", never "la **Installation Tracking** pestaña". The Spanish noun (pestaña, botón, sección, campo, etc.) always comes first, then the English label. This error is common and must be checked on every sentence that contains a UI label.
 - Do not stack a fixed phrase onto overlapping source words ("habilitado en el sistema en el backend" — drop the redundant half).
 - Avoid unnatural collocations with metric terms: a school "entra en abandono" or "deja de reportar (abandono)", never "presenta abandono".
 - "serve" (audience sense) → "apoya a": "Giga Meter serves schools, governments, and technical teams" → "Giga Meter apoya a escuelas, gobiernos y equipos técnicos". Never "sirve a".
