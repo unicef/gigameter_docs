@@ -32,7 +32,7 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **Drop-off** A school that has not sent any measurement in 29 or more days. After this point Giga considers the device unlikely to return without additional support, such as a site visit.
 
-**Drop-off rate** The share of installed schools that have dropped off, expressed as a percentage. A rising drop-off rate means support effort needs to increase.
+**Drop-off rate** The share of installed schools that have dropped off, expressed as a percentage. A rising drop-off rate means support efforts for installation health.
 
 **Giga Maps** Giga's public, interactive map showing every school that has been located, along with its known connectivity status. Open to governments, partners, and the public. [maps.giga.global](https://maps.giga.global/)
 
