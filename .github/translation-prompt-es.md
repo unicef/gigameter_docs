@@ -26,7 +26,7 @@ You are translating the Giga Meter documentation from English into Spanish. Giga
 | monitoring | monitoreo |
 | upload speed | velocidad de subida |
 | download speed | velocidad de descarga |
-| load speed | velocidad de carga de página (nunca solo "velocidad de carga") |
+| load speed | Velocidad de carga |
 | focal point | punto focal |
 | onboarding | implementación (Government Onboarding Guide → "Guía de implementación para gobiernos"; app onboarding screens → "pantallas de configuración inicial") |
 | Installation Lead | Responsable de instalación |
@@ -49,7 +49,6 @@ You are translating the Giga Meter documentation from English into Spanish. Giga
 | re-registration | nuevo registro — nunca "re-registro" |
 | scale-up | ampliación — reserve "escalamiento" exclusively for escalation (support tickets) |
 | scale-up phases / rollout phases | fases de la implementación — the phased-rollout sequence (pilot → scale-up) as a whole is "la implementación"; never "despliegue" |
-| load speed | velocidad de carga por prueba — always with the English name: "Load speed (velocidad de carga por prueba)" |
 | Output: (step deliverable) | Resultado: — nunca "Salida:" |
 
 ## Never translate
