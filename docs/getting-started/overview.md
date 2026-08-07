@@ -42,7 +42,7 @@ The Windows app runs in the background with minimal user input and with low data
 
 **Connectivity monitoring**
 
-Identifies schools that are not meeting connectivity benchmarks.
+Identifies schools that are not meeting connectivity benchmarks or standards.
 {% endcolumn %}
 
 {% column %}
