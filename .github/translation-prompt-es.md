@@ -94,6 +94,9 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 - Avoid unnatural collocations with metric terms: a school "entra en abandono" or "deja de reportar (abandono)", never "presenta abandono".
 - "serve" (audience sense) → "apoya a": "Giga Meter serves schools, governments, and technical teams" → "Giga Meter apoya a escuelas, gobiernos y equipos técnicos". Never "sirve a".
 - "browse everything" → "explorar todo el contenido". Never bare "explorar todo" — "todo" without a noun loses the referent in Spanish.
+- "resulting data" at the start of a sentence → "Estos datos" or "Los datos generados". Never "datos resultantes" — it is a stiff calque and the referent is always clear from context.
+- "falls short" (quality/standard sense) → "es deficiente" or "presenta deficiencias". Never "no alcanza" — that reads as geographic non-reach, not as failing to meet a standard.
+- Never combine "hacia" with a verb that already encodes directionality: "decidir hacia dónde dirigir" → "decidir dónde dirigir" or "decidir cómo orientar". Check any "hacia dónde + directional verb" pattern and drop "hacia".
 - No space before punctuation after a bold or link span ("**Datos**; confirme", not "**Datos** ; confirme"); no missing space after one ("**la escuela** y", not "**la escuela**y").
 - In glossaries and definition lists, capitalize the entry term exactly like neighboring entries.
 
