@@ -28,8 +28,10 @@ If you have visited the page before, hard refresh first to make sure you get the
 
 #### Step 2 — Open the downloaded file
 
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-17b300139c0cd35ff32201e35f920cb1dfd5faae%2Fsetup-smartscreen.png?alt=media" alt="Windows SmartScreen warning: click More info then Run anyway"><figcaption></figcaption></figure>
+
 {% columns %}
-{% column %}
+{% column width="91.66666666666666%" %}
 Click the file to open it. It may appear in your browser's bottom bar, the downloads icon, or your **Downloads** folder.
 
 If Windows shows a **"Windows protected your PC"** SmartScreen warning, click **More info** then **Run anyway**. The app is published by UNICEF and safe to install.
@@ -37,8 +39,8 @@ If Windows shows a **"Windows protected your PC"** SmartScreen warning, click **
 If a warning about an older version appears, go back to Step 1 and reinstall the latest version.
 {% endcolumn %}
 
-{% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-17b300139c0cd35ff32201e35f920cb1dfd5faae%2Fsetup-smartscreen.png?alt=media" alt="Windows SmartScreen warning: click More info then Run anyway" width="300"><figcaption></figcaption></figure>
+{% column width="8.333333333333343%" %}
+
 {% endcolumn %}
 {% endcolumns %}
 
