@@ -61,7 +61,7 @@ This enables three things:
 
 ### Data where you need it
 
-Every measurement syncs to Giga Maps and analytics dashboards automatically.
+Every measurement syncs to Giga Maps, APIs and analytics dashboards automatically.
 
 [**Giga Maps**](https://maps.giga.global/) — Results appear on the public Giga Maps platform within hours. Each school appears as a colour-coded dot showing its current connectivity level.
 
