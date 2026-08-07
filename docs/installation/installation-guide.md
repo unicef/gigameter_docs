@@ -41,6 +41,10 @@ Click the file to open it. It may appear in your browser's bottom bar, the downl
 If Windows shows a **"Windows protected your PC"** SmartScreen warning, click **More info** then **Run anyway**. The app is published by UNICEF and safe to install.
 
 If a warning about an older version appears, go back to Step 1 and reinstall the latest version.
+
+<figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+
+
 {% endcolumn %}
 
 {% column width="8.333333333333343%" %}
