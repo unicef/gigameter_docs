@@ -136,12 +136,6 @@ Yes. One computer is enough to get started, and you can register up to 5 per sch
 
 ***
 
-#### What kind of data does Giga Meter access?
-
-Only the system and network information needed to measure internet quality: connection speed, availability, network details, and device type. It does not access personal files, browsing history, or content.
-
-***
-
 #### How does Giga Meter help improve internet access?
 
 Giga Meter does not fix internet connections directly, but it makes problems visible. The data helps governments and providers identify and prioritise improvements where they are needed most.
