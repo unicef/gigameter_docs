@@ -30,7 +30,7 @@ Both workstreams start on day one. By the time the first schools report data, th
 
 ### Role 1 - Installation Lead
 
-The Installation Lead coordinates the installer network, manages device readiness, runs training workshops, and monitors the rollout. Steps cover:
+The Installation Lead coordinates the team of installers, manages device readiness, runs training workshops, and monitors the rollout. Steps cover:
 
 1. Designate the installation lead and subnational leads
 2. Define target schools and phasing (pilot then scale-up)
