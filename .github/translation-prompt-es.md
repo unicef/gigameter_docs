@@ -93,6 +93,7 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 - Do not stack a fixed phrase onto overlapping source words ("habilitado en el sistema en el backend" — drop the redundant half).
 - Avoid unnatural collocations with metric terms: a school "entra en abandono" or "deja de reportar (abandono)", never "presenta abandono".
 - "serve" (audience sense) → "apoya a": "Giga Meter serves schools, governments, and technical teams" → "Giga Meter apoya a escuelas, gobiernos y equipos técnicos". Never "sirve a".
+- "browse everything" → "explorar todo el contenido". Never bare "explorar todo" — "todo" without a noun loses the referent in Spanish.
 - No space before punctuation after a bold or link span ("**Datos**; confirme", not "**Datos** ; confirme"); no missing space after one ("**la escuela** y", not "**la escuela**y").
 - In glossaries and definition lists, capitalize the entry term exactly like neighboring entries.
 
