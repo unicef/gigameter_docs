@@ -18,7 +18,7 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **Connected / Not connected / Unknown** The three connectivity status labels Giga assigns to every mapped school. Connected: internet service confirmed from administrative records or real-time measurement. Not connected: confirmed absence of service. Unknown: no measurement recorded in the current week for the real-time measurement layer, or no data available.
 
-**Connectivity status** The summary judgement of whether a school has working internet, drawn from multiple sources including school surveys, partner reports, and Giga Meter measurements.
+**Connectivity status** The summary judgement of whether a school has an internet connection, drawn from multiple sources including school surveys, partner reports, and Giga Meter measurements.
 
 **Dashboard** A single screen that brings together charts, tables, and key numbers so a user can monitor a topic at a glance. Giga's school-connectivity dashboards are built in Apache Superset.
 
@@ -99,4 +99,3 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 * [Measurement Protocols](../docs/technical-reference/measurement-protocols.md) - how Giga Meter runs its tests
 * [Using the Dashboard](../country-deployment/using-the-dashboard.md) - where each term appears on screen
 * [Data Governance & Privacy](../docs/technical-reference/data-governance.md) - what data is shared and with whom
-
