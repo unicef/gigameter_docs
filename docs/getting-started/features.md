@@ -67,7 +67,7 @@ Every measurement syncs to Giga Maps, APIs and analytics dashboards automaticall
 
 [**Analytics dashboards**](https://superset.giga.global/) — Dashboards show school-level and country-level trends: speeds over time, uptime by district, ISP performance, and comparison against national benchmarks.
 
-[**API**](../technical-reference/api-reference.md) — Programmatic access to the full dataset — measurements, daily ping aggregations, school records, and country data — for integration with government systems or custom analysis.
+[**API**](../technical-reference/api-reference.md) — Programmatic access to the full dataset for integration with government systems or custom analysis.
 
 ***
 
