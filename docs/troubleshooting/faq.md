@@ -106,6 +106,8 @@ Yes. Clicking the close button closes the window, but the app continues running 
 
 When a new version is available, a notification pop-up appears; click **Restart** to update. You can also visit [meter.giga.global](https://meter.giga.global/) at any time to download and install the latest version.
 
+<img src="../../.gitbook/assets/unknown.png" alt="Update notification pop-up screen." height="187.46410782268288" width="358.7611250688131">
+
 ***
 
 #### When do speed tests run?
