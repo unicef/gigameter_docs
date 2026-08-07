@@ -16,6 +16,10 @@ Before you start, confirm your device meets the [System Requirements](system-req
 {% column %}
 Visit [meter.giga.global](https://meter.giga.global/) and click **Download** in the upper right corner.
 
+A download pop-up will open. Add the file  location you prefer and click on "Save".
+
+
+
 {% hint style="warning" %}
 If you have visited the page before, hard refresh first to make sure you get the latest version: **Ctrl + Shift + R** (Chrome / Edge) or **Ctrl + F5** (Firefox).
 {% endhint %}
