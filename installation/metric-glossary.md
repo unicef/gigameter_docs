@@ -16,7 +16,7 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **Bandwidth** The maximum amount of data that can pass through an internet connection per second, usually reported in megabits per second (Mbps). Higher bandwidth means more devices can stream, call, and load pages at the same time.
 
-**Connected / Not connected / Unknown** The three connectivity labels Giga assigns to every mapped school. "Connected" means the school has confirmed internet service; "Not connected" means it does not; "Unknown" means there is not yet enough information to tell.
+**Connected / Not connected / Unknown** The three connectivity status labels Giga assigns to every mapped school. Connected: internet service confirmed from administrative records or real-time measurement. Not connected: confirmed absence of service. Unknown: no measurement recorded in the current week for the real-time measurement layer, or no data available.
 
 **Connectivity status** The summary judgement of whether a school has working internet, drawn from multiple sources including school surveys, partner reports, and Giga Meter measurements.
 
