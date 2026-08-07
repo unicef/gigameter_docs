@@ -26,7 +26,7 @@ If you have visited the page before, hard refresh first to make sure you get the
 {% endcolumn %}
 
 {% column %}
-<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-2368e25df75371596e81b244374d293a095e4b4a%2Fapp-school-id-entry.png?alt=media" alt="Giga Meter download page with download button highlighted" width="300"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/download giga meter.png" alt="Giga Meter download page with download button highlighted"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
