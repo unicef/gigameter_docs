@@ -10,7 +10,7 @@ Giga Meter runs on its own once installed.
 
 Four speed tests run each day: one within 15 minutes of the device starting up, then one in each of the 8am-12pm, 12pm-4pm, and 4pm-8pm windows. Test times are randomised within each window. Between speed tests, a ping check runs every 15 minutes from 8am to 8pm to record whether the connection is reachable.
 
-No staff action is required for measurements to run. Periodic app updates are required when prompted.
+No staff action is required for measurements to run, though it is important to keep the app up to date with latest version (meaning more and improved features!)
 
 {% hint style="info" %}
 **Manual tests are also available.** Any user can start an on-demand test from the app at any time. This is useful during site visits or when investigating a reported issue.
