@@ -74,9 +74,9 @@ Continuous monitoring shows whether interventions are working and where plans ne
 
 Connectivity problems at rural and underserved schools are recorded and made visible, which helps governments and partners prioritise support.
 
-Measurement data collected over time supports the case for better internet, equipment, or funding.
+Historical measurement data can be used to justify requests for better internet, equipment, or funding.&#x20;
 
-The data shows not only whether a school is connected, but whether the connection is fast and reliable enough for digital learning. It also helps identify slow speeds or outages before they disrupt classes.
+The data shows not only whether a school is connected, but whether the connection is fast and reliable enough for digital learning. It also helps flag anomalous patterns, such as drops in speed, before they disrupt classes.
 {% endtab %}
 
 {% tab title="Learners" %}
@@ -84,6 +84,6 @@ The data shows not only whether a school is connected, but whether the connectio
 
 Giga Meter helps assess whether a school's internet is reliable enough to support digital tools, online platforms, and classroom learning.
 
-Making underserved schools visible increases the likelihood that the students who need support most will receive it.
+Visibility for underserved schools increases the chances that the students who need support most will receive it.
 {% endtab %}
 {% endtabs %}
