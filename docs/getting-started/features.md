@@ -71,7 +71,7 @@ Every measurement syncs to Giga Maps, APIs and analytics dashboards automaticall
 
 ***
 
-### How Giga Meter compares to consumer speed tests
+### How Giga Meter compares to other consumer speed tests
 
 Consumer speed-test tools such as Ookla are user-initiated, anonymous, and built for individual awareness. Giga Meter is automated, registered to a school, and built for government reporting and accountability.
 
