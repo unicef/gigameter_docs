@@ -1,6 +1,6 @@
 # Features
 
-Giga Meter gives each connected school an automated, ongoing record of how its internet performs. Measurements feed into Giga Maps and analytics dashboards each day.
+Giga Meter gives each connected school an automated, ongoing record of how its internet performs over time. Measurements feed into Giga Maps and analytics dashboards each day.
 
 ***
 
