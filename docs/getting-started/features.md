@@ -51,7 +51,7 @@ Before the first measurement runs, the computer is registered to a specific scho
 
 This enables three things:
 
-**Geolocation validation.** Computer coordinates are recorded on every test. If the computer is more than 4km from the registered school's location, the measurement is flagged. This guards against data from misregistered or relocated computers.
+**Geolocation validation.** Computer coordinates are recorded on every test. If the computer is more than 500m from the registered school's location, the measurement is flagged. This guards against data from misregistered or relocated computers.
 
 **Multi-computer coordination.** One computer is enough for a school to report, but up to 5 Giga Meter installations can be registered to the same school. Multiple computers measure independently, which makes the school's data more robust and reduces gaps when a computer is off.
 
