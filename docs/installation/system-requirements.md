@@ -2,12 +2,12 @@
 
 ### Minimum requirements
 
-To install Giga Meter, the device must meet these minimum requirements:
+To install Giga Meter, the computer must meet these minimum requirements:
 
 | Requirement             | Specification                                  |
 | ----------------------- | ---------------------------------------------- |
 | **Operating system**    | Windows 7 or higher                            |
-| **Device type**         | Desktop or laptop                              |
+| **Computer type**       | Desktop or laptop                              |
 | **Internet connection** | Active connection at the school                |
 | **Free disk space**     | 500 MB minimum                                 |
 | **Usage pattern**       | Frequently used, ideally daily                 |
@@ -21,9 +21,9 @@ To install Giga Meter, the device must meet these minimum requirements:
 {% column %}
 <img src="https://gigabrand.vercel.app/illustrations/general/fill/devices.svg" alt="" height="100">
 
-**How many devices per school?**
+**How many computers per school?**
 
-One computer is enough to get started - a single device that stays on during school hours will keep your school reporting. You can register up to 5 devices per school; more devices give more frequent measurements and a backup if one is switched off.
+One computer is enough to get started - a single computer that stays on during school hours will keep your school reporting. You can register up to 5 computers per school; more computers give more frequent measurements and a backup if one is switched off.
 {% endcolumn %}
 
 {% column %}
@@ -39,9 +39,9 @@ Where possible, install on at least one computer connected by Ethernet. A wired 
 {% column %}
 <img src="https://gigabrand.vercel.app/illustrations/general/fill/cloud.svg" alt="" height="100">
 
-**Keep the device on**
+**Keep the computer on**
 
-The app runs in the background while the computer is on. Keep it on during school hours; tests do not run when the device is off or in sleep mode.
+The app runs in the background while the computer is on. Keep it on during school hours; tests do not run when the computer is off or in sleep mode.
 {% endcolumn %}
 
 {% column %}
