@@ -28,7 +28,7 @@ Email / phone:
 
 ### Step 2 - Define target schools and phasing
 
-Agree on which schools will receive Giga Meter and in what order before the rollout begins. The total number and selection criteria determine the installation strategy.&#x20;
+Agree on which schools will receive Giga Meter and in what order before the rollout begins. The total number and selection criteria determine the installation strategy.
 
 **Pilot first, then expand**
 
@@ -46,19 +46,19 @@ Avoid selecting only the easiest schools; pilots that go too smoothly do not sur
 
 After the pilot, expand the deployment in phases rather than attempting a single national rollout. Common phasing approaches:
 
-| Approach             | How it works                                                     | Works best when                                      |
-| -------------------- | ---------------------------------------------------------------- | ---------------------------------------------------- |
-| By region            | Roll out region by region, using regional focal points           | You have a clear regional structure                  |
-| By school type       | Start with secondary schools, then primary                       | Device readiness varies significantly by school type |
-| By connectivity tier | Start with better-connected schools to build early data coverage | You want to demonstrate value quickly                |
-| By partner           | Delegate phases to regional education offices or NGO partners    | You have a distributed implementation network        |
+| Approach             | How it works                                                     | Works best when                                        |
+| -------------------- | ---------------------------------------------------------------- | ------------------------------------------------------ |
+| By region            | Roll out region by region, using regional focal points           | You have a clear regional structure                    |
+| By school type       | Start with secondary schools, then primary                       | Computer readiness varies significantly by school type |
+| By connectivity tier | Start with better-connected schools to build early data coverage | You want to demonstrate value quickly                  |
+| By partner           | Delegate phases to regional education offices or NGO partners    | You have a distributed implementation network          |
 
 **Output:** Share the following with the Giga team before the rollout begins:
 
 {% hint style="info" %}
 **Target schools and phasing plan**\
 Total target schools: \[N]\
-Selection criteria: \[e.g. schools with Windows devices, mapped on Giga Maps, specific regions or school types]\
+Selection criteria: \[e.g. schools with Windows computers, mapped on Giga Maps, specific regions or school types]\
 \
 **Pilot**\
 Schools: \[N] - \[selection rationale]\
@@ -75,35 +75,35 @@ Timeline: \[start - end date]
 
 ***
 
-### Step 3 - Confirm device readiness
+### Step 3 - Confirm computer readiness
 
 {% hint style="warning" %}
-Giga Meter currently runs on Windows only. Tablets and Android devices cannot run the app. If a school has no Windows device, flag it to the focal point before the rollout; Android support is in development.
+Giga Meter currently runs on Windows only. Tablets and Android devices cannot run the app. If a school has no Windows computer, flag it to the focal point before the rollout; Android support is in development.
 {% endhint %}
 
 For each school, confirm:
 
 * [ ] **Windows OS** - Windows 7 or higher (desktop or laptop)
 * [ ] **Free disk space** - at least 500 MB available
-* [ ] **Regular use** - device is used daily or near-daily
-* [ ] **Dedicated school connection** - device connects exclusively to the school's internet, not a mobile hotspot or personal router
+* [ ] **Regular use** - computer is used daily or near-daily
+* [ ] **Dedicated school connection** - computer connects exclusively to the school's internet, not a mobile hotspot or personal router
 * [ ] **Admin rights to install software** - the person installing can approve the installation
 * [ ] **School internet connection** is functional and stable enough to complete an installation
 
-One computer per school is enough to get started. You can register up to 5 devices. More devices mean more frequent measurements and redundancy if one is switched off or decomissioned.
+One computer per school is enough to get started. You can register up to 5 computers. More computers mean more frequent measurements and redundancy if one is switched off or decommissioned.
 
 **Common blockers**
 
-| Blocker                                    | What to do                                                                                   |
-| ------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| School only has tablets or Chromebooks     | Flag to Giga; the Android application is in development                                      |
-| Computers not regularly powered on         | Discuss with the school principal; measurements only run when the device is on and connected |
-| Installers do not have device admin rights | Coordinate with MoE IT department to grant temporary admin access for installation           |
-| Internet connection down at time of visit  | Reschedule installation, use a different device or carry installation at a later time        |
+| Blocker                                   | What to do                                                                                     |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| School only has tablets or Chromebooks    | Flag to Giga; the Android application is in development                                        |
+| Computers not regularly powered on        | Discuss with the school principal; measurements only run when the computer is on and connected |
+| Installers do not have admin rights       | Coordinate with MoE IT department to grant temporary admin access for installation             |
+| Internet connection down at time of visit | Reschedule installation, use a different computer or carry installation at a later time        |
 
-**Output:** Collect device status at the school level before the rollout and share with the Giga team.
+**Output:** Collect computer status at the school level before the rollout and share with the Giga team.
 
-<table><thead><tr><th width="128">School name</th><th>School ID</th><th>Windows devices available</th><th>Powered on daily</th><th>Admin rights</th><th>Notes</th></tr></thead><tbody><tr><td></td><td></td><td></td><td>Yes / No</td><td>Yes / No</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="128">School name</th><th>School ID</th><th>Windows computers available</th><th>Powered on daily</th><th>Admin rights</th><th>Notes</th></tr></thead><tbody><tr><td></td><td></td><td></td><td>Yes / No</td><td>Yes / No</td><td></td></tr></tbody></table>
 
 ***
 
@@ -278,7 +278,7 @@ Track progress against your planned timeline and target from the day installatio
 | Open troubleshooting tickets per week                    | Is the support mechanism keeping up?            |
 
 {% hint style="success" %}
-A school can be "installed" but not "reporting": the device may be powered off, the app may have crashed, or it may have lost internet. Treat any installed school that has not reported in 7+ days as a priority follow-up.
+A school can be "installed" but not "reporting": the computer may be powered off, the app may have crashed, or it may have lost internet. Treat any installed school that has not reported in 7+ days as a priority follow-up.
 {% endhint %}
 
 Once schools start reporting, use the **Installation Tracking** tab in the [Superset dashboard](https://superset.giga.global) to monitor rollout health. Key figures: live schools (data in the last 21 days), at-risk schools (22-28 day silence), and drop-offs (29+ days silent). For what each screen and column means, see [Using the Dashboard](../../country-deployment/using-the-dashboard.md).
@@ -303,7 +303,7 @@ Next steps:
 
 ### Step 9 - Build for sustainability
 
-Installation is not the end. Giga Meter only generates useful data if schools keep it running, and most deployments see drop-off within months without deliberate mechanisms to keep Meter up to date. This step is about embedding Giga Meter into how schools and the ministry operate.&#x20;
+Installation is not the end. Giga Meter only generates useful data if schools keep it running, and most deployments see drop-off within months without deliberate mechanisms to keep Meter up to date. This step is about embedding Giga Meter into how schools and the ministry operate.
 
 **Find a champion**
 
@@ -313,13 +313,13 @@ Identify this person early and involve them from the pilot phase. Their ownershi
 
 **Mechanisms that work**
 
-| Mechanism                    | What it looks like                                                                                               | Why it helps                                                                   |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| Dedicated school focal point | One named staff member per school responsible for the device and for reinstalling after reformats                | Creates individual accountability; makes it easy to know who to call           |
-| Regional coordinator network | A named focal point per region who aggregates school-level issues and reports to the national lead               | Scales support without centralising everything in the ministry                 |
-| Community of practice        | Periodic calls or meetings between school focal points to share issues, solutions, and data insights             | Builds peer knowledge-sharing; reduces load on the central support channel     |
-| Monitoring dashboard review  | A standing agenda item in existing ministry review meetings to look at Giga Meter data                           | Embeds data use into existing routines rather than creating a separate process |
-| Reinstallation protocol      | A documented process for when a school reformats or replaces a device: who triggers it, how fast, who follows up | Prevents the most common cause of drop-off going undetected                    |
+| Mechanism                    | What it looks like                                                                                                 | Why it helps                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| Dedicated school focal point | One named staff member per school responsible for the computer and for reinstalling after reformats                | Creates individual accountability; makes it easy to know who to call           |
+| Regional coordinator network | A named focal point per region who aggregates school-level issues and reports to the national lead                 | Scales support without centralising everything in the ministry                 |
+| Community of practice        | Periodic calls or meetings between school focal points to share issues, solutions, and data insights               | Builds peer knowledge-sharing; reduces load on the central support channel     |
+| Monitoring dashboard review  | A standing agenda item in existing ministry review meetings to look at Giga Meter data                             | Embeds data use into existing routines rather than creating a separate process |
+| Reinstallation protocol      | A documented process for when a school reformats or replaces a computer: who triggers it, how fast, who follows up | Prevents the most common cause of drop-off going undetected                    |
 
 **What to avoid**
 

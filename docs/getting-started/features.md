@@ -8,7 +8,7 @@ Giga Meter gives each connected school an automated, ongoing record of how its i
 
 Giga Meter runs on its own once installed.
 
-Four speed tests run each day: one within 15 minutes of the device starting up, then one in each of the 8am-12pm, 12pm-4pm, and 4pm-8pm windows. Test times are randomised within each window. Between speed tests, a ping check runs every 15 minutes from 8am to 8pm to record whether the connection is reachable.
+Four speed tests run each day: one within 15 minutes of the computer starting up, then one in each of the 8am-12pm, 12pm-4pm, and 4pm-8pm windows. Test times are randomised within each window. Between speed tests, a ping check runs every 15 minutes from 8am to 8pm to record whether the connection is reachable.
 
 No staff action is required for measurements to run, though it is important to keep the app up to date with latest version (meaning more and improved features!)
 
@@ -45,17 +45,17 @@ M-Lab server locations
 
 ***
 
-### Tied to a school, not a device
+### Tied to a school, not a computer
 
-Before the first measurement runs, the device is registered to a specific school using the school's national ID. That registration links every later measurement to a school in Giga's database.
+Before the first measurement runs, the computer is registered to a specific school using the school's national ID. That registration links every later measurement to a school in Giga's database.
 
 This enables three things:
 
-**Geolocation validation.** Device coordinates are recorded on every test. If the device is more than 4km from the registered school's location, the measurement is flagged. This guards against data from misregistered or relocated devices.
+**Geolocation validation.** Computer coordinates are recorded on every test. If the computer is more than 4km from the registered school's location, the measurement is flagged. This guards against data from misregistered or relocated computers.
 
-**Multi-device coordination.** One device is enough for a school to report, but up to 5 Giga Meter installations can be registered to the same school. Multiple devices measure independently, which makes the school's data more robust and reduces gaps when a device is off.
+**Multi-computer coordination.** One computer is enough for a school to report, but up to 5 Giga Meter installations can be registered to the same school. Multiple computers measure independently, which makes the school's data more robust and reduces gaps when a computer is off.
 
-**Persistent school history.** Because measurements are tied to a school ID rather than a device, the record survives device replacements. A school's connectivity history is preserved when hardware changes.
+**Persistent school history.** Because measurements are tied to a school ID rather than a computer, the record survives computer replacements. A school's connectivity history is preserved when hardware changes.
 
 ***
 
