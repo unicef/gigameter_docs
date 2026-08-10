@@ -33,9 +33,13 @@ Style rules:
 - Two sentences maximum: lead with the headline user-facing changes, close with secondary improvements if any
 - Conversational but precise — no marketing superlatives, no jargon
 - Do not list every change mechanically; weave them into natural prose
+- No trailing purpose clauses: never add "to provide better X" or "in order to Y"
+- No "while also" constructions — use "and" or start a new sentence
+- No "behind the scenes", "under the hood", or similar filler phrases — name what actually changed
+- Language support: "the app is now available in X" — never "adding X as a language option for users"
 
 Good example:
-"Giga Meter can now measure internet speed more accurately and pinpoint your location automatically to provide better connectivity data. The app is also now available in Mongolian."
+"Giga Meter can now measure internet speed more accurately and identify your location automatically. The app is also now available in Mongolian, and includes improvements to usage tracking and secure updates."
 
 Bad example (do not do this):
 "Version 2.0.3 improves speed-measurement accuracy, adds automatic location detection, adds Mongolian language support, and moves software updates to signed distribution."
