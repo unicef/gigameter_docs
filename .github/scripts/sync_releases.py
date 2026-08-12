@@ -68,6 +68,11 @@ def build_block(summary: str) -> str:
 
 
 def inject(readme: str, block: str) -> str:
+    # Strip any orphaned hint block for this release (no markers) before injecting.
+    # These accumulate when sync_releases runs before marker-restoration commits land.
+    orphan = r"\n\{%\s*hint[^%]*%\}[^{]*?" + re.escape(RELEASES_URL) + r"[^{]*?\{%\s*endhint\s*%\}\n"
+    readme = re.sub(orphan, "\n", readme, flags=re.DOTALL)
+
     pattern = r"<!-- release-start(?::[^>]*)? -->.*?<!-- release-end -->"
     if re.search(pattern, readme, re.DOTALL):
         return re.sub(pattern, block, readme, flags=re.DOTALL)
