@@ -37,59 +37,19 @@ Ask schools to join the training session from one of the identified computers so
 
 ### Materials available from Giga
 
-**Giga Meter Onboarding Deck**
-
-{% columns %}
-{% column %}
-<a href="#" class="button primary">English (PPTX)</a>
-{% endcolumn %}
-{% column %}
-<a href="#" class="button primary">Español (PPTX)</a>
-{% endcolumn %}
-{% column %}
-<a href="#" class="button primary">English (PDF)</a>
-{% endcolumn %}
-{% column %}
-<a href="#" class="button primary">Español (PDF)</a>
-{% endcolumn %}
-{% endcolumns %}
-
-**Installation Guide**
-
-{% columns %}
-{% column %}
-<a href="#" class="button primary">English</a>
-{% endcolumn %}
-{% column %}
-<a href="#" class="button primary">Español</a>
-{% endcolumn %}
-{% column %}
-<a href="#" class="button primary">Français</a>
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-<a href="#" class="button primary">Português</a>
-{% endcolumn %}
-{% column %}
-<a href="#" class="button primary">Mongolian</a>
-{% endcolumn %}
-{% column %}
-{% endcolumn %}
-{% endcolumns %}
-
 **Installation Videos**
 
 {% columns %}
 {% column %}
-<a href="#" class="button primary">English</a>
+<a href="deployment-checklist.md" class="button primary">English</a>
 {% endcolumn %}
+
 {% column %}
-<a href="#" class="button primary">Português</a>
+<a href="deployment-checklist.md" class="button primary">Português</a>
 {% endcolumn %}
+
 {% column %}
-<a href="#" class="button primary">Mongolian</a>
+<a href="deployment-checklist.md" class="button primary">Mongolian</a>
 {% endcolumn %}
 {% endcolumns %}
 
