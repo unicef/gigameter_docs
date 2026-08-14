@@ -143,7 +143,7 @@ The four connectivity KPI cards always reflect the **last 5 working days** — t
 | Packet Loss | 5th percentile (P5), percent | The "best-case" share of data lost in transit — lower is better |
 | Uptime - % | Percent | Share of expected ping checks that succeeded |
 | Median Daily Pings | Count | Typical number of ping checks a school runs per day |
-| Primary Server | — | The most common test server schools in this country connect to |
+| Primary Server | Server with the most measurements over the trailing 365 days | The speed-test server most schools in this country were routed to. Uses a full year of data on purpose, so the designation stays stable rather than flipping week to week — it isn't affected by the Date Range filter |
 
 {% hint style="info" %}
 **Why P95?** Independent research into school connectivity data found P95 gives the best balance of stability and sensitivity — it filters out one-off spikes without hiding genuine, sustained changes in speed. It's used here as the standard indicator for "typical" school connectivity.
