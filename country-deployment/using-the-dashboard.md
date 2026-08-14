@@ -59,9 +59,9 @@ Each stage of the funnel is a subset of the one above it, narrowing from the ful
 | Ever measured | The school has sent at least one speed test |
 | Measured in last year / 6 months / month / week / today | The school's most recent measurement falls within that window. These are cumulative — a school counted in "last week" is also counted in "last month," "last 6 months," and so on |
 
-Below the funnel, a **Campaign Health** panel classifies every school by its recent measurement pattern (for example: on target, declining, or a sudden stop) so you can spot schools worth a closer look before they show up in Troubleshooting.
-
 **School Deployment Tracker** lists every school with its own row — sorted so the most recently installed schools surface first:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Operations Deployment Tracker.png" alt=""><figcaption></figcaption></figure>
 
 | Column | Definition | Example |
 | --- | --- | --- |
@@ -104,6 +104,10 @@ Inconsistency's recommended action depends on just how sparse the school's measu
 {% hint style="info" %}
 If more than one flag is active, the Recommended Action column lists every matching action, separated by semicolons. Schools with no active flags show "No action needed."
 {% endhint %}
+
+**School Troubleshooting Table** lists every school with an active flag, one row per school:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Operations Troubleshooting Table.png" alt=""><figcaption></figcaption></figure>
 
 | Column | What it means |
 | --- | --- |
@@ -152,6 +156,8 @@ Below the KPI cards is a school search bar to jump to an individual school, plus
 | Distributions | Histogram | How download, upload, latency, packet loss, and uptime are spread across all schools in the country. Use this to see whether most schools cluster around a similar speed or whether performance is uneven across the country. |
 | Timeseries | Weekly trend lines (P95 and median; P95, P5, and median for latency and packet loss) | The same five metrics trending week by week over the last 12 months. Use this to see whether connectivity is improving, holding steady, or declining over time. |
 
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Distributions.png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/Superset v2 - Monitoring Timeseries.png" alt=""><figcaption></figcaption></figure>
 
 **Monitoring > Benchmarking**
@@ -172,7 +178,13 @@ Headline KPI cards at the top of the sub-tab:
 
 **How verdicts work:** a school **passes** a given week only if it meets all four benchmark thresholds in its most recent complete week. The **Failure Reason** column in the table shows exactly what caused a fail; use the Verdict Metric filter to isolate schools failing one specific metric.
 
+**Pass / Fail Over Time** shows the same weekly verdicts stacked as pass (green) vs. fail (red) counts, so you can see at a glance whether more or fewer schools are meeting benchmark as time goes on:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking Pass Fail.png" alt=""><figcaption></figcaption></figure>
+
 The **Schools Weekly Benchmark Report** table lists one row per school, per week:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking Report.png" alt=""><figcaption></figcaption></figure>
 
 | Column | What it means |
 | --- | --- |
@@ -187,7 +199,25 @@ The **Schools Weekly Benchmark Report** table lists one row per school, per week
 | Latency - P5 | 5th percentile latency for that week |
 | Packet Loss - P5 | 5th percentile packet loss for that week |
 
-Below the table, break the same pass/fail picture down **by ISP**, **by Admin Region**, or **by Connectivity Type** — including an ISP Scorecard summarising which providers are hitting benchmark most consistently.
+Below the table, break the same pass/fail picture down **by ISP**, **by Admin Region**, or **by Connectivity Type**.
+
+**By ISP** — an ISP Scorecard summarising which providers are hitting benchmark most consistently, and their typical performance:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking By ISP.png" alt=""><figcaption></figcaption></figure>
+
+| Column | What it means |
+| --- | --- |
+| isp_name | Internet service provider |
+| schools_served | Number of schools using this ISP |
+| pct_passing_benchmark | Share of this ISP's school-weeks that passed all 4 thresholds |
+| p95_download_mbps / p95_upload_mbps | 95th percentile download/upload speed across this ISP's schools |
+| p5_latency_ms / p5_packet_loss_pct | 5th percentile latency/packet loss across this ISP's schools |
+
+**By Admin Region** shows the percentage of school-weeks passing benchmark for each region, so you can spot regions that are systematically underperforming:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking By Admin.png" alt=""><figcaption></figcaption></figure>
+
+**By Connectivity Type** shows the same percent-passing breakdown, grouped by the school's registered connectivity type instead of region.
 
 </details>
 
@@ -197,13 +227,13 @@ Below the table, break the same pass/fail picture down **by ISP**, **by Admin Re
 
 Four raw data tables, each exportable to CSV for offline analysis.
 
-<figure><img src="../.gitbook/assets/Superset v2 - Data Access.png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="success" %}
 To export any table: apply the filters you want, then use the **⋮** menu on the table → **Download** → **CSV**.
 {% endhint %}
 
 **Data Access > Registered Schools** — one row per registered school:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Data Access Registered Schools.png" alt=""><figcaption></figcaption></figure>
 
 | Column | What it means |
 | --- | --- |
@@ -218,6 +248,8 @@ To export any table: apply the filters you want, then use the **⋮** menu on th
 
 **Data Access > Raw Measurements** — one row per individual Giga Meter speed test:
 
+<figure><img src="../.gitbook/assets/Superset v2 - Data Access Raw Measurements.png" alt=""><figcaption></figcaption></figure>
+
 | Column | What it means |
 | --- | --- |
 | download_speed / upload_speed | Measured download/upload speed for this test |
@@ -231,6 +263,8 @@ To export any table: apply the filters you want, then use the **⋮** menu on th
 
 **Data Access > School Master** — one row per registered school (reference data):
 
+<figure><img src="../.gitbook/assets/Superset v2 - Data Access School Master.png" alt=""><figcaption></figcaption></figure>
+
 | Column | What it means |
 | --- | --- |
 | latitude / longitude | The school's registered coordinates |
@@ -243,6 +277,8 @@ To export any table: apply the filters you want, then use the **⋮** menu on th
 | electricity_availability | Whether the school has electricity access |
 
 **Data Access > Ping Data** — one row per school and device, per day. A device is expected to check in roughly every 15 minutes, so across the 8am–8pm school-day window that works out to **48 expected pings per day**. Every column below — records, Uptime, connected, not connected — is scoped to that same 8am–8pm window, not the full day.
+
+<figure><img src="../.gitbook/assets/Superset v2 - Data Access Ping Data.png" alt=""><figcaption></figcaption></figure>
 
 | Column | What it means |
 | --- | --- |
