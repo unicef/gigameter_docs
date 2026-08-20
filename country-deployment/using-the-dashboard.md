@@ -25,7 +25,7 @@ All tabs are reached from the tab bar at the top of the dashboard. Two of the fo
 | **Data Access - Ping Data** | How reliably is each school staying online, day to day? One row per school and device, per day. |
 | **ReadMe** | An in-dashboard quick reference for pages, filters, and definitions. |
 
-Sub-tabs with their own sections below are explained in more detail there — this table is just the map.
+Each row above has its own expandable section below — this table is just the map. In Superset itself, Monitoring and Data Access each appear as a single tab with sub-tabs nested inside; this page instead breaks every sub-tab out into its own section below, matching the rows above.
 
 <details>
 
@@ -84,6 +84,8 @@ Use the Activity Tier and Connectivity filters in the left panel to narrow the t
 
 Four alert flags surface schools that likely need a follow-up visit or support call. The four KPI cards above the table double as filters — click a card (e.g. Drop-Off) to filter the table below to just that category, and click it again to clear the filter.
 
+**Troubleshooting KPIs**
+
 <figure><img src="../.gitbook/assets/Superset v2 - Operations Troubleshooting.png" alt=""><figcaption></figcaption></figure>
 
 | Alert flag | Definition | Recommended action |
@@ -125,11 +127,9 @@ For schools with no measurements in the lookback window, only the Drop-Off flag 
 
 <details>
 
-<summary>Monitoring</summary>
+<summary>Monitoring > Summary</summary>
 
-Two sub-tabs: **Monitoring > Summary**, for current connectivity quality, and **Monitoring > Benchmarking**, for pass/fail performance against configurable targets.
-
-**Monitoring > Summary**
+For current connectivity quality — headline connectivity KPIs, plus distribution and timeseries charts for download, upload, latency, packet loss, and uptime.
 
 <figure><img src="../.gitbook/assets/Superset v2 - Monitoring Summary.png" alt=""><figcaption></figcaption></figure>
 
@@ -156,11 +156,21 @@ Below the KPI cards is a school search bar to jump to an individual school, plus
 | Distributions | Histogram | How download, upload, latency, packet loss, and uptime are spread across all schools in the country. Use this to see whether most schools cluster around a similar speed or whether performance is uneven across the country. |
 | Timeseries | Weekly trend lines (P95 and median; P95, P5, and median for latency and packet loss) | The same five metrics trending week by week over the last 12 months. Use this to see whether connectivity is improving, holding steady, or declining over time. |
 
+**Distributions**
+
 <figure><img src="../.gitbook/assets/Superset v2 - Monitoring Distributions.png" alt=""><figcaption></figcaption></figure>
+
+**Timeseries**
 
 <figure><img src="../.gitbook/assets/Superset v2 - Monitoring Timeseries.png" alt=""><figcaption></figcaption></figure>
 
-**Monitoring > Benchmarking**
+</details>
+
+<details>
+
+<summary>Monitoring > Benchmarking</summary>
+
+For pass/fail performance against configurable targets — pass/fail KPIs, a weekly per-school verdict table, and breakdowns by ISP, region, and connectivity type.
 
 <figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking.png" alt=""><figcaption></figcaption></figure>
 
@@ -221,17 +231,17 @@ Below the table, break the same pass/fail picture down **by ISP**, **by Admin Re
 
 </details>
 
-<details>
-
-<summary>Data Access</summary>
-
 Four raw data tables, each exportable to CSV for offline analysis.
 
 {% hint style="success" %}
 To export any table: apply the filters you want, then use the **⋮** menu on the table → **Download** → **CSV**.
 {% endhint %}
 
-**Data Access > Registered Schools** — one row per registered school:
+<details>
+
+<summary>Data Access > Registered Schools</summary>
+
+One row per registered school:
 
 <figure><img src="../.gitbook/assets/Superset v2 - Data Access Registered Schools.png" alt=""><figcaption></figcaption></figure>
 
@@ -246,7 +256,13 @@ To export any table: apply the filters you want, then use the **⋮** menu on th
 | max_app_version_gigameter | Newest Giga Meter app version seen at this school |
 | install_status | Current installation status (e.g. installed, not installed) |
 
-**Data Access > Raw Measurements** — one row per individual Giga Meter speed test:
+</details>
+
+<details>
+
+<summary>Data Access > Raw Measurements</summary>
+
+One row per individual Giga Meter speed test:
 
 <figure><img src="../.gitbook/assets/Superset v2 - Data Access Raw Measurements.png" alt=""><figcaption></figcaption></figure>
 
@@ -261,7 +277,13 @@ To export any table: apply the filters you want, then use the **⋮** menu on th
 | measurement_time_window | Time-of-day bucket the test was taken in |
 | is_weekday | Whether the test was taken on a school day |
 
-**Data Access > School Master** — one row per registered school (reference data):
+</details>
+
+<details>
+
+<summary>Data Access > School Master</summary>
+
+One row per registered school (reference data):
 
 <figure><img src="../.gitbook/assets/Superset v2 - Data Access School Master.png" alt=""><figcaption></figcaption></figure>
 
@@ -276,7 +298,13 @@ To export any table: apply the filters you want, then use the **⋮** menu on th
 | cellular_coverage_type | Type of mobile network coverage available at the school (e.g. 3G, 4G) |
 | electricity_availability | Whether the school has electricity access |
 
-**Data Access > Ping Data** — one row per school and device, per day. A device is expected to check in roughly every 15 minutes, so across the 8am–8pm school-day window that works out to **48 expected pings per day**. Every column below — records, Uptime, connected, not connected — is scoped to that same 8am–8pm window, not the full day.
+</details>
+
+<details>
+
+<summary>Data Access > Ping Data</summary>
+
+A device is expected to check in roughly every 15 minutes, so across the 8am–8pm school-day window that works out to **48 expected pings per day**. Every column below — records, Uptime, connected, not connected — is scoped to that same 8am–8pm window, not the full day.
 
 <figure><img src="../.gitbook/assets/Superset v2 - Data Access Ping Data.png" alt=""><figcaption></figcaption></figure>
 
