@@ -1,169 +1,326 @@
 # Using the Dashboard
 
-Giga Meter data is published through an [Apache Superset](https://superset.giga.global) dashboard. Tabs show school summaries, speed and latency trends, district breakdowns, per-measurement tables, app-version tracking, and installation health. This page is a screen-by-screen reference.
+Giga Meter data is published through an [Apache Superset](https://dashboard.giga.global) dashboard. The dashboard is built around three questions: are schools using the app, which schools need attention, and is the internet good enough. This page is a screen-by-screen reference for the current ("v2") dashboard.
 
 For how to get an account and which access channel suits which user, see the [Data Analysis Lead Guide](../docs/deployment/data-analysis-lead.md).
 
 {% hint style="info" %}
-**Getting access:** create an account at [superset.giga.global](https://superset.giga.global), then share your registered email with the Giga team, who assign a country-level role. Without a role, you can log in but will not see any data.
+**Getting access:** create an account at [dashboard.giga.global](https://dashboard.giga.global), signing in with a Google account (other login options are not yet available). Then share your registered email with the Giga team, who assign you a country-level role. Without a role, you can log in but will not see any data.
 {% endhint %}
 
 ***
 
-### Superset Dashboards' sections
+### Dashboard tabs
 
-All tabs are reached from the tab bar at the top of the dashboard.
+All tabs are reached from the tab bar at the top of the dashboard. Two of the four tabs are split into sub-tabs of their own — this page refers to those as **Tab > Sub-tab**, e.g. "Monitoring > Summary". Every chart respects the filters set in the left-hand panel — set your country first, then narrow down by date range, region, school, or metric as needed.
 
-| Screen                             | What it answers                                                                                             |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Summary**                        | How many schools are on the map, how many report through Giga Meter, and headline speed and latency figures |
-| **Connectivity · Speed & Latency** | Daily speed and latency trends, and how speeds are distributed across schools                               |
-| **Connectivity · District**        | Average speed broken out by district, plus a per-school table with sparklines                               |
-| **Data Tables · Registered**       | One row per registered school, key operational fields for follow-up                                         |
-| **Data Tables · Measurements**     | One row per individual test, including Wi-Fi diagnostics captured at measurement time                       |
-| **App Tracking**                   | Which Giga Meter version is running across the country; daily reporting counts                              |
-| **Installation Tracking**          | Who is live, who has gone quiet, and drop-off rate by district                                              |
+| Tab | What it answers |
+| --- | --- |
+| **Operations** | Are schools installing and using the app? Which schools need follow-up? Covers headline KPIs, the installation funnel, the school-level deployment tracker, and the troubleshooting table. |
+| **Monitoring - Summary** | What does current connectivity look like, and how has it trended? Covers headline connectivity KPIs, plus distribution and timeseries charts for download, upload, latency, packet loss, and uptime. |
+| **Monitoring - Benchmarking** | Which schools are meeting connectivity targets, and which aren't? Covers pass/fail KPIs, a weekly per-school verdict table, and breakdowns by ISP, region, and connectivity type. |
+| **Data Access - Registered Schools** | Which schools are registered, and what's their install/measurement status? One row per registered school. |
+| **Data Access - Raw Measurements** | What did each individual speed test record? One row per Giga Meter speed test. |
+| **Data Access - School Master** | What reference data exists for each school (location, infrastructure)? One row per registered school. |
+| **Data Access - Ping Data** | How reliably is each school staying online, day to day? One row per school and device, per day. |
+| **ReadMe** | An in-dashboard quick reference for pages, filters, and definitions. |
 
-<details>
-
-<summary>Screen 1 - Summary</summary>
-
-The opening view. Two headline numbers, schools on the map and schools reporting through Giga Meter, followed by headline speed and latency figures.
-
-<figure><img src="../.gitbook/assets/Superset 1.png" alt=""><figcaption></figcaption></figure>
-
-| What you see                       | Term           | What it means                                                              |
-| ---------------------------------- | -------------- | -------------------------------------------------------------------------- |
-| Schools on Giga Maps (e.g. 1.19k)  | Giga Maps      | Schools that have been located and published on Giga Maps                  |
-| Schools with Giga Meter (e.g. 81)  | Giga Meter     | Of the mapped schools, how many run the app and stream measurements        |
-| Live (e.g. 75)                     | Live school    | Schools that sent a reading within the last 21 days                        |
-| Drop-off (e.g. 5)                  | Drop-off       | Schools silent for 29+ days, unlikely to come back without a site visit    |
-| At-risk (e.g. 1)                   | At-risk school | Schools in the 22-28-day quiet window                                      |
-| Average download (e.g. 85.59 Mbps) | Download speed | Average across all schools and all measurements in scope                   |
-| Average latency (e.g. 59 ms)       | Latency        | About the upper edge of what feels instant in a video call                 |
-| Total measurements (e.g. 32.4k)    | Measurement    | Individual Giga Meter tests across all schools in the selected time window |
-
-</details>
+Each row above has its own expandable section below — this table is just the map. In Superset itself, Monitoring and Data Access each appear as a single tab with sub-tabs nested inside; this page instead breaks every sub-tab out into its own section below, matching the rows above.
 
 <details>
 
-<summary>Screen 2 - Connectivity · Speed &#x26; Latency</summary>
+<summary>Operations</summary>
 
-Daily speed and latency trends, plus box-plot distributions showing how consistent the experience is across schools.
+Six headline KPI cards, followed by an installation funnel, a full school-level tracker, and a troubleshooting table for schools that need attention.
 
-<figure><img src="../.gitbook/assets/Superset 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Superset v2 - Operations Overview.png" alt=""><figcaption></figcaption></figure>
 
-| What you see | Term               | What it means                                                              |
-| ------------ | ------------------ | -------------------------------------------------------------------------- |
-| Black line   | Download speed     | Average daily download, in Mbps                                            |
-| Blue line    | Upload speed       | Average daily upload, usually below download                               |
-| Box plot     | Speed distribution | Shaded box = middle 50% of schools; dots = outliers                        |
-| Lower chart  | Latency            | Average daily latency in milliseconds                                      |
-| Y-axis unit  | Milliseconds (ms)  | Under 50 ms comfortable for video calls; over 200 ms causes noticeable lag |
+**Headline KPIs**
 
-</details>
+| What you see | What it means |
+| --- | --- |
+| Schools installed and active within the last year | Schools sent the Giga Meter app and measured at least once in the last 12 months |
+| Target Schools | The installation target for the country (editable via the Target filter — default 3,000) |
+| Installed % of Target | Installed-and-active schools as a percentage of the target |
+| New Schools This Week | Schools that installed the app for the first time in the last 7 days |
+| Actively Measuring Schools | Schools measured on **2 or more distinct days** within the selected lookback window (default 7 days — change it with the Lookback (school days) filter) |
+| Schools Mapped | Total schools located and published on Giga Maps, whether or not they run Giga Meter |
 
-<details>
+**Installation - Activity Funnel and Deployment Health**
 
-<summary>Screen 3 - Connectivity · District</summary>
+Each stage of the funnel is a subset of the one above it, narrowing from the full installed base down to schools measuring most recently.
 
-Average speed broken out by administrative district, then a per-school table with sparklines.
+<figure><img src="../.gitbook/assets/Superset v2 - Operations Funnel.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Superset 2.1.png" alt=""><figcaption></figcaption></figure>
+| Funnel stage | What it means |
+| --- | --- |
+| Mapped | School exists in Giga Maps |
+| All installed schools | The Giga Meter app has been sent to the school (this is the funnel's base) |
+| Ever measured | The school has sent at least one speed test |
+| Measured in last year / 6 months / month / week / today | The school's most recent measurement falls within that window. These are cumulative — a school counted in "last week" is also counted in "last month," "last 6 months," and so on |
 
-| What you see        | Term             | What it means                                                                   |
-| ------------------- | ---------------- | ------------------------------------------------------------------------------- |
-| Grey bars           | Download speed   | Average download per district                                                   |
-| Green bars          | Upload speed     | Side-by-side with download, makes asymmetric links easy to spot                 |
-| "Last value" column | Load speed       | The most recent single Giga Meter test reading                                  |
-| "Weekly Avg" column | Rolling average  | Average of every measurement from the last seven days                           |
-| "WoW %" column      | Week-over-Week % | -91% means this week's average is 91% lower than last week, worth investigating |
+**School Deployment Tracker** lists every school with its own row — sorted so the most recently installed schools surface first:
 
-</details>
+<figure><img src="../.gitbook/assets/Superset v2 - Operations Deployment Tracker.png" alt=""><figcaption></figcaption></figure>
 
-<details>
-
-<summary>Screen 4 - Data Tables · Registered</summary>
-
-One row per school that has registered through Giga Meter. Most useful for operational follow-up.
-
-<figure><img src="../.gitbook/assets/Superset 3.png" alt=""><figcaption></figcaption></figure>
-
-| Column name                 | What it means                                                               |
-| --------------------------- | --------------------------------------------------------------------------- |
-| `school_id_govt`            | The country's official school identifier, different from Giga's internal ID |
-| `num_measurements`          | Total Giga Meter tests the school has ever run                              |
-| Days since last measurement | 0 = sent a reading today; non-zero is an early warning                      |
-| `num_devices_registered`    | How many computers at the school are linked to Giga Meter                   |
-| `most_recent_app_version`   | Newest Giga Meter build any device at the school is running                 |
+| Column | Definition | Example |
+| --- | --- | --- |
+| School - ID | School name and Giga school ID | MALIDUWA M.V. - 7113 |
+| Region | Administrative region the school sits in | Southern |
+| Connectivity | Whether the school is currently marked as connected | Yes |
+| Activity tier | Bucket describing how recently/often the school has measured | active_month |
+| Installation date | Date the Giga Meter app was installed at the school | 2026-02-02 |
+| Days since last activity | Calendar days since the school's last measurement | 7 |
+| Tests/working day | Average speed tests run per school day | 0 |
+| Pings/working day | Average ping checks run per school day | 0 |
+| App version | Giga Meter app version currently running at the school | 2.0.3 |
+| Measurements | Total measurements recorded for the school | 109 |
 
 {% hint style="success" %}
-Sort by "days since last measurement" descending to surface schools that need follow-up first.
+Use the Activity Tier and Connectivity filters in the left panel to narrow the tracker to a specific slice of schools, e.g. schools that have gone quiet.
 {% endhint %}
 
-</details>
+**Troubleshooting**
 
-<details>
+Four alert flags surface schools that likely need a follow-up visit or support call. The four KPI cards above the table double as filters — click a card (e.g. Drop-Off) to filter the table below to just that category, and click it again to clear the filter.
 
-<summary>Screen 5 - Data Tables · Measurements</summary>
+**Troubleshooting KPIs**
 
-One row per individual Giga Meter test, including Wi-Fi diagnostics captured at measurement time.
+<figure><img src="../.gitbook/assets/Superset v2 - Operations Troubleshooting.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Superset 3.1.png" alt=""><figcaption></figcaption></figure>
+| Alert flag | Definition | Recommended action |
+| --- | --- | --- |
+| Outdated App | At least one device at this school is running an older app version than the newest version seen anywhere in the country | Update app to latest version |
+| Inconsistency | The school's measurement frequency has dropped below "Consistent" (roughly 2 or more measurement days a week) during the lookback window — see the regularity breakdown below for the exact wording used | Depends on how sparse the measurements are — see below |
+| Location | At least one measurement in the lookback window came from a device location that doesn't match the school's registered GPS coordinates. Only assessed for schools running app v2.0.3 or later | Investigate off-site device usage, or recalibrate GPS |
+| Drop-Off | No measurements received in the last **30 school days** — this threshold is fixed and does not change with the Lookback (school days) filter (that filter only affects the other three flags) | Check if app uninstalled or disabled |
 
-| Column name          | What it means                                                              |
-| -------------------- | -------------------------------------------------------------------------- |
-| `load_speed`         | Download speed recorded by this specific test, in Mbps                     |
-| `isp_asn_clean`      | Identifies which provider's network served this test                       |
-| `avg_latency`        | Latency recorded by this specific test, in ms                              |
-| `isp_clean`          | ISP name, cleaned from what the app captured                               |
-| `detected_wifi_ssid` | Name of the Wi-Fi network the device was on during the test                |
-| Wi-Fi signal         | Signal strength in dBm, closer to zero is stronger (-60 healthy; -85 weak) |
-| Wi-Fi TX rate        | Data rate to the router in Mbps, drops as the wireless link weakens        |
+Inconsistency's recommended action depends on just how sparse the school's measurements are:
+
+| Measurement regularity | What it means | Recommended action |
+| --- | --- | --- |
+| Irregular | 1–2 measurement days per week | Check device scheduling and connectivity |
+| Monthly only | Less than 1 measurement day per week, but more than one day total in the window | Encourage more frequent app usage |
+| Measured once | Exactly one measurement day in the whole window | Confirm device is active and follow up with the school |
 
 {% hint style="info" %}
-If a school shows low `load_speed` but healthy latency and strong Wi-Fi signal, the bottleneck is likely on the ISP side, not the school's internal network.
+If more than one flag is active, the Recommended Action column lists every matching action, separated by semicolons. Schools with no active flags show "No action needed."
+{% endhint %}
+
+**School Troubleshooting Table** lists every school with an active flag, one row per school:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Operations Troubleshooting Table.png" alt=""><figcaption></figcaption></figure>
+
+| Column | What it means |
+| --- | --- |
+| Alert Score | Total number of flags active (0–4), sorted highest first. A score of 2 or more is highlighted red; a score of 1 is highlighted yellow |
+| Recommended Action | The suggested next step(s) for this school — see the tables above for the exact wording per flag |
+| Days Since Last Measurement | Calendar days since the most recent weekday measurement |
+| Oldest Device Version | Oldest app version seen across devices at this school (for drop-off schools, the last known version before they stopped measuring) |
+
+{% hint style="info" %}
+For schools with no measurements in the lookback window, only the Drop-Off flag can be assessed — the other three columns will be blank rather than "no flag."
 {% endhint %}
 
 </details>
 
 <details>
 
-<summary>Screen 6 - App Tracking</summary>
+<summary>Monitoring > Summary</summary>
 
-Which version of Giga Meter is deployed across the country and how many schools send data each day.
+For current connectivity quality — headline connectivity KPIs, plus distribution and timeseries charts for download, upload, latency, packet loss, and uptime.
 
-<figure><img src="../.gitbook/assets/Superset 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Summary.png" alt=""><figcaption></figcaption></figure>
 
-| What you see | What it means                                                               |
-| ------------ | --------------------------------------------------------------------------- |
-| Donut chart  | Each wedge = a different Giga Meter build. A single wedge = uniform version |
-| Bar chart    | Each bar = number of schools that sent at least one measurement that day    |
-| Grey line    | 7-day rolling count, smooths weekend dips and reveals the growth trend      |
+The four connectivity KPI cards always reflect the **last 5 working days** — this window is fixed and isn't affected by filters. The trend charts below them show weekly data for the last 12 months; use the Date Range filter to narrow that.
+
+| What you see | Definition | What it means |
+| --- | --- | --- |
+| Download - Mbps | 95th percentile (P95), megabits per second | The download speed that 95% of measurements were at or below — a stable, outlier-resistant read on "typical" performance, calculated across all individual measurements pooled together (not a per-school average) |
+| Upload - Mbps | 95th percentile (P95), megabits per second | Same idea as download, for upload speed |
+| Latency - ms | 5th percentile (P5), milliseconds | The "best-case" response time — lower is better, so the 5th percentile shows the fast end of the range |
+| Packet Loss | 5th percentile (P5), percent | The "best-case" share of data lost in transit — lower is better |
+| Uptime - % | Percent | Share of expected ping checks that succeeded |
+| Median Daily Pings | Count | Typical number of ping checks a school runs per day |
+| Primary Server | Server with the most measurements over the trailing 365 days | The speed-test server most schools in this country were routed to. Uses a full year of data on purpose, so the designation stays stable rather than flipping week to week — it isn't affected by the Date Range filter |
+
+{% hint style="info" %}
+**Why P95?** Independent research into school connectivity data found P95 gives the best balance of stability and sensitivity — it filters out one-off spikes without hiding genuine, sustained changes in speed. It's used here as the standard indicator for "typical" school connectivity.
+{% endhint %}
+
+Below the KPI cards is a school search bar to jump to an individual school, plus two views:
+
+| What you see | Chart type | What it means |
+| --- | --- | --- |
+| Distributions | Histogram | How download, upload, latency, packet loss, and uptime are spread across all schools in the country. Use this to see whether most schools cluster around a similar speed or whether performance is uneven across the country. |
+| Timeseries | Weekly trend lines (P95 and median; P95, P5, and median for latency and packet loss) | The same five metrics trending week by week over the last 12 months. Use this to see whether connectivity is improving, holding steady, or declining over time. |
+
+**Distributions**
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Distributions.png" alt=""><figcaption></figcaption></figure>
+
+**Timeseries**
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Timeseries.png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>Monitoring > Benchmarking</summary>
+
+For pass/fail performance against configurable targets — pass/fail KPIs, a weekly per-school verdict table, and breakdowns by ISP, region, and connectivity type.
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking.png" alt=""><figcaption></figcaption></figure>
+
+Charts on this sub-tab use the Benchmark period filter (default: last 12 months); the school verdict table can also be filtered to one specific week with the Benchmark week filter. Thresholds are adjustable in the left panel — the defaults are 20 Mbps download, 10 Mbps upload, 100 ms latency, and 1% packet loss.
+
+Headline KPI cards at the top of the sub-tab:
+
+| What you see | What it means |
+| --- | --- |
+| School-weeks passing all benchmarks (last 52 wks) | Share of school-weeks that met all 4 thresholds together |
+| % Passing Download (P95) | Share of school-weeks that individually met the download threshold |
+| % Passing Upload (P95) | Share of school-weeks that individually met the upload threshold |
+| % Passing Latency (P5) | Share of school-weeks that individually met the latency threshold |
+| % Passing Packet Loss (P5) | Share of school-weeks that individually met the packet loss threshold |
+
+**How verdicts work:** a school **passes** a given week only if it meets all four benchmark thresholds in its most recent complete week. The **Failure Reason** column in the table shows exactly what caused a fail; use the Verdict Metric filter to isolate schools failing one specific metric.
+
+**Pass / Fail Over Time** shows the same weekly verdicts stacked as pass (green) vs. fail (red) counts, so you can see at a glance whether more or fewer schools are meeting benchmark as time goes on:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking Pass Fail.png" alt=""><figcaption></figcaption></figure>
+
+The **Schools Weekly Benchmark Report** table lists one row per school, per week:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking Report.png" alt=""><figcaption></figcaption></figure>
+
+| Column | What it means |
+| --- | --- |
+| School - ID | School name and Giga school ID |
+| ISP | Internet service provider serving the school that week |
+| Week Starting | Start date of the benchmark week being evaluated |
+| Verdict | Pass or Fail for that school-week, based on all 4 thresholds together |
+| Failure Reason | Which metric(s) caused a fail — blank when the school passed |
+| Measurements | Number of measurements recorded that week |
+| Download - P95 | 95th percentile download speed for that week |
+| Upload - P95 | 95th percentile upload speed for that week |
+| Latency - P5 | 5th percentile latency for that week |
+| Packet Loss - P5 | 5th percentile packet loss for that week |
+
+Below the table, break the same pass/fail picture down **by ISP**, **by Admin Region**, or **by Connectivity Type**.
+
+**By ISP** — an ISP Scorecard summarising which providers are hitting benchmark most consistently, and their typical performance:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking By ISP.png" alt=""><figcaption></figcaption></figure>
+
+| Column | What it means |
+| --- | --- |
+| isp_name | Internet service provider |
+| schools_served | Number of schools using this ISP |
+| pct_passing_benchmark | Share of this ISP's school-weeks that passed all 4 thresholds |
+| p95_download_mbps / p95_upload_mbps | 95th percentile download/upload speed across this ISP's schools |
+| p5_latency_ms / p5_packet_loss_pct | 5th percentile latency/packet loss across this ISP's schools |
+
+**By Admin Region** shows the percentage of school-weeks passing benchmark for each region, so you can spot regions that are systematically underperforming:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Monitoring Benchmarking By Admin.png" alt=""><figcaption></figcaption></figure>
+
+**By Connectivity Type** shows the same percent-passing breakdown, grouped by the school's registered connectivity type instead of region.
+
+</details>
+
+Four raw data tables, each exportable to CSV for offline analysis.
 
 {% hint style="success" %}
-After a version update, watch this screen for schools still on older builds. A fragmented donut means some devices missed the update.
+To export any table: apply the filters you want, then use the **⋮** menu on the table → **Download** → **CSV**.
 {% endhint %}
+
+<details>
+
+<summary>Data Access > Registered Schools</summary>
+
+One row per registered school:
+
+<figure><img src="../.gitbook/assets/Superset v2 - Data Access Registered Schools.png" alt=""><figcaption></figcaption></figure>
+
+| Column | What it means |
+| --- | --- |
+| school_id_govt | The school's government/national ID |
+| school_id_giga | Giga's internal ID for the school |
+| sending_gigameter_data | Whether this school has ever sent Giga Meter data |
+| first_measurement_date / last_measurement_date | Date of the school's first and most recent measurement |
+| days_since_last_measurement | Calendar days since the school's last measurement |
+| num_devices_registered / num_devices_measured | Number of devices registered at the school vs. number that have actually sent data |
+| max_app_version_gigameter | Newest Giga Meter app version seen at this school |
+| install_status | Current installation status (e.g. installed, not installed) |
 
 </details>
 
 <details>
 
-<summary>Screen 7 - Installation Tracking</summary>
+<summary>Data Access > Raw Measurements</summary>
 
-Health-check view. Shows who is live, who has gone quiet, and drop-off rate by district.
+One row per individual Giga Meter speed test:
 
-<figure><img src="../.gitbook/assets/Superset 5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Superset v2 - Data Access Raw Measurements.png" alt=""><figcaption></figcaption></figure>
 
-| What you see       | What it means                                                            |
-| ------------------ | ------------------------------------------------------------------------ |
-| Live schools count | Schools that sent a measurement in the last 21 days                      |
-| Drop-off count     | Schools silent for 29+ days, without intervention unlikely to return     |
-| Drop-off rate      | Drop-offs ÷ total installed schools. Rising rate = support effort needed |
+| Column | What it means |
+| --- | --- |
+| download_speed / upload_speed | Measured download/upload speed for this test |
+| latency | Round-trip response time for this test |
+| packet_loss_rate | Share of data packets lost during this test |
+| pass_fail_overall | Whether this individual speed test was technically **valid** — completed, sent enough data, and ran for a sensible duration, checked separately for download and upload. This is a data-quality check on the test itself — separate from the Benchmarking pass/fail verdict (Monitoring > Benchmarking), which checks measured speed against country thresholds |
+| reasons_failed_overall | Which check(s) failed, and on which half of the test — e.g. "test incomplete (download)", "insufficient data (upload)", "test too short (download & upload)", "test too long (upload)". Blank when the test passed all checks |
+| isp_name | Internet service provider used for this test |
+| measurement_time_window | Time-of-day bucket the test was taken in |
+| is_weekday | Whether the test was taken on a school day |
 
-{% hint style="warning" %}
-A drop-off rate above 10% is a signal to increase follow-up with school IT focal points or to plan re-installation visits.
-{% endhint %}
+</details>
+
+<details>
+
+<summary>Data Access > School Master</summary>
+
+One row per registered school (reference data):
+
+<figure><img src="../.gitbook/assets/Superset v2 - Data Access School Master.png" alt=""><figcaption></figcaption></figure>
+
+| Column | What it means |
+| --- | --- |
+| latitude / longitude | The school's registered coordinates |
+| education_level | Primary, secondary, etc. |
+| school_area_type | Urban or rural |
+| school_funding_type | Public, private, etc. |
+| connectivity | Whether the school is currently marked as connected |
+| connectivity_type_govt | Connection type as reported by government records |
+| cellular_coverage_type | Type of mobile network coverage available at the school (e.g. 3G, 4G) |
+| electricity_availability | Whether the school has electricity access |
+
+</details>
+
+<details>
+
+<summary>Data Access > Ping Data</summary>
+
+A device is expected to check in roughly every 15 minutes, so across the 8am–8pm school-day window that works out to **48 expected pings per day**. Every column below — records, Uptime, connected, not connected — is scoped to that same 8am–8pm window, not the full day.
+
+<figure><img src="../.gitbook/assets/Superset v2 - Data Access Ping Data.png" alt=""><figcaption></figcaption></figure>
+
+| Column | What it means |
+| --- | --- |
+| records | Number of ping checks actually logged that day (8am–8pm local). Can land below 48 if the device was offline or checking in less often, or above it if it checked in more frequently than expected |
+| Uptime | Share of that day's logged checks that succeeded — connected ÷ records. This is measured against the checks actually made, not the fixed 48 expected, so a device with only a handful of checks that day can still show 100% uptime if every one of them succeeded |
+| connected / not connected | Count of successful / failed ping checks within the window |
+| latency | Average response time for ping checks that day |
+
+</details>
+
+<details>
+
+<summary>ReadMe</summary>
+
+The dashboard's own **ReadMe** tab is the fastest way to check filter definitions or refresh your memory on what a page covers without leaving Superset — it summarises the same pages, lists every filter with a one-line explanation, and notes how the underlying data is refreshed (daily) and scoped (weekdays only, most recent complete week for benchmark verdicts). Worth bookmarking alongside this page.
 
 </details>
 
