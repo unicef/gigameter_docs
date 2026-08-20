@@ -117,7 +117,6 @@ If more than one flag is active, the Recommended Action column lists every match
 | Recommended Action | The suggested next step(s) for this school — see the tables above for the exact wording per flag |
 | Days Since Last Measurement | Calendar days since the most recent weekday measurement |
 | Oldest Device Version | Oldest app version seen across devices at this school (for drop-off schools, the last known version before they stopped measuring) |
-| Total Measurements / Active Days / Daily Std Dev | Calculated within the lookback window; left blank for drop-off schools, since there's no in-window data to evaluate |
 
 {% hint style="info" %}
 For schools with no measurements in the lookback window, only the Drop-Off flag can be assessed — the other three columns will be blank rather than "no flag."
