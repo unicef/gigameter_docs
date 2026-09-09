@@ -27,7 +27,11 @@ All Giga Meter measurement data is published under the [Creative Commons Attribu
 * Anyone can build tools or reports on top of it
 * The only requirement is that the source (Giga/UNICEF) is credited
 
-The application is developed in accordance with [UNICEF's Privacy Policy](https://www.unicef.org/legal/privacy-policy).
+***
+
+### Privacy policy
+
+The full Giga Meter privacy policy is published at [meter.giga.global/privacy-policy](https://meter.giga.global/privacy-policy). It covers what the app collects, how the data is used, and the terms that apply to schools running the app. The application is also developed in accordance with [UNICEF's Privacy Policy](https://www.unicef.org/legal/privacy-policy).
 
 ***
 
@@ -102,6 +106,7 @@ For network whitelisting, a single DNS wildcard rule (`*.measurementlab.net`) co
 
 ### Related pages
 
+* [Giga Meter Privacy Policy](https://meter.giga.global/privacy-policy)
 * [Network Destinations & Firewall Configuration](../../technical-reference/network-destinations.md)
 * [Data Governance & Privacy](../technical-reference/data-governance.md)
 * [FAQ - What data does Giga Meter transmit?](../../get-started/faq.md)
