@@ -202,4 +202,4 @@ The local wireless network inside a school — what most people simply call "the
 
 - [Measurement Protocols](../technical-reference/measurement-protocols.md) — how Giga Meter runs its tests
 - [Using the Dashboard](dashboard-guide.md) — where each term appears on screen
-- [Data Governance & Privacy](../technical-reference/data-governance.md) — what data is shared and with whom
+- [Privacy & Security](../security/privacy-and-security.md) — what data is shared and with whom
