@@ -31,7 +31,7 @@ All Giga Meter measurement data is published under the [Creative Commons Attribu
 
 ### Privacy policy
 
-The full Giga Meter privacy policy is published at [meter.giga.global/privacy-policy](https://meter.giga.global/privacy-policy). It covers what the app collects, how the data is used, and the terms that apply to schools running the app. The application is also developed in accordance with [UNICEF's Privacy Policy](https://www.unicef.org/legal/privacy-policy).
+The full Giga Meter privacy policy is published at [meter.giga.global/privacy-policy](https://meter.giga.global/privacy-policy). It covers what the app collects, how the data is used, and the terms that apply to schools running the app.
 
 ***
 
