@@ -94,4 +94,4 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 * [Measurement Protocols](../docs/technical-reference/measurement-protocols.md) - how Giga Meter runs its tests
 * [Using the Dashboard](../country-deployment/using-the-dashboard.md) - where each term appears on screen
-* [Data Governance & Privacy](../docs/technical-reference/data-governance.md) - what data is shared and with whom
+* [Privacy & Security](../docs/security/privacy-and-security.md) - what data is shared and with whom
