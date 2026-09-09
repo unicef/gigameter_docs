@@ -283,4 +283,4 @@ Analytical support still needed from Giga: \[describe if applicable]
 * [Using the Dashboard](../../country-deployment/using-the-dashboard.md)
 * [Metric Glossary](../../get-started/metric-glossary.md)
 * [Measurement Protocols](../technical-reference/measurement-protocols.md)
-* [Data Governance & Privacy](../technical-reference/data-governance.md)
+* [Privacy & Security](../security/privacy-and-security.md)
