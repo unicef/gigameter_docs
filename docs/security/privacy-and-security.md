@@ -108,6 +108,5 @@ For network whitelisting, a single DNS wildcard rule (`*.measurementlab.net`) co
 
 * [Giga Meter Privacy Policy](https://meter.giga.global/privacy-policy)
 * [Network Destinations & Firewall Configuration](../../technical-reference/network-destinations.md)
-* [Data Governance & Privacy](../technical-reference/data-governance.md)
 * [FAQ - What data does Giga Meter transmit?](../../get-started/faq.md)
 * [Measurement Protocols](../technical-reference/measurement-protocols.md)
