@@ -80,6 +80,6 @@ Share this list with the Giga team when requesting access provisioning.
 ## Related pages
 
 - [Using the Dashboard](dashboard-guide.md)
-- [Data Governance & Privacy](../technical-reference/data-governance.md)
+- [Privacy & Security](../security/privacy-and-security.md)
 - [Use Case Definition](use-case-definition.md)
 - [Government Onboarding Overview](../deployment/government-onboarding-overview.md)
