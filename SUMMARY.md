@@ -27,8 +27,8 @@
 
 ## Technical Reference
 
-* [Data Governance & Privacy](docs/technical-reference/data-governance.md)
 * [Privacy & Security](docs/security/privacy-and-security.md)
+* [Privacy Policy](https://meter.giga.global/privacy-policy)
 * [Network Destinations & Firewall Configuration](technical-reference/network-destinations.md)
 * [Self-Hosting Giga Meter](docs/technical-reference/self-hosting.md)
   * [Backend Installation](docs/technical-reference/self-hosting/installation.md)
