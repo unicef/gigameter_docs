@@ -4,17 +4,17 @@ on:
   push:
     branches: [main]
     paths:
-      - "docs/installation/system-requirements.md"
-      - "docs/installation/installation-guide.md"
-      - "docs/troubleshooting/troubleshooting.md"
-      - "get-started/faq.md"
+      - "docs/**/*.md"
+      - "get-started/**/*.md"
+      - "country-deployment/**/*.md"
+      - "technical-reference/**/*.md"
       - ".github/translation-prompt-tg.md"
       - ".github/translation-glossary-tg.csv"
       - ".github/scripts/translate_tj.py"
   workflow_dispatch:
     inputs:
-      force:
-        description: "Re-translate all pages regardless of state"
+      force_seed:
+        description: "Re-seed all pages from scratch — DISCARDS existing Tajik content including human polish"
         type: boolean
         default: false
 
@@ -38,7 +38,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          python .github/scripts/translate_tj.py ${{ inputs.force && '--force' || '' }}
+          python .github/scripts/translate_tj.py ${{ inputs.force_seed && '--force-seed' || '' }}
 
       - name: Open PR with Tajik updates
         uses: peter-evans/create-pull-request@v6
@@ -46,8 +46,10 @@ jobs:
           commit-message: "docs(tj): update Tajik translations"
           title: "Tajik translation update"
           body: |
-            Automated Tajik re-translation of English pages that changed.
-            Review before merging — Tajik output requires human validation.
+            Automated Tajik translation update. New pages are seeded from English;
+            existing pages are patched — only passages whose English source changed
+            are re-translated, human-polished Tajik elsewhere is preserved verbatim.
+            Review before merging.
           branch: tj-translation-update
           delete-branch: true
           add-paths: |
