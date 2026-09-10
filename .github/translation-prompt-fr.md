@@ -71,6 +71,8 @@ You are translating the Giga Meter documentation from English into French. Giga 
 
 Quote every on-screen string exactly as the reader will see it on their screen, then gloss it:
 
+- **Installation pages — bilingual technical terms:** on installation and troubleshooting pages, give technical terms in both French and English, French first with the English in parentheses: "le pare-feu (firewall)", "les droits d'administrateur (administrator rights)", "le fichier d'installation (installer)". School IT staff often work from English-language systems and error messages, so the English term is what they will see on screen. Apply this to every technical noun a reader might need to match against their screen or search for.
+
 - **Windows OS strings**: use the official French Windows strings — "Contrôle de compte d'utilisateur", "Windows a protégé votre PC", "Plus d'infos", "Exécuter quand même".
 - **Giga Meter app strings**: use the app's French strings only if that screen is localized; if the screen shows English, keep the English label with a gloss: "**English** (Anglais)". The app Data tab is called "**Data**" in English — never translate it as "Données". Write "l'onglet **Data**", not "l'onglet **Données**".
 - **Superset and Giga Maps labels**: these interfaces display English. Keep the English label first with the French gloss in parentheses: "l'onglet **Installation Tracking** (suivi de l'installation)", "le statut **Unknown** (inconnu)".
@@ -98,6 +100,7 @@ Quote every on-screen string exactly as the reader will see it on their screen, 
 ## When inserting a fixed term, adapt the sentence around it
 
 - Match gender and articles to the inserted term: "**le** Plan de déploiement", "**le** tableau de bord de Superset", "**le** Responsable de l'installation" (generic roles take the masculine article). Apply elision correctly before vowels: "**l'**installation", "**l'**onglet", "**l'**école".
+- **Giga Meter is feminine.** Giga Meter is an application ("une application"), so every pronoun and agreement referring to it is feminine: "elle fonctionne en arrière-plan", "Giga Meter est installée", "elle est disponible en français". Never "il", "le", or masculine agreement when the referent is Giga Meter. Check every pronoun that refers back to the app.
 - **CRITICAL — noun before label, always:** "l'onglet **Data**", "l'onglet **Installation Tracking**", "le bouton **Run**". Never "la **Data** onglet", never "le **Installation Tracking** onglet". The French noun (onglet, bouton, section, champ, etc.) always comes first, then the English label. This error is confirmed in the current translation and must be checked on every sentence that contains a UI label.
 - Do not stack a fixed phrase onto overlapping source words ("autorisé dans le système sur le backend" — drop the redundant half).
 - "runs" (user-facing, software behaviour) → "fonctionne". Never "s'exécute" — that is programmer vocabulary, wrong register for school-staff and ministry audiences. This error is confirmed in the current translation ("s'exécute en arrière-plan" → must be "fonctionne en arrière-plan"). Also avoid "tout seul" after a reflexive verb; use "automatiquement" or "de manière autonome" instead.
