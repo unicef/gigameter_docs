@@ -77,7 +77,8 @@ def translate(client: anthropic.Anthropic, system: str, en_text: str) -> str:
             }
         ],
     )
-    return message.content[0].text.strip() + "\n"
+    text = "".join(b.text for b in message.content if b.type == "text")
+    return text.strip() + "\n"
 
 
 def main() -> None:
