@@ -1,0 +1,54 @@
+name: Translate docs to Tajik
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/installation/system-requirements.md"
+      - "docs/installation/installation-guide.md"
+      - "docs/troubleshooting/troubleshooting.md"
+      - "get-started/faq.md"
+      - ".github/translation-prompt-tg.md"
+      - ".github/translation-glossary-tg.csv"
+      - ".github/scripts/translate_tj.py"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Re-translate all pages regardless of state"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install anthropic
+
+      - name: Translate changed pages
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python .github/scripts/translate_tj.py ${{ inputs.force && '--force' || '' }}
+
+      - name: Open PR with Tajik updates
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "docs(tj): update Tajik translations"
+          title: "Tajik translation update"
+          body: |
+            Automated Tajik re-translation of English pages that changed.
+            Review before merging — Tajik output requires human validation.
+          branch: tj-translation-update
+          delete-branch: true
+          add-paths: |
+            tj/
