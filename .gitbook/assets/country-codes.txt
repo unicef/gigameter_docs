@@ -36,6 +36,7 @@ ST
 TC
 TT
 TZ
+UG
 UZ
 VC
 VG
