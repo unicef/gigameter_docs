@@ -12,7 +12,7 @@ The source repository is [unicef/project-connect-daily-check-app](https://github
 
 ### Requirements
 
-* A device running Windows 7 or higher — ideally one permanently and exclusively connected to the school's internet connection
+* A device running Windows 10 or higher — ideally one permanently and exclusively connected to the school's internet connection
 * Node.js installed on the build machine
 
 ***
