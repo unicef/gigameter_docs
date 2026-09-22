@@ -8,6 +8,7 @@ BW
 BZ
 CD
 CG
+CM
 DM
 ES
 FJ
@@ -20,6 +21,7 @@ KN
 KZ
 LC
 LK
+LR
 LS
 MD
 ME
@@ -34,6 +36,7 @@ RW
 SL
 ST
 TC
+TL
 TT
 TZ
 UG
