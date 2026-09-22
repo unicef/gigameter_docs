@@ -126,7 +126,7 @@ def response_text(message) -> str:
 
 
 def seed_translate(client: anthropic.Anthropic, system: str, en_text: str) -> str:
-    message = client.messages.create(
+    with client.messages.stream(
         model=MODEL,
         max_tokens=32000,
         system=system,
@@ -139,7 +139,8 @@ def seed_translate(client: anthropic.Anthropic, system: str, en_text: str) -> st
                 ),
             }
         ],
-    )
+    ) as stream:
+        message = stream.get_final_message()
     return response_text(message)
 
 
@@ -150,7 +151,7 @@ def patch_translate(
     new_en: str,
     current_tj: str,
 ) -> str:
-    message = client.messages.create(
+    with client.messages.stream(
         model=MODEL,
         max_tokens=32000,
         system=f"{system}\n\n{PATCH_INSTRUCTIONS}",
@@ -164,7 +165,8 @@ def patch_translate(
                 ),
             }
         ],
-    )
+    ) as stream:
+        message = stream.get_final_message()
     return response_text(message)
 
 
