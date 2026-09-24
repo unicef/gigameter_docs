@@ -6,7 +6,7 @@ To install Giga Meter, the computer must meet these minimum requirements:
 
 | Requirement             | Specification                                  |
 | ----------------------- | ---------------------------------------------- |
-| **Operating system**    | Windows 7 or higher                            |
+| **Operating system**    | Windows 10 or higher                           |
 | **Computer type**       | Desktop or laptop                              |
 | **Internet connection** | Active connection at the school                |
 | **Free disk space**     | 500 MB minimum                                 |

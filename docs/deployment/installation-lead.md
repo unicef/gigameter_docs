@@ -83,7 +83,7 @@ Giga Meter currently runs on Windows only. Tablets and Android devices cannot ru
 
 For each school, confirm:
 
-* [ ] **Windows OS** - Windows 7 or higher (desktop or laptop)
+* [ ] **Windows OS** - Windows 10 or higher (desktop or laptop)
 * [ ] **Free disk space** - at least 500 MB available
 * [ ] **Regular use** - computer is used daily or near-daily
 * [ ] **Dedicated school connection** - computer connects exclusively to the school's internet, not a mobile hotspot or personal router

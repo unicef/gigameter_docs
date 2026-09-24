@@ -88,7 +88,7 @@ Adapt timing to your audience and format. For a hybrid or remote session with 10
 
 **How many devices per school**
 
-> "One computer is enough to get started. You can register up to 5 per school - more devices give redundancy so measurements continue if one is switched off, reformatted, or replaced. We recommend at least one that stays on during school hours, ideally wired via Ethernet."
+> "One computer is enough to get started. You can register up to 3 per school - more devices give redundancy so measurements continue if one is switched off, reformatted, or replaced. We recommend at least one that stays on during school hours, ideally wired via Ethernet."
 
 **What happens to the data**
 
