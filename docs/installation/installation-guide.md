@@ -97,7 +97,7 @@ Follow the registration steps shown in the app. Click on **Next** to move throug
 The app will remind you to that you must:
 
 * Install only on computers connected exclusively to the school's internet
-* Register up to 5 devices per school (one is enough to get started)
+* Register up to 3 devices per school (one is enough to get started)
 
 To change the display language, click **English** in the top right corner and select from the list.
 {% endcolumn %}
