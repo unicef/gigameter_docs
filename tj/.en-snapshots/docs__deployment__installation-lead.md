@@ -1,0 +1,346 @@
+# Installation Lead Guide
+
+This guide is for the government official responsible for getting Giga Meter installed across schools and keeping it running. Work through these steps in order, before and during the rollout.
+
+***
+
+### Step 1 - Designate the installation lead
+
+The installation lead is the named person accountable for the Giga Meter rollout in the country. They coordinate the team of installers, manage troubleshooting, and are the primary point of contact between the government and Giga during the rollout.
+
+Where the rollout spans multiple regions, each region should also have a named subnational lead.
+
+**Output:** Share the following with your Giga focal point before the rollout begins:
+
+{% hint style="info" %}
+**National Installation Lead**\
+Name:\
+Title:\
+Unit:\
+Email / phone:
+
+**Subnational leads** _(if applicable)_\
+\[Region] - Name, Title, contact\
+\[Region] - Name, Title, contact
+{% endhint %}
+
+***
+
+### Step 2 - Define target schools and phasing
+
+Agree on which schools will receive Giga Meter and in what order before the rollout begins. The total number and selection criteria determine the installation strategy.
+
+**Pilot first, then expand**
+
+Start with a small pilot cohort, typically 10-30 schools, before expanding nationally. The pilot validates the installation process, surfaces different types of issues to add to troubleshooting guides, and gives the data analysis team real data to work with before the full rollout.
+
+Select pilot schools that represent the range of your target:
+
+* Mix urban and rural schools.
+* Include different regions.
+* Include schools with lower IT capacity.
+
+Avoid selecting only the easiest schools; pilots that go too smoothly do not surface the friction that will slow the national rollout.
+
+**Phasing the expansion**
+
+After the pilot, expand the deployment in phases rather than attempting a single national rollout. Common phasing approaches:
+
+| Approach             | How it works                                                     | Works best when                                        |
+| -------------------- | ---------------------------------------------------------------- | ------------------------------------------------------ |
+| By region            | Roll out region by region, using regional focal points           | You have a clear regional structure                    |
+| By school type       | Start with secondary schools, then primary                       | Computer readiness varies significantly by school type |
+| By connectivity tier | Start with better-connected schools to build early data coverage | You want to demonstrate value quickly                  |
+| By partner           | Delegate phases to regional education offices or NGO partners    | You have a distributed implementation network          |
+
+**Output:** Share the following with the Giga team before the rollout begins:
+
+{% hint style="info" %}
+**Target schools and phasing plan**\
+Total target schools: \[N]\
+Selection criteria: \[e.g. schools with Windows computers, mapped on Giga Maps, specific regions or school types]\
+\
+**Pilot**\
+Schools: \[N] - \[selection rationale]\
+Timeline: \[start - end date]\
+\
+**Phase 2**\
+Schools: \[N] - \[scope: region / school type / partner]\
+Timeline: \[start - end date]\
+\
+**Phase 3** _(if applicable)_\
+Schools: \[N] - \[scope]\
+Timeline: \[start - end date]
+{% endhint %}
+
+***
+
+### Step 3 - Confirm computer readiness
+
+{% hint style="warning" %}
+Giga Meter currently runs on Windows only. Tablets and Android devices cannot run the app. If a school has no Windows computer, flag it to the focal point before the rollout; Android support is in development.
+{% endhint %}
+
+For each school, confirm:
+
+* [ ] **Windows OS** - Windows 10 or higher (desktop or laptop)
+* [ ] **Free disk space** - at least 500 MB available
+* [ ] **Regular use** - computer is used daily or near-daily
+* [ ] **Dedicated school connection** - computer connects exclusively to the school's internet, not a mobile hotspot or personal router
+* [ ] **Admin rights to install software** - the person installing can approve the installation
+* [ ] **School internet connection** is functional and stable enough to complete an installation
+
+One computer per school is enough to get started. You can register up to 5 computers. More computers mean more frequent measurements and redundancy if one is switched off or decommissioned.
+
+**Common blockers**
+
+| Blocker                                   | What to do                                                                                     |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| School only has tablets or Chromebooks    | Flag to Giga; the Android application is in development                                        |
+| Computers not regularly powered on        | Discuss with the school principal; measurements only run when the computer is on and connected |
+| Installers do not have admin rights       | Coordinate with MoE IT department to grant temporary admin access for installation             |
+| Internet connection down at time of visit | Reschedule installation, use a different computer or carry installation at a later time        |
+
+**Output:** Collect computer status at the school level before the rollout and share with the Giga team.
+
+<table><thead><tr><th width="128">School name</th><th>School ID</th><th>Windows computers available</th><th>Powered on daily</th><th>Admin rights</th><th>Notes</th></tr></thead><tbody><tr><td></td><td></td><td></td><td>Yes / No</td><td>Yes / No</td><td></td></tr></tbody></table>
+
+***
+
+### Step 4 - Ensure school IDs are known by installers
+
+Each school in Giga Meter is registered using the official government school ID. Before the rollout, make sure the training covers what the school ID looks like in the country's system and where installers can look it up. Include a support contact for cases where the school cannot be found or the ID appears incorrect.
+
+**Output:** Include the following in installer training materials:
+
+{% hint style="info" %}
+**School ID reference**
+
+What the school ID looks like: \[e.g. format, example - "BR12345"]\
+Where to find it: \[e.g. national school registry, MoE database, letter from the ministry]\
+Support contact for ID issues: \[Name, phone / email]
+{% endhint %}
+
+***
+
+### Step 5 - Choose an installation strategy
+
+Choose how installations will happen based on capacity, geography, school digital readiness, and scale of implementation.
+
+{% tabs %}
+{% tab title="In-person" %}
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-f2ca960b08b3f3093d9ae83cd6e503e796fb7449%2Fstrategy-expert-inperson.png?alt=media" alt="Expert in-person installation" width="180"><figcaption></figcaption></figure>
+
+**When to use:** Small scale, or schools with low IT capacity.
+
+Government-trained staff visit each school, install Giga Meter themselves, and provide hands-on support to the school focal point.
+
+**Steps:**
+
+1. Identify staff who will visit schools for installation.
+2. Develop a deployment plan that includes scope, timeline, and assigned schools per installer.
+3. Train installation staff, in-person or virtually.
+4. During installation, collect focal point contact details for maintenance and troubleshooting.
+5. Set up a support channel for schools (e.g. hotline, WhatsApp group).
+6. Monitor rollout and follow up with schools that fail to install.
+{% endtab %}
+
+{% tab title="Hybrid - in-person regional workshops" %}
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-b0cebf5557dbc376a562c66a109fbf649ed6c04e%2Fstrategy-hybrid.png?alt=media" alt="Hybrid regional workshop installation" width="180"><figcaption></figcaption></figure>
+
+**When to use:** Medium scale, with a regional structure. **Example: Sri Lanka.**
+
+School IT staff attend regional training workshops and then carry out installation at their own school.
+
+**Steps:**
+
+1. Adapt and share the installation guide with school principals.
+2. Ask schools to nominate 1-2 focal points responsible for installation and maintenance.
+3. Organise in-person regional workshops; guide focal points live through the installation.
+4. Set up a support channel (hotline or help desk) for post-workshop troubleshooting.
+5. Monitor rollout and follow up with schools that fail to install.
+{% endtab %}
+
+{% tab title="Guided remote" %}
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-6a01dea50c274ff7537cf89b47a1885ec252c02d%2Fstrategy-guided-remote.png?alt=media" alt="Guided remote installation" width="180"><figcaption></figcaption></figure>
+
+**When to use:** Larger scale, schools with decent IT capacity. **Example: Belize, Bosnia and Herzegovina.**
+
+School focal points install Giga Meter themselves, supported through virtual training sessions and remote troubleshooting.
+
+**Steps:**
+
+1. Adapt and share the installation guide with school principals.
+2. Ask schools to nominate 1-2 focal points responsible for installation and maintenance.
+3. Organise virtual sessions; guide focal points live through the installation.
+4. Set up a support channel (hotline or help desk) for post-session troubleshooting.
+5. Monitor rollout and follow up with schools that fail to install.
+{% endtab %}
+
+{% tab title="Self-installation" %}
+<figure><img src="https://448102781-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FnO4TCnw5Pvr77OIRKx3h%2Fuploads%2Fgit-blob-464ed1ebb86334798aa9efd85e9e6863bc87e385%2Fstrategy-self-install.png?alt=media" alt="Self-installation" width="180"><figcaption></figcaption></figure>
+
+**When to use:** Large scale, schools with mature IT capacity. **Example: Botswana.**
+
+Schools install Giga Meter independently using the installation guide, with optional support via a help desk.
+
+**Steps:**
+
+1. Ensure school contact information is up to date.
+2. Customise and share the installation guide with schools. Set a clear deadline.
+3. Set up a support channel (hotline or help desk) for troubleshooting.
+4. Monitor rollout and follow up with schools that miss the deadline.
+{% endtab %}
+{% endtabs %}
+
+**See practical case studies with different installation strategies** [**here**](case-studies.md)**.**
+
+**Output:** Document the following and share with the Giga team:
+
+{% hint style="info" %}
+**Installation strategy**\
+Chosen strategy: \[Expert in-person / Hybrid / Guided remote / Self-installation / combination]\
+Rationale: \[brief explanation based on scale, geography, school IT capacity]\
+Target schools: \[N]\
+Coverage breakdown: \[e.g. by region or school type if using a mix]
+{% endhint %}
+
+***
+
+### Step 6 - Establish a support channel
+
+Set up a government support system between schools, installers, and the Giga team before the rollout begins.
+
+**Support channels for schools**
+
+Schools need a named channel to ask for help during and after installation. The right format depends on scale and infrastructure. Most deployments use a combination.
+
+| Channel                  | Works best for            | Notes                                                                                           |
+| ------------------------ | ------------------------- | ----------------------------------------------------------------------------------------------- |
+| WhatsApp group           | All strategies            | Easy to set up, instant reach, works on mobile. Create one group per region for large rollouts. |
+| Hotline / phone number   | In-person, Hybrid         | Ideal when schools have low digital confidence. Assign a named person, not a generic number.    |
+| Email help desk          | Guided, Self-installation | Allows written documentation of issues. Set a response time SLA (e.g. 48h).                     |
+| Virtual drop-in sessions | Guided                    | Scheduled video sessions where schools can join with live questions.                            |
+| Peer focal point network | Hybrid, Self-installation | Schools that installed successfully support nearby schools. Reduces load on the central team.   |
+
+{% hint style="success" %}
+Whichever channel you use, publicise it during the training workshop and include it in the installation guide you send to schools.
+{% endhint %}
+
+**Support path**
+
+Beyond the school-facing channel, establish a clear escalation path for issues that cannot be resolved at school level:
+
+* A named government support owner (first escalation from installers)
+* A basic troubleshooting runbook (common issues + first-response steps)
+* A documented escalation path to Giga: who contacts whom, with what information
+
+**Output:** Document the following and circulate to all installers before the rollout begins:
+
+{% hint style="info" %}
+**Support channel and escalation protocol**\
+School support channel: \[channel type, contact details, response time]\
+Government support owner: \[Name, phone / email]\
+When to escalate to government support: \[e.g. issue not resolved by installer within 24h]\
+Giga escalation contact: \[Name / email at UNICEF Country Office]\
+When to escalate to Giga: \[e.g. issue unresolved at government level after 48h]\
+Information to include when escalating: school name and ID, Giga Meter version, error message or screenshot, steps already attempted
+{% endhint %}
+
+***
+
+### Step 7 - Train installers
+
+Run one or more training sessions before the rollout and keep a support channel open throughout. See the [Training Support Materials](deployment-checklist.md) available from Giga.
+
+**Output:** Confirm the following before the first installation session:
+
+{% hint style="info" %}
+**Training plan**\
+Training format: \[e.g. Zoom webinar / in-person workshop / regional sessions]\
+Date(s):\
+Materials language(s):\
+Installer support channel: \[e.g. WhatsApp group name / help desk email]→ [Training Support Materials](deployment-checklist.md)
+{% endhint %}
+
+***
+
+### Step 8 - Monitor the rollout
+
+Track progress against your planned timeline and target from the day installation begins. Share monthly updates with the Giga team for the first three months, then on a quarterly basis.
+
+**Three metrics to track from the start:**
+
+| Metric                                                   | What it tells you                               |
+| -------------------------------------------------------- | ----------------------------------------------- |
+| % of target schools with Giga Meter installed            | Are you on pace?                                |
+| % of installed schools reporting data in the last 7 days | Are installed schools actually collecting data? |
+| Open troubleshooting tickets per week                    | Is the support mechanism keeping up?            |
+
+{% hint style="success" %}
+A school can be "installed" but not "reporting": the computer may be powered off, the app may have crashed, or it may have lost internet. Treat any installed school that has not reported in 7+ days as a priority follow-up.
+{% endhint %}
+
+Once schools start reporting, use the **Installation Tracking** tab in the [Superset dashboard](https://superset.giga.global) to monitor rollout health. Key figures: live schools (data in the last 21 days), at-risk schools (22-28 day silence), and drop-offs (29+ days silent). For what each screen and column means, see [Using the Dashboard](../../country-deployment/using-the-dashboard.md).
+
+{% hint style="info" %}
+The 7-day reporting figure above is a rollout-tracking metric: is a school actively collecting data right now. It is distinct from the dashboard's "live" status, which uses a 21-day window. A school can count as dashboard-live (reported within 21 days) while still missing the tighter 7-day rollout target.
+{% endhint %}
+
+**Output:** Share a monthly update with the Giga team using this format:
+
+{% hint style="info" %}
+**Monthly rollout update - \[Month, Year]**\
+Target schools: \[N]\
+Schools installed: \[N] (\[%])\
+Schools reporting in the last 7 days: \[N] (\[%])\
+Open troubleshooting tickets: \[N]\
+Main blockers:\
+Next steps:
+{% endhint %}
+
+***
+
+### Step 9 - Build for sustainability
+
+Installation is not the end. Giga Meter only generates useful data if schools keep it running, and most deployments see drop-off within months without deliberate mechanisms to keep Meter up to date. This step is about embedding Giga Meter into how schools and the ministry operate.
+
+**Find a champion**
+
+Every successful long-term deployment has at least one named individual, inside the ministry or in a partner organisation, who cares personally about the data and advocates for it. They check Giga Maps, raise issues when schools drop off, and push for the data to inform real decisions.
+
+Identify this person early and involve them from the pilot phase. Their ownership of the data is what makes the monitoring network self-sustaining.
+
+**Mechanisms that work**
+
+| Mechanism                    | What it looks like                                                                                                 | Why it helps                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| Dedicated school focal point | One named staff member per school responsible for the computer and for reinstalling after reformats                | Creates individual accountability; makes it easy to know who to call           |
+| Regional coordinator network | A named focal point per region who aggregates school-level issues and reports to the national lead                 | Scales support without centralising everything in the ministry                 |
+| Community of practice        | Periodic calls or meetings between school focal points to share issues, solutions, and data insights               | Builds peer knowledge-sharing; reduces load on the central support channel     |
+| Monitoring dashboard review  | A standing agenda item in existing ministry review meetings to look at Giga Meter data                             | Embeds data use into existing routines rather than creating a separate process |
+| Reinstallation protocol      | A documented process for when a school reformats or replaces a computer: who triggers it, how fast, who follows up | Prevents the most common cause of drop-off going undetected                    |
+
+**What to avoid**
+
+Assigning Giga Meter responsibility to someone who already has a full workload and no link to how the data is used. Schools maintain the app when they understand what it contributes to, and that requires the data to visibly inform something they care about (ISP accountability, ministry reporting, budget decisions).
+
+**Output:**
+
+{% hint style="info" %}
+**Sustainability plan**\
+Champion name and role: \[Name, unit]\
+School focal point process: \[how focal points are assigned and updated]\
+Regional coordinator structure: \[if applicable - names, regions]\
+Review cadence: \[how often the ministry reviews Giga Meter data, in which meeting]\
+Reinstallation protocol: \[who is notified, timeline, how tracked]
+{% endhint %}
+
+***
+
+### Related pages
+
+* [Government Onboarding Guide](government-onboarding-overview.md)
+* [Training Support Materials](deployment-checklist.md)
+* [Installation Guide](../installation/installation-guide.md)
+* [Using the Dashboard](../../country-deployment/using-the-dashboard.md)
