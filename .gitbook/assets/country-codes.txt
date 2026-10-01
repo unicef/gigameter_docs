@@ -34,6 +34,7 @@ NA
 PA
 RW
 SL
+SN
 ST
 TC
 TL
