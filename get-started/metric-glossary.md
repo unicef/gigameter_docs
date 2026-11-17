@@ -66,7 +66,7 @@ Plain-language definitions for the terms and metrics used in Giga Meter, Giga Ma
 
 **SSID (Service Set Identifier)** The public name of a Wi-Fi network, what shows up when a device scans for nearby networks.
 
-**Superset** Apache Superset, the open-source dashboard tool Giga uses to publish school connectivity data. Access it at [superset.giga.global](https://superset.giga.global). The top bar (Dashboards, Charts, Datasets, SQL) comes from Superset's standard interface.
+**Superset** Apache Superset, the open-source dashboard tool Giga uses to publish school connectivity data. Access it at [dashboard.giga.global](https://dashboard.giga.global). The top bar (Dashboards, Charts, Datasets, SQL) comes from Superset's standard interface.
 
 **Time series** A chart or table that shows how a single value changes over time. The wavy line next to each school's name in the dashboard is a time series of its daily speed.
 
