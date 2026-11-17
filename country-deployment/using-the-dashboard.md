@@ -2,10 +2,44 @@
 
 Giga Meter data is published through an [Apache Superset](https://dashboard.giga.global) dashboard. The dashboard is built around three questions: are schools using the app, which schools need attention, and is the internet good enough. This page is a screen-by-screen reference for the current ("v2") dashboard.
 
-For how to get an account and which access channel suits which user, see the [Data Analysis Lead Guide](../docs/deployment/data-analysis-lead.md).
+For which access channel suits which user, see the [Data Analysis Lead Guide](../docs/deployment/data-analysis-lead.md).
+
+### Sign in to the dashboard
+
+The dashboard has a new sign-in process. Anyone can create an account with their own email address, and a one-time code sent to that address confirms it.
+
+{% stepper %}
+{% step %}
+**Open the dashboard**
+
+Go to [dashboard.giga.global](https://dashboard.giga.global) and select **Sign in with Azure**.
+{% endstep %}
+
+{% step %}
+**Create an account**
+
+On the sign-in page, select **No account? Create one**. Enter your email address and select **Next**.
+
+If you already have an account, enter your email address on the sign-in page and select **Next** instead.
+{% endstep %}
+
+{% step %}
+**Enter the one-time code**
+
+A code is sent to your email address. Enter it and select **Next**. If the code does not arrive, check your spam folder.
+{% endstep %}
+
+{% step %}
+**Accept the permissions**
+
+The **Permissions requested** screen asks to view your basic profile and keep access to data you have given it access to. Select **Accept**.
+
+The screen notes that the application is not published by Microsoft. This is expected.
+{% endstep %}
+{% endstepper %}
 
 {% hint style="info" %}
-**Getting access:** create an account at [dashboard.giga.global](https://dashboard.giga.global), signing in with a Google account (other login options are not yet available). Then share your registered email with the Giga team, who assign you a country-level role. Without a role, you can log in but will not see any data.
+**Your dashboards appear within 2 business days.** A new account starts with an empty home page. The Giga team assigns each account a country-level role, and the country's dashboards appear once that role is in place. Please allow up to 2 business days after creating an account.
 {% endhint %}
 
 ***
