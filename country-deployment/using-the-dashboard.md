@@ -1,6 +1,6 @@
 # Using the Dashboard
 
-Giga Meter data is published through an [Apache Superset](https://dashboard.giga.global) dashboard. The dashboard is built around three questions: are schools using the app, which schools need attention, and is the internet good enough. This page is a screen-by-screen reference for the current ("v2") dashboard.
+Giga Meter data and insights can be accessed via [Apache Superset](https://dashboard.giga.global) dashboards. Each dashboard is built around three questions: are schools using the app, which schools need attention, and is the internet good enough. This page is a screen-by-screen reference for the dashboards at dashboard.giga.global, which replaced the earlier dashboards at superset.giga.global in November 2026.
 
 For which access channel suits which user, see the [Data Analysis Lead Guide](../docs/deployment/data-analysis-lead.md).
 
