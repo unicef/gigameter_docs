@@ -249,6 +249,18 @@ def generate_grid(countries: list[dict], countries_count: int = 0) -> Image.Imag
 
 # ── README updater ───────────────────────────────────────────────────────────
 
+STATS_MARKED = re.compile(r"<!-- stats-start -->.*?<!-- stats-end -->", re.DOTALL)
+# GitBook drops HTML comments when it writes README.md, so the markers can vanish
+# after any edit in the GitBook editor. Fall back to the bare columns block that
+# holds the three counts, and re-wrap it in markers.
+STATS_BARE = re.compile(
+    r"\{% columns %\}\s*\{% column %\}\s*#### [\d,]+\s*\n\s*Countries.*?"
+    r"Measurements\s*\{% endcolumn %\}\s*\{% endcolumns %\}",
+    re.DOTALL,
+)
+COUNTRIES_LABEL = "Countries and territories"
+
+
 def update_readme(countries_count: int, schools_count: int, measurements_count: int) -> None:
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
@@ -258,7 +270,7 @@ def update_readme(countries_count: int, schools_count: int, measurements_count: 
         "{% columns %}\n"
         "{% column %}\n"
         f"#### {countries_count:,}\n\n"
-        "Countries\n"
+        f"{COUNTRIES_LABEL}\n"
         "{% endcolumn %}\n\n"
         "{% column %}\n"
         f"#### {schools_count:,}\n\n"
@@ -271,24 +283,29 @@ def update_readme(countries_count: int, schools_count: int, measurements_count: 
         "{% endcolumns %}\n"
         "<!-- stats-end -->"
     )
-    content = re.sub(
-        r"<!-- stats-start -->.*?<!-- stats-end -->",
-        stats_block, content, flags=re.DOTALL,
-    )
 
-    grid_block = (
-        "<!-- country-grid-start -->\n"
-        "![](docs/assets/country-grid.png)\n"
-        "<!-- country-grid-end -->"
-    )
-    content = re.sub(
+    updated, n = STATS_MARKED.subn(lambda _: stats_block, content, count=1)
+    if n == 0:
+        updated, n = STATS_BARE.subn(lambda _: stats_block, content, count=1)
+        if n:
+            print("  Stats markers were missing; re-inserted them around the stats block.")
+    if n == 0:
+        print("ERROR: stats block not found in README.md (no markers and no columns block).", file=sys.stderr)
+        sys.exit(1)
+
+    # The grid image path is fixed (GRID_PATH); only rewrite it if markers exist.
+    updated = re.sub(
         r"<!-- country-grid-start -->.*?<!-- country-grid-end -->",
-        grid_block, content, flags=re.DOTALL,
+        f"<!-- country-grid-start -->\n![]({GRID_PATH})\n<!-- country-grid-end -->",
+        updated, flags=re.DOTALL,
     )
 
     with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write(content)
+        f.write(updated)
 
+    if read_current_stats() != (countries_count, schools_count, measurements_count):
+        print("ERROR: README.md was written but the new counts are not in it.", file=sys.stderr)
+        sys.exit(1)
     print(f"  README updated: {countries_count} countries, {schools_count:,} schools, {measurements_count:,} measurements")
 
 
