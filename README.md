@@ -1,14 +1,22 @@
 # Introduction
 
-<!-- release-start:v2.0.3 -->
+<!-- release-start:v2.0.4 -->
 {% hint style="info" %}
-**Giga Meter 2.0.3 — 2026-05-20**
+**Giga Meter 2.0.4 — 2026-11-19**
 
-Giga Meter can now measure internet speed more accurately and identify your location automatically. The app is also now available in Mongolian, and includes improvements to usage tracking and secure updates.
+Giga Meter can now run more reliable speed tests and Ping checks, and makes it easier to register your school. The app is also now available in Tajik, and includes improved Uzbek translations.
 
-[Full release notes →](https://github.com/unicef/project-connect-daily-check-app/releases/tag/v2.0.3)
+The Giga Meter dashboards have moved to [dashboard.giga.global](https://dashboard.giga.global), with a new design and a new sign-in process. Please allow up to 2 business days after creating an account for your dashboards to appear.
+
+[How to use the dashboards →](country-deployment/using-the-dashboard.md)
+
+[Full release notes →](https://github.com/unicef/project-connect-daily-check-app/releases/tag/v2.0.4)
 {% endhint %}
 <!-- release-end -->
+
+{% hint style="warning" %}
+**Versions earlier than 1.0.9 are no longer supported.** Schools running Giga Meter 1.0.8 or earlier should install the latest version from [meter.giga.global](https://meter.giga.global). The version number appears at the bottom of the app menu, for example **VERSION 2.0.4**.
+{% endhint %}
 
 Giga Meter is an open-source desktop application that measures the quality of a school's internet connection. It runs automated tests during the school day and reports the results to [Giga Maps](https://maps.giga.global/), the public, global map of school connectivity. Giga Meter is developed by [Giga](https://giga.global/), a UNICEF-ITU initiative to connect every school to the internet.
 
@@ -18,7 +26,7 @@ Giga Meter is an open-source desktop application that measures the quality of a 
 {% endcolumn %}
 
 {% column %}
-<a href="https://superset.giga.global" class="button primary" data-icon="sidebar">Access dashboards</a>
+<a href="https://dashboard.giga.global" class="button primary" data-icon="sidebar">Access dashboards</a>
 {% endcolumn %}
 
 {% column %}
