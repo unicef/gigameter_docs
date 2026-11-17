@@ -1,4 +1,4 @@
-# Роҳнамои насбкунӣ
+# Дастури насбкунӣ
 
 Пеш аз оғоз, мутмаин шавед, ки дастгоҳи Шумо ба [Талаботи система](system-requirements.md) мувофиқат мекунад.
 
@@ -20,7 +20,7 @@
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/download giga meter.png" alt="Саҳифаи боргирии Giga Meter бо тугмаи боргирии қайдшуда"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/download giga meter.png" alt="Саҳифаи боргирии Giga Meter бо тугмаи боргирии қайдшуда"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -36,9 +36,7 @@
 
 Агар огоҳӣ дар бораи версияи кӯҳна пайдо шавад, ба Қадами 1 баргардед ва версияи навтаринро аз нав насб кунед.
 
-<figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column width="8.333333333333343%" %}

@@ -3,10 +3,10 @@
 ## Оғози кор
 
 * [Муқаддима](README.md)
-* [Дар бораи Giga Meter](overview.md)
-* [Имкониятҳо](features.md)
-* [Намунаҳои татбиқ](case-studies.md)
-* [Луғати нишондиҳандаҳо](metric-glossary.md)
+* [Дар бораи Giga Meter](o-ozi-kor/dar-borai-giga-meter.md)
+* [Имкониятҳо](o-ozi-kor/imkoniyat-o.md)
+* [Намунаҳои татбиқ](o-ozi-kor/namuna-oi-tatbi.md)
+* [Луғати нишондиҳандаҳо](o-ozi-kor/lu-ati-nishondi-anda-o.md)
 * [Саволҳои маъмул](faq.md)
 
 ## Насбкунӣ
@@ -17,24 +17,24 @@
 
 ## Ҷорисозӣ дар кишвар
 
-* [Дастури ҳамгироӣ барои ҳукуматҳо](government-onboarding-overview.md)
-* [Нақшаи ҷорисозӣ](deployment-blueprint.md)
-* [Дастури роҳбари насбкунӣ](installation-lead.md)
-* [Дастури роҳбари таҳлили маълумот](data-analysis-lead.md)
-* [Истифодаи дашборд](using-the-dashboard.md)
-* [Маводи таълимӣ](deployment-checklist.md)
+* [Дастури ҳамгироӣ барои ҳукуматҳо](orisoz-dar-kishvar/dasturi-amgiro-baroi-ukumat-o.md)
+* [Нақшаи ҷорисозӣ](orisoz-dar-kishvar/na-shai-orisoz.md)
+* [Дастури роҳбари насбкунӣ](orisoz-dar-kishvar/dasturi-ro-bari-nasbkun.md)
+* [Дастури роҳбари таҳлили маълумот](orisoz-dar-kishvar/dasturi-ro-bari-ta-lili-malumot.md)
+* [Истифодаи дашборд](orisoz-dar-kishvar/istifodai-dashbord.md)
+* [Маводи таълимӣ](orisoz-dar-kishvar/mavodi-talim.md)
 
 ## Маълумотномаи техникӣ
 
-* [Махфият ва амният](privacy-and-security.md)
-* [Танзимоти шабака ва файрвол](network-destinations.md)
-* [Ҷойгиркунии мустақили Giga Meter](self-hosting.md)
-  * [Насби backend](self-hosting/installation.md)
-  * [Танзими Docker](self-hosting/docker.md)
-  * [Танзими барномаи Windows](self-hosting/windows-app.md)
-  * [Санҷиши воҳидӣ](self-hosting/unit-testing.md)
-  * [Талабот ба таҳиягарон](self-hosting/dev-skillset.md)
-  * [Талабот ба инфрасохтор](self-hosting/infra-requirements.md)
-* [API (маълумотнома)](api-reference.md)
-* [Протоколҳои ченкунӣ](measurement-protocols.md)
-* [Асосҳои ченкунии интернет](internet-measurement-101.md)
+* [Махфият ва амният](malumotnomai-tekhnik/makhfiyat-va-amniyat.md)
+* [Танзимоти шабака ва файрвол](malumotnomai-tekhnik/tanzimoti-shabaka-va-fairvol.md)
+* [Ҷойгиркунии мустақили Giga Meter](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/README.md)
+  * [Насби backend](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/nasbi-backend.md)
+  * [Танзими Docker](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/tanzimi-docker.md)
+  * [Танзими барномаи Windows](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/tanzimi-barnomai-windows.md)
+  * [Санҷиши воҳидӣ](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/san-ishi-vo-id.md)
+  * [Талабот ба таҳиягарон](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/talabot-ba-ta-iyagaron.md)
+  * [Талабот ба инфрасохтор](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/talabot-ba-infrasokhtor.md)
+* [API (маълумотнома)](malumotnomai-tekhnik/api-malumotnoma.md)
+* [Протоколҳои ченкунӣ](malumotnomai-tekhnik/protokol-oi-chenkun.md)
+* [Асосҳои ченкунии интернет](malumotnomai-tekhnik/asos-oi-chenkunii-internet.md)
