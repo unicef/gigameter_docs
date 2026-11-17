@@ -5,7 +5,7 @@
 * [Муқаддима](README.md)
 * [Дар бораи Giga Meter](o-ozi-kor/dar-borai-giga-meter.md)
 * [Имкониятҳо](o-ozi-kor/imkoniyat-o.md)
-* [Намунаҳои татбиқ](o-ozi-kor/namuna-oi-tatbi.md)
+* [Таҳқиқоти мавридӣ (Case Study)](o-ozi-kor/ta-i-oti-mavrid-case-study.md)
 * [Луғати нишондиҳандаҳо](o-ozi-kor/lu-ati-nishondi-anda-o.md)
 * [Саволҳои маъмул](faq.md)
 
