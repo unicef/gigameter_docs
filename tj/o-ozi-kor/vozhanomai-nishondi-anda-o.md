@@ -167,3 +167,9 @@ Wi-Fi TX rate - Суръати ирсоли маълумот тавассути 
 Wireless LAN (WLAN) - Шабакаи маҳаллии бесим
 
 Шабакаи бесимест, ки дар дохили мактаб фаъолият мекунад ва аксари одамон онро танҳо «Wi-Fi» меноманд. Ин шабака байни дастгоҳҳои мактаб ва таҷҳизоти муштарӣ (CPE), ки мактабро ба интернети беруна пайваст мекунад, ҷойгир аст.
+
+Саҳифаҳои марбут
+
+* [Протоколҳои ченкунӣ](file:///C:/o/8BQfV8Vqh6wiOaWogeSs/sites/site_HGoWY/s/nO4TCnw5Pvr77OIRKx3h/technical-reference/measurement-protocols) - тарзи анҷом додани санҷишҳо аз ҷониби Giga Meter
+* [Истифодаи панели идоракунӣ (дашборд](file:///C:/o/8BQfV8Vqh6wiOaWogeSs/sites/site_HGoWY/s/nO4TCnw5Pvr77OIRKx3h/country-deployment/using-the-dashboard)) - шарҳи он ки ҳар як истилоҳ дар кадом қисмати интерфейс нишон дода мешавад
+* [Махфият ва амният](file:///C:/o/8BQfV8Vqh6wiOaWogeSs/sites/site_HGoWY/s/nO4TCnw5Pvr77OIRKx3h/technical-reference/privacy-and-security) - дар бораи он ки кадом маълумот мубодила мешавад ва ба кӣ дастрас аст.
