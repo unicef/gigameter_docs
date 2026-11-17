@@ -40,6 +40,8 @@ Select **Accept** on the **Permissions requested** screen. The app requests acce
 {% endstep %}
 {% endstepper %}
 
+<figure><img src="../.gitbook/assets/dashboard-sign-in-steps.png" alt="The four sign-in steps: Sign in with Azure, create an account, enter the one-time code, accept the permissions"><figcaption><p>Select the image to enlarge it.</p></figcaption></figure>
+
 {% hint style="info" %}
 **Dashboard access can take up to 2 business days.** New accounts start with an empty home page while the Giga team assigns a country-level role.
 {% endhint %}
