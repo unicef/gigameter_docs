@@ -15,7 +15,7 @@ The Giga Meter dashboards have moved to [dashboard.giga.global](https://dashboar
 <!-- release-end -->
 
 {% hint style="warning" %}
-**Versions earlier than 1.0.9 are no longer supported.** Schools running Giga Meter 1.0.8 or earlier should install the latest version from [meter.giga.global](https://meter.giga.global). The version number appears at the bottom of the app menu, for example **VERSION 2.0.4**.
+**Versions earlier than 1.0.10 are no longer supported.** Schools running Giga Meter 1.0.9 or earlier should install the latest version from [meter.giga.global](https://meter.giga.global). This applies to any computer where Giga Meter was installed in October 2024 or earlier and has not been updated since.
 {% endhint %}
 
 Giga Meter is an open-source desktop application that measures the quality of a school's internet connection. It runs automated tests during the school day and reports the results to [Giga Maps](https://maps.giga.global/), the public, global map of school connectivity. Giga Meter is developed by [Giga](https://giga.global/), a UNICEF-ITU initiative to connect every school to the internet.
