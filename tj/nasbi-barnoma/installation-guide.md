@@ -20,7 +20,7 @@
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/download giga meter.png" alt="Саҳифаи боргирии Giga Meter бо тугмаи боргирии қайдшуда"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/download giga meter.png" alt="Саҳифаи боргирии Giga Meter бо тугмаи боргирии қайдшуда"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -36,7 +36,7 @@
 
 Агар огоҳӣ дар бораи версияи кӯҳна пайдо шавад, ба Қадами 1 баргардед ва версияи навтаринро аз нав насб кунед.
 
-<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column width="8.333333333333343%" %}
@@ -195,4 +195,4 @@
 ### Минбаъд чӣ бояд кард?
 
 * Маълумоти мактаби худро дар [Giga Maps](https://maps.giga.global/map) бинед
-* Агар бо мушкилот дучор шудед, ба [Роҳнамои ҳалли мушкилот](../troubleshooting/troubleshooting.md) нигаред
+* Агар бо мушкилот дучор шудед, ба [Роҳнамои ҳалли мушкилот](../../troubleshooting/troubleshooting.md) нигаред

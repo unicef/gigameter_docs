@@ -9,11 +9,11 @@
 * [Вожаномаи нишондиҳандаҳо](o-ozi-kor/vozhanomai-nishondi-anda-o.md)
 * [Саволҳои маъмул](faq.md)
 
-## Насбкунӣ
+## Насби барнома
 
-* [Талаботи система](system-requirements.md)
-* [Дастури насбкунӣ](installation-guide.md)
-* [Troubleshooting](troubleshooting.md)
+* [Талаботи система](nasbi-barnoma/system-requirements.md)
+* [Дастури насбкунӣ](nasbi-barnoma/installation-guide.md)
+* [Troubleshooting](nasbi-barnoma/troubleshooting.md)
 
 ## Ҷорисозӣ дар кишвар
 
