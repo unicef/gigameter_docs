@@ -6,7 +6,7 @@
 * [Дар бораи Giga Meter](o-ozi-kor/dar-borai-giga-meter.md)
 * [Имкониятҳо](o-ozi-kor/imkoniyat-o.md)
 * [Таҳқиқоти мавридӣ (Case Study)](o-ozi-kor/ta-i-oti-mavrid-case-study.md)
-* [Луғати нишондиҳандаҳо](o-ozi-kor/lu-ati-nishondi-anda-o.md)
+* [Вожаномаи нишондиҳандаҳо](o-ozi-kor/vozhanomai-nishondi-anda-o.md)
 * [Саволҳои маъмул](faq.md)
 
 ## Насбкунӣ
