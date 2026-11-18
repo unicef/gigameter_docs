@@ -30,25 +30,27 @@ Giga Meter is active in:
 
 ![](.gitbook/assets/country-grid.png)
 
+<!-- stats-start -->
 {% columns %}
 {% column %}
-#### 40
+#### 43
 
 Countries and territories
 {% endcolumn %}
 
 {% column %}
-#### 25,179
+#### 25,918
 
 Schools
 {% endcolumn %}
 
 {% column %}
-#### 8,275,230
+#### 9,869,495
 
 Measurements
 {% endcolumn %}
 {% endcolumns %}
+<!-- stats-end -->
 
 ***
 
