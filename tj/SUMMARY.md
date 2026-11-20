@@ -4,7 +4,7 @@
 
 * [Муқаддима](README.md)
 * [Дар бораи Giga Meter](o-ozi-kor/dar-borai-giga-meter.md)
-* [Имкониятҳо](o-ozi-kor/imkoniyat-o.md)
+* [Имконот](o-ozi-kor/imkonot.md)
 * [Омӯзиши ҳолатҳо](o-ozi-kor/om-zishi-olat-o.md)
 * [Вожаномаи нишондиҳандаҳо](o-ozi-kor/vozhanomai-nishondi-anda-o.md)
 * [Саволҳои маъмул](faq.md)
@@ -36,5 +36,5 @@
   * [Талабот ба таҳиягарон](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/talabot-ba-ta-iyagaron.md)
   * [Талабот ба инфрасохтор](malumotnomai-tekhnik/oigirkunii-musta-ili-giga-meter/talabot-ba-infrasokhtor.md)
 * [API (маълумотнома)](malumotnomai-tekhnik/api-malumotnoma.md)
-* [Протоколҳои ченкунӣ](malumotnomai-tekhnik/protokol-oi-chenkun.md)
+* [Протоколҳои андозагирӣ](malumotnomai-tekhnik/protokol-oi-andozagir.md)
 * [Асосҳои ченкунии интернет](malumotnomai-tekhnik/asos-oi-chenkunii-internet.md)
