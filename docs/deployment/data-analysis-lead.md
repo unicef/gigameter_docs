@@ -89,15 +89,15 @@ Identify who in the ministry, and beyond, needs Giga Meter data and at what leve
 
 Giga Meter data is accessible through two channels. Which channel a user needs depends on how they work with data.
 
-| Channel                                                | Best for                                                                                                               | Access                                |
-| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| [**Superset Dashboard**](https://dashboard.giga.global) | Policy teams, ministry staff, country coordinators who need charts and tables without writing code                     | Login credentials provisioned by Giga |
-| [**API**](https://maps.giga.global/docs/api/1)         | Technical teams, data analysts, partners who want to integrate Giga data into their own systems or run custom analyses | API key provisioned by Giga           |
-| [**Giga Maps**](https://maps.giga.global)              | Schools, regional focal points, and the public viewing a school's connectivity dot                                     | Public, no credentials needed         |
+| Channel                                                               | Best for                                                                                                               | Access                                                                                            |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [**Giga Dashboard**](https://dashboard.giga.global/superset/welcome/) | Policy teams, ministry staff, country coordinators who need charts and tables without writing code                     | Create an account; initial access for approved users will be provisioned within 2 business days.  |
+| [**API**](https://maps.giga.global/docs/api/1)                        | Technical teams, data analysts, partners who want to integrate Giga data into their own systems or run custom analyses | Request an API key; access for approved users will be provisioned within 2 business days.         |
+| [**Giga Maps**](https://maps.giga.global)                             | Schools, regional focal points, and the public viewing a school's connectivity dot                                     | Public, no credentials needed                                                                     |
 
 Both channels access the same underlying data. The difference is presentation and flexibility.
 
-[**Superset Dashboard**](https://dashboard.giga.global)
+[**Giga Dashboard**](https://dashboard.giga.global)
 
 The dashboard provides seven pre-built screens covering school-level summaries, speed and latency trends, district breakdowns, per-measurement data tables, app version tracking, and installation health.
 
@@ -106,6 +106,21 @@ _Getting access:_ Users create their own account at [dashboard.giga.global](http
 _What users can do:_ filter by school, district, date range, and education level; export any table to CSV; view time series, box plots, and distribution charts; share direct links to specific dashboard views.
 
 _What users cannot do:_ edit the dashboard or charts (read-only); access data from other countries.
+
+[**Giga Dashboard**](https://dashboard.giga.global)
+
+The dashboard has four tabs.&#x20;
+
+* **Operations** tracks app installation, usage and the schools that need follow-up.&#x20;
+* **Monitoring** covers current connectivity and trends (Summary) and school performance against connectivity targets (Benchmarking).&#x20;
+* **Data Access** holds four tables: registered schools, raw speed-test measurements, the school master list and daily ping data.&#x20;
+* **ReadMe** is an in-dashboard reference for pages, filters and definitions. For a screen-by-screen guide, see [Using the Dashboard](../../country-deployment/using-the-dashboard.md).
+
+[_Getting access_](data-analysis-lead.md#step-2-identify-data-users-and-assign-access-roles)_:_ Users create their own account at [dashboard.giga.global](https://dashboard.giga.global), then share their registered email with the Giga team, who assign the appropriate country-level role. Without role assignment, users can log in but will not see any data. Email us at [gigabcn@unicef.org](to:gigabcn@unicef.org) if you do not see your dashboard after 2 business days. Sign-in steps are in [Using the Dashboard](../../country-deployment/using-the-dashboard.md).
+
+_What users can do:_ filter by country, date range, region, school and metric; adjust benchmark thresholds and the lookback window; view weekly trends, distributions and pass/fail results by ISP and region; export any Data Access table to CSV.
+
+The dashboard and charts are read-only.&#x20;
 
 [**API**](https://maps.giga.global/docs/api/1)
 
