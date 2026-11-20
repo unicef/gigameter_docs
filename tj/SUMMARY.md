@@ -5,7 +5,7 @@
 * [Муқаддима](README.md)
 * [Дар бораи Giga Meter](o-ozi-kor/dar-borai-giga-meter.md)
 * [Имкониятҳо](o-ozi-kor/imkoniyat-o.md)
-* [Таҳқиқоти мавридӣ (Case Study)](o-ozi-kor/ta-i-oti-mavrid-case-study.md)
+* [Омӯзиши ҳолатҳо](o-ozi-kor/om-zishi-olat-o.md)
 * [Вожаномаи нишондиҳандаҳо](o-ozi-kor/vozhanomai-nishondi-anda-o.md)
 * [Саволҳои маъмул](faq.md)
 
@@ -13,7 +13,7 @@
 
 * [Талаботи система](nasbi-barnoma/system-requirements.md)
 * [Дастури насбкунӣ](nasbi-barnoma/installation-guide.md)
-* [Troubleshooting](nasbi-barnoma/troubleshooting.md)
+* [Ҳалли мушкилот](nasbi-barnoma/troubleshooting.md)
 
 ## Ҷорисозӣ дар кишвар
 
