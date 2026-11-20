@@ -91,17 +91,17 @@ Giga Meter data is accessible through two channels. Which channel a user needs d
 
 | Channel                                                | Best for                                                                                                               | Access                                |
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| [**Superset Dashboard**](https://superset.giga.global) | Policy teams, ministry staff, country coordinators who need charts and tables without writing code                     | Login credentials provisioned by Giga |
+| [**Superset Dashboard**](https://dashboard.giga.global) | Policy teams, ministry staff, country coordinators who need charts and tables without writing code                     | Login credentials provisioned by Giga |
 | [**API**](https://maps.giga.global/docs/api/1)         | Technical teams, data analysts, partners who want to integrate Giga data into their own systems or run custom analyses | API key provisioned by Giga           |
 | [**Giga Maps**](https://maps.giga.global)              | Schools, regional focal points, and the public viewing a school's connectivity dot                                     | Public, no credentials needed         |
 
 Both channels access the same underlying data. The difference is presentation and flexibility.
 
-[**Superset Dashboard**](https://superset.giga.global)
+[**Superset Dashboard**](https://dashboard.giga.global)
 
 The dashboard provides seven pre-built screens covering school-level summaries, speed and latency trends, district breakdowns, per-measurement data tables, app version tracking, and installation health.
 
-_Getting access:_ Users create their own account at [superset.giga.global](https://superset.giga.global), then share their registered email with the Giga team, who assign the appropriate country-level role. Without role assignment, users can log in but will not see any data.
+_Getting access:_ Users create their own account at [dashboard.giga.global](https://dashboard.giga.global), then share their registered email with the Giga team, who assign the appropriate country-level role. Without role assignment, users can log in but will not see any data. Email us at gigabcn@unicef.org if you do not see your dashboard after 2 business days.
 
 _What users can do:_ filter by school, district, date range, and education level; export any table to CSV; view time series, box plots, and distribution charts; share direct links to specific dashboard views.
 

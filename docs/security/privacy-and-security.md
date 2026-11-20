@@ -65,7 +65,7 @@ Under Azure's shared responsibility model:
 
 Access to country-level data on the Superset dashboard follows a role-based model:
 
-* Users create an account at [superset.giga.global](https://superset.giga.global)
+* Users create an account at [dashboard.giga.global](https://dashboard.giga.global)
 * The Giga team assigns a country-specific role, so users can only see data for the countries they are authorised for
 * No user can view data from another country without explicit authorisation
 
