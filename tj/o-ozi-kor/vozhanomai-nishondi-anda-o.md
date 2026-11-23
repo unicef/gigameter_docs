@@ -92,6 +92,6 @@
 
 ### Саҳифаҳои марбут
 
-* [Протоколҳои ченкунӣ](file:///C:/o/8BQfV8Vqh6wiOaWogeSs/sites/site_HGoWY/s/nO4TCnw5Pvr77OIRKx3h/technical-reference/measurement-protocols) - тарзи анҷом додани санҷишҳо аз ҷониби Giga Meter
-* [Истифодаи панели идоракунӣ (дашборд](file:///C:/o/8BQfV8Vqh6wiOaWogeSs/sites/site_HGoWY/s/nO4TCnw5Pvr77OIRKx3h/country-deployment/using-the-dashboard)) - шарҳи он, ки ҳар як истилоҳ дар кадом қисмати интерфейс нишон дода мешавад
-* [Махфият ва амният](file:///C:/o/8BQfV8Vqh6wiOaWogeSs/sites/site_HGoWY/s/nO4TCnw5Pvr77OIRKx3h/technical-reference/privacy-and-security) - дар бораи он, ки кадом маълумот мубодила мешавад ва ба кӣ дастрас аст
+* [Протоколҳои ченкунӣ](../malumotnomai-tekhnik/protokol-oi-andozagir.md) - тарзи анҷом додани санҷишҳо аз ҷониби Giga Meter
+* [Истифодаи панели идоракунӣ (дашборд](../orisoz-dar-kishvar/istifodai-dashbord.md)) - шарҳи он, ки ҳар як истилоҳ дар кадом қисмати интерфейс нишон дода мешавад
+* [Махфият ва амният](../malumotnomai-tekhnik/makhfiyat-va-amniyat.md) - дар бораи он, ки кадом маълумот мубодила мешавад ва ба кӣ дастрас аст
