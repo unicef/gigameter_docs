@@ -47,13 +47,13 @@ Countries and territories
 {% endcolumn %}
 
 {% column %}
-#### 25,998
+#### 26,030
 
 Schools
 {% endcolumn %}
 
 {% column %}
-#### 9,944,673
+#### 9,962,302
 
 Measurements
 {% endcolumn %}
